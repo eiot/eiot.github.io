@@ -1,0 +1,823 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>luckyshq's blog</title>
+    <link>luckyshq.github.io</link>
+    <atom:link href="luckyshq.github.io/rss.xml" rel="self" type="application/rss+xml" />
+    <description>Computer can change your life for the better.</description>
+    <language>zh-cn</language>
+    <pubDate>Wed, 27 Apr 2016 23:15:16 +0800</pubDate>
+    <lastBuildDate>Wed, 27 Apr 2016 23:15:16 +0800</lastBuildDate>
+
+    
+    <item>
+      <title>C++学习书籍</title>
+      <link>luckyshq.github.io/life/2016/04/05/C++%E5%AD%A6%E4%B9%A0%E4%B9%A6%E7%B1%8D.html</link>
+      <pubDate>05 Apr 2016</pubDate>
+      <author>luckyshq</author>
+      <guid>luckyshq.github.io/life/2016/04/05/ C++学习书籍</guid>
+      <description>&lt;h2 id=&quot;c-&quot;&gt;C++ 书籍&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;C++编程思想（第2版） 第1卷：标准C++导引————————Bruce Eckel&lt;/li&gt;
+  &lt;li&gt;C++编程思想（第2版）第2卷：实用编程技术————————Bruce Eckel&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;C++程序设计&lt;/code&gt;——————————————————————谭浩强&lt;/li&gt;
+  &lt;li&gt;C++ 程序设计教程(第2版)—————————————————钱能&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;C++ Primer Plus&lt;/code&gt;(第五版)中文版——————————————Stephen Prata&lt;/li&gt;
+  &lt;li&gt;The c++ programming language、c++ Primer————————广博如四库全书&lt;/li&gt;
+  &lt;li&gt;Inside the c++ object model————————————————深奥如山重水复&lt;/li&gt;
+  &lt;li&gt;The c++ standard libray——————————————————程序库大全&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Effective c++&lt;/code&gt;、More Effective c++、Exceptional c++-—————工程经验之积累&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;c&quot;&gt;C++八大金刚：&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Essentital c++ ——————— lippman，C++之父，旁枝暂略，主攻核心&lt;/li&gt;
+  &lt;li&gt;The c++ programming language – C++之父，技术权威，用词深峻，思想深远，&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;c++ Primer&lt;/code&gt; ————————- lippman–c++百科全书代表。&lt;/li&gt;
+  &lt;li&gt;Inside the c++ object model — lippman，揭示c++底层，非常难。&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Effective c++&lt;/code&gt; ———————– 通过50个编程实例，展示专家经验。&lt;/li&gt;
+  &lt;li&gt;More Effective c++ ————— 通过35个编程实例，展示专家经验。&lt;/li&gt;
+  &lt;li&gt;The c++ standard libray ——– c++标准库。&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;设计模式&lt;/code&gt;：可复用面向对象软件的基础&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>《Effective C++》-读书笔记</title>
+      <link>luckyshq.github.io/life/2016/04/05/Effective-C++-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</link>
+      <pubDate>05 Apr 2016</pubDate>
+      <author>luckyshq</author>
+      <guid>luckyshq.github.io/life/2016/04/05/《Effective C++》读书笔记</guid>
+      <description>&lt;h2 id=&quot;section&quot;&gt;背景&lt;/h2&gt;
+&lt;p&gt;前段时间看完了《C++ Primer》，看这本书有种看字典的感觉。
+《C++ Primer》一书内容全面，但是十分琐碎，一时间让人抓不住重点，我也是不求甚解地去看。
+然后就来看这本升级版的《Effective C++》，希望借助实战经验，来巩固C++语法知识。&lt;/p&gt;
+
+&lt;p&gt;这是第二遍看《Effective C++》了！距离上一次看有一个月了，发现自己该忘的不该忘的都基本忘干净了，好可怕~
+所以呢~就写这篇笔记。(~_~;)&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;总述&lt;/h2&gt;
+&lt;p&gt;这本书结合作者多年的C++编程经验，通过9个章节，55个建议，介绍了在编程时应该遵循的一些准则，
+以及提高程序运行效率的一些细节。作为一个小白，我大部分都不知道。这本书对我编程习惯的影响仅次于《数据结构》。
+下面以每章为逻辑，简单介绍：&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;正文&lt;/h2&gt;
+
+&lt;h3 id=&quot;c&quot;&gt;第1章：让自己习惯C++&lt;/h3&gt;
+&lt;p&gt;1：为了让自己习惯C++。
+Scott Meyers首先把C++语言分为了4大部分：C、OOC、Template C++以及STL标准模版库。&lt;/p&gt;
+
+&lt;p&gt;2：使用编译器代替预处理器（使用const,enum,inline 代替define）
+const与define相比有更省内存，方便错误检查，以及作用域控制等优点；
+enum可以用于保存常量值，且不会引起多余的内存消耗；
+inline 相比函数宏 具有类型检查的优点。&lt;/p&gt;
+
+&lt;p&gt;3：尽可能多的使用const。
+使用const能进行安全检查！&lt;/p&gt;
+
+&lt;p&gt;4：确保对象使用前被初始化。
+内置类型需要手动初始化，STL中自动初始化；对象的copy会先调用初始化，引起不必要的操作，
+可以使用成员列表赋值；使用成员static代替普通static，通过函数调用的方式自动初始化，返回&amp;amp;static 。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;第2章：构造、析构、赋值运算&lt;/h3&gt;
+&lt;p&gt;5：C++默认编写的成员函数：构造函数，析构函数，复制构造函数，赋值操作运算符。
+复制（构造/运算符）函数生成有一定的条件！&lt;/p&gt;
+
+&lt;p&gt;6：如果不适用默认函数，就应该明确拒绝。
+方法一：只写声明，不定义；
+方法二：基类将相应函数定义为私有。&lt;/p&gt;
+
+&lt;p&gt;7：为多态基类生命virtual析构函数。
+为至少含有一个virtual的函数定义虚析构函数，虚析构函数也不要乱用。&lt;/p&gt;
+
+&lt;p&gt;8：别让异常逃离析构函数。
+使用std::abort，吞下异常，自我管理等方式，处理析构函数调用时可能发生的异常。&lt;/p&gt;
+
+&lt;p&gt;9：决不在构造、析构函数中调用virtual函数。
+虚函数调用结果可能跟自己的预期不符！&lt;/p&gt;
+
+&lt;p&gt;10：令operator= 返回一个reference to * this。
+返回一个左侧值的引用，方便使用a=b=c=5这种连续赋值。&lt;/p&gt;
+
+&lt;p&gt;11：在operator中处理“自我赋值”。
+使用“认同测试” “调整语句顺序” “copy-and-swap”技术&lt;/p&gt;
+
+&lt;p&gt;12：复制对象时不要忘了每一个成分。
+包括自身的数据，以及通过调用基类的复制构造函数实现基类元素的赋值。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-4&quot;&gt;第3章：资源管理&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;常见资源：内存、文件、互斥锁、画刷、数据库连接、Socket等&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;13：以对象管理资源。在构造函数中申请资源，在析构函数中释放资源。
+使用shared_ptr智能指针，自动调用对象析构函数释放资源。&lt;/p&gt;
+
+&lt;p&gt;14：在资源管理类中小心coping行为。(没看太懂《~.~》)&lt;/p&gt;
+
+&lt;p&gt;15：在资源管理类中提供对原始资源的访问。
+资源管理类提供资源访问方法：智能指针调用方法，或者显示get()调用，少用隐试转换。&lt;/p&gt;
+
+&lt;p&gt;16：成对使用new 和delete时要采用相同的形式。
+new-delete new[]-delete[] ，尽量不要对数组使用typedef，尽量多使用vector&lt;/p&gt;
+
+&lt;p&gt;17：以独立语句将newed对象置入智能指针。
+防止分开定义，在定义后，置入前发生异常，引起内存泄漏。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-5&quot;&gt;第4章：设计与声明&lt;/h3&gt;
+&lt;p&gt;18：让接口容易被正确使用，不易被误用。
+1：设计不易被误用的接口；
+2：促进正确使用：接口一致，内置类型兼容；
+3：阻止误用，通过类型限制，消除客户端管理；
+4：share_ptr可定制删除器。&lt;/p&gt;
+
+&lt;p&gt;19：设计class犹如设计type。
+定义类要思考的够全面！（为什么我感觉这章并没什么卵用？）&lt;/p&gt;
+
+&lt;p&gt;20：使用const &amp;amp; 代替按值传递。按址传递，减少了copy和切割。
+提高效率。但是不适用于系统自定义类型。&lt;/p&gt;
+
+&lt;p&gt;21：函数返回对象实体，不能返回引用。
+引用局部变量会异常，使用static变量可能会达不到预期的效果。&lt;/p&gt;
+
+&lt;p&gt;22：将成员变量声明为 private。
+private是封装型的体现，有利于类的复用与修改。&lt;/p&gt;
+
+&lt;p&gt;23：使用non-member、non-friends代替member函数。
+成员函数成员变量的访问降低了封装型。可以使用命名空间将功能分散在多个头文件中。
+（不太认同，方法也是对象的属性呀，非成员函数多了，就没面向对象的感觉了。）&lt;/p&gt;
+
+&lt;p&gt;24：如果所有参数都需要类型转换，请使用非成员函数。
+以operator中this指针强制转换为例。&lt;/p&gt;
+
+&lt;p&gt;25：尝试写出一个不抛出异常的swap函数。
+1：定义成员swap，
+2：类偏特化swap，使用Using来调用对应的版本。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-6&quot;&gt;第5章：实现&lt;/h3&gt;
+
+&lt;p&gt;26：尽量延后变量定义式出现的时间。
+延后到初始化的值出现。减少默认构造函数的使用，
+在循环中，如果赋值成本小于构造+析构，定义在外部，否则定义在内部。（个人感觉会影响代码的可读性）&lt;/p&gt;
+
+&lt;p&gt;27：尽量少做转型动作。
+转型分旧式和新式转型，const_cast,dynamic_cast,static_cast,reinterpret_cast。
+可以使用一些替代方案，比如静态调用等。&lt;/p&gt;
+
+&lt;p&gt;28：避免返回handles指向对象的内部成分。
+避免返回（引用、指针、迭代器）类型的数据指向对象内部，这样会破坏原有的封装型。&lt;/p&gt;
+
+&lt;p&gt;29：为“异常安全” 而努力是值得的。
+异常安全函数包括（强烈保证、基本保证、不抛出）3中。
+使用copy-and-swap即可实现强烈保证，但并不是所有情况下都必须。外层函数的安全性，等于器调用函数的最小值。&lt;/p&gt;
+
+&lt;p&gt;30：完全了解inlining里里外外。
+inline函数能提高程序效率。但是大量使用inline会导致代码膨胀，降低效率，而且整加调试难度。
+声明inline函数，并不一定为inline函数，其结果取决于编译器，如虚函数等。不建议将构造析构函数声明为inline函数。
+定义在类内的函数，默认为inline函数。&lt;/p&gt;
+
+&lt;p&gt;31：将文件的编译依存关系将至最低。
+（building，complie,link区别）（第二遍看完还是不太理解）
+原则：依赖声明，不依赖定义！对应的技术分别为：handle class和interface class。 
+前者要求类内成员多使用指针或引用，类外多使用声明。但是会需要多保存一个指针变量，较多的使用动态内存。
+后者要求使用纯虚基类，使用工厂函数生成子类！但会多消耗一个虚函数表！&lt;/p&gt;
+
+&lt;h3 id=&quot;section-7&quot;&gt;第6章：继承与面向对象设计&lt;/h3&gt;
+
+&lt;p&gt;32：public继承是一种is-a关系。
+适用于base class的特性，一定适应于derived class。&lt;/p&gt;
+
+&lt;p&gt;33：避免覆盖继承而来的名称。
+覆盖会覆盖同名函数，同名变量。与返回类型、参数类型无关。
+解决覆盖方法：
+1：使用using声明；
+2：（主要用于1失效的情况）使用转交函数调用Base::fun();&lt;/p&gt;
+
+&lt;p&gt;34：区分接口继承和实现继承。
+pure virtual：继承接口，纯虚函数也可有实现。
+impure virtual: 继承接口和默认实现；
+non virtual：继承接口和强制实现。&lt;/p&gt;
+
+&lt;p&gt;35：考虑virtual函数以外的其他选择。
+虚函数的4中替代方法：
+1）使用non-virtual函数代替虚函数。
+2）使用函数指针转移到类外部
+3）使用tr1:function对象
+4）（设计模式）将虚函数分离为另外一个继承体系。不知道什么设计模式，尴尬 &amp;gt;_&amp;lt;|||&lt;/p&gt;
+
+&lt;p&gt;36：绝不重新定义继承而来的非non-virtual函数。
+non-virtual提供接口和强制实现继承。不要重新定义。&lt;/p&gt;
+
+&lt;p&gt;37：绝不重新定义继承而来的缺省参数值。
+缺省参数是静态绑定，virtual函数是动态绑定。基类缺省参数会传到子类，但虚函数不会。
+有效防止重复定义的方式是使用non-virtual函数替代虚函数。（其实没看太懂⊙﹏⊙）&lt;/p&gt;
+
+&lt;p&gt;38：类成员与类的has-a关系。
+使用复合得出has-a关系&lt;/p&gt;
+
+&lt;p&gt;39：明智而审慎地使用private继承。
+private继承的意义是“由某物实现出”，类似has-a的概念。多数情况下优先使用复合代替。但在以下2中情况必须使用private继承
+1：子类要使用基类的protected或实现virual函数。2：空类（non-static成员类），private继承比复合更省空间。
+（个人感觉，private继承使用的地方好少！）&lt;/p&gt;
+
+&lt;p&gt;40：明智而审慎地使用多继承。
+大多数多继承都可以使用单继承来实现，推荐使用单继承，因为有更清晰的结构。
+多继承可能会有歧义，使用虚继承，或作用域运算符来消除歧义。
+多继承在public继承一个接口，private继承一个协助实现的类上有用！
+（感觉多继承使用的地方也很少 ^_^）&lt;/p&gt;
+
+&lt;h3 id=&quot;section-8&quot;&gt;第7章：模版与泛型编程&lt;/h3&gt;
+
+&lt;p&gt;41：隐式接口与和编译期多态。
+class：显试接口，virtual函数提供运行时多态。
+template：隐式接口，（提供的操作函数，使用类型转换降低对类型的要求），模版函数提供编译时多态。&lt;/p&gt;
+
+&lt;p&gt;42：typename的双重意义。
+1：与class意义相同，用于类型说明。template&lt;typename t=&quot;&quot;&gt; ==template&lt;class t=&quot;&quot;&gt; 
+2：用与从属名称的类型说明。 typename c::type 如果不声明，编译器默认认为嵌套从属名称不是类型。
+但是不用再基类列和成员初始列前面。&lt;/class&gt;&lt;/typename&gt;&lt;/p&gt;
+
+&lt;p&gt;43：处理模版化基类内的名称。
+模版基类使用时会出现找不到基类函数的错误。
+解决方法：1：使用this-&amp;gt;指针2：使用using声明 3：使用基类作用域运算符（会破坏virtual的运行时多态）&lt;/p&gt;
+
+&lt;p&gt;44：将参数无关的代码抽离template.
+过多的模版参数会产生较多的模版实例，引起代码膨胀。解决方法：
+1：消除非类型模版参数，以函数参数或类成员代替模版参数。
+2：消除类型模版参数，让具有相同二进制表述的具现类型共享代码。&lt;/p&gt;
+
+&lt;p&gt;45：运用成员函数模版接受所有兼容类型。
+1：定义成员模板函数，自适应代码类型，减少代码量。创建成员函数组进行隐式类型转换筛选。
+2：成员模板函数与普通函数不冲突，必要时需要都定义。&lt;/p&gt;
+
+&lt;p&gt;46：需要类型转换时请为模板定义非成员函数。
+使用类模板时，包含模板成员函数，且该函数可以进行隐式类型转换，
+那么需要将该函数声明为该类的friend函数，为了避免被inline使用该函数调用一个外部函数。&lt;/p&gt;
+
+&lt;p&gt;47：使用traits classes 表现类型信息。
+使用扩从Class或Struct 增加辨别类型的新属性。通过typedef定义属性，通过typeid查找原属性，进行判断。
+使用函数重载将运行期间的if提前到编译期。但是会整加代码的大小。&lt;/p&gt;
+
+&lt;p&gt;48：template元编程
+TMP（模板元编程）可以将运行期间的工作提前到编译期，较早地检测到错误。（感觉：然并卵！）&lt;/p&gt;
+
+&lt;h3 id=&quot;newdelet&quot;&gt;第8章：定制new与delet&lt;/h3&gt;
+&lt;p&gt;49：new-handler的行为。
+1：new-handler是在new申请内存失败后自动调用的函数，可以通过set_new_handler(…)来安装，通过安装就函数来卸载。通常使用自定义类NewHandlerSupport来管理。
+2：可以使用 Obj obj1=new (std::nothrow)Obj  来处理new时的失败并返回NULL。&lt;/p&gt;
+
+&lt;p&gt;50：new和delete的合理替换时机。
+new和delete是类的一个运算符，可以自定义运算符！自定义new和delete在有些情况下可以使用：
+如提高效率、降低申请大小、内纯齐位、次数统计等。&lt;/p&gt;
+
+&lt;p&gt;51：编写new和delete需要固守常规。
+标准的operator new() 应该能处理大小异常，死循环处理申请成功及申请失败时的情况！
+注意operator new会被继承，要注意derived中new运算符传进来的size，要判断是否为sizeof（Base）
+operator new [] 的size可能包含额外的空间用了来存储数组的大小。
+operator delete同样要注意被继承的情况&lt;/p&gt;
+
+&lt;p&gt;52：placement new 和placement delete 要成对出现。
+翻译为：特定版本的new 和特定版本的delete。指包含额外参数的new和delete。
+注意两者需要成对出现，placement delete负责处理构造函数执行失败的内存释放。
+注意相应的new和delete在继承关系中，要防止遮盖和被遮盖正常new、delete。解决方法是间接调用和using声明。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-9&quot;&gt;第9章：杂项讨论&lt;/h3&gt;
+
+&lt;p&gt;53：不要忽视编译器警。
+（作者说要严肃对待，但有不要过分依赖。我表示很头晕⊙０⊙）&lt;/p&gt;
+
+&lt;p&gt;54：熟悉标准程序库。
+C++标准库包含C99标准、STL、iostream、locales、TR1中智能指针和正则表达式等。&lt;/p&gt;
+
+&lt;p&gt;55：熟悉Boost。
+毛主席说：Boost是个好东西。不过在中国特色下，国外网站真的好难进呀(→_→)&lt;/p&gt;
+
+&lt;h2 id=&quot;section-10&quot;&gt;结束&lt;/h2&gt;
+&lt;p&gt;花了2个星期的终于写完了笔记，这样的效率，我不知道该哭还是该高兴。距离第一次看《Effective C++》有一个月了吧!
+第二遍读，除了前几章，几乎是没有印象！好尴尬~ 尤其是模板编程的部分，由于实际使用少之又少，依然感觉晦涩难懂！
+还有，感觉整篇文章下来用词都好“官方”呀，不接地气！缺少了自己的观点，缺少了几分的挑逗。&lt;/p&gt;
+
+&lt;p&gt;番外话：读研大半年了，确实看到了很多大神，大家都很厉害，整体水平较本科同学上升了一个大台阶。
+但总觉得不对，总觉得缺少本科时的“精英文化”。可能是大家效率高，都有其他事情要忙吧，
+但是我的基础差呀！感觉这样下去要找不到工作了。╯ω╰&lt;/p&gt;
+
+&lt;p&gt;时间：2016年4月25日19:59:56&lt;/p&gt;
+
+&lt;p&gt;https://www.douban.com/note/70449737/&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>《大话设计模式》-读书笔记</title>
+      <link>luckyshq.github.io/life/2016/01/26/%E5%A4%A7%E8%AF%9D%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</link>
+      <pubDate>26 Jan 2016</pubDate>
+      <author>luckyshq</author>
+      <guid>luckyshq.github.io/life/2016/01/26/《大话设计模式》读书笔记</guid>
+      <description>&lt;h2 id=&quot;section&quot;&gt;背景&lt;/h2&gt;
+&lt;p&gt;横穿2015年，感觉自己做了一堆傻事。随着研究生学习的深入，看到了身边各路大神，不老老实实学点东西，以后拿什么来装逼！
+还是先在墙角看看书吧。针对自己毫无面向对象编程思想的现状，大约花了4天时间，读了这本书，受益颇深，
+在此记录下一些东西，方便以后装逼。[感谢英俊帅气的勇神提供书籍支持]&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;总述&lt;/h2&gt;
+&lt;p&gt;《大话设计模式》一书讲了一个“小菜”从面试受挫，一步步走向人生巅峰的故事，从对爱情、人生、理想等常见问题讨论开始，
+引出面向对象程序设计的思想，是大型软件系统开发的必读书籍。&lt;/p&gt;
+
+&lt;p&gt;本书从面向对象基本特称：抽象性、封装性、继承性、多态性出发，重点讲述了面向对象编程的6大原则
+以及遵照6条基本原则而产生的23种设计模式（简单工厂模式不符合开放-封闭原则，不计算在内）。
+下面分别说明每条原则与模式的基本原理。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;6大原则&lt;/h2&gt;
+
+&lt;p&gt;单一职责原则：
+一个类应该仅包含引起它变化的原因，软件设计的许多内容就是发现职责并把职责相互分离，
+从而降低功能之间的耦合度，实现低耦合。&lt;/p&gt;
+
+&lt;p&gt;开放-封闭原则：
+对扩展开放，对更改封闭。能够提高程序的可维护性、可扩展性、可复用性、灵活性。&lt;/p&gt;
+
+&lt;p&gt;依赖倒转原则：
+抽象不应该依赖细节，细节应该依赖抽象。（针对接口的编程，不要针对实现编程）&lt;/p&gt;
+
+&lt;p&gt;里氏代换原则：
+子类必须能够替换掉他们的父类。即子类继承父类后，并可以替换掉父类，且软件单位的功能不受影响。&lt;/p&gt;
+
+&lt;p&gt;迪米特法则：
+如果两个类不必彼此通信，这两个类就不应该直接相互作用，如果一个类调用另一个类方法，
+可以通过第三者转发这个调用。核心思想是强调类之间的松耦合。有利于类的复用。&lt;/p&gt;
+
+&lt;p&gt;合成/聚合复用原则：
+尽量使用合成/聚合，尽量不要使用类继承。（合成：强‘拥有’关系，严格的整体和部分关系，两者有相同的生命周期。
+聚合：弱‘拥有’关系，A可以包含B，但B不是A的一部分）&lt;/p&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;23种设计模式&lt;/h2&gt;
+
+&lt;h3 id=&quot;section-4&quot;&gt;5种创建型模式+简单工厂模式&lt;/h3&gt;
+&lt;p&gt;简单工厂模式：（计算器故事）使用一个单独的类，来做创建实例的过程，这个类就是工厂。简单工厂类封装客户端逻辑。
+当添加新的实例类型时，需要修改工厂的分支语句。违反了开放-封闭原则！&lt;/p&gt;
+
+&lt;p&gt;工厂方法模式：（雷锋故事）定义一个用于创建对象的接口，让子类决定实例化哪个类，工厂方法将实例化延迟到子类。
+（从简单工厂模式的一对多，变成多对多，符合开放封闭原则，但是类选择逻辑放到了客户端，增加了客户端对具体类的依赖）&lt;/p&gt;
+
+&lt;p&gt;抽象工厂模式：（多数据库故事）提供一个创建一系列相关或相互依赖对象的接口，而无需制定它们具体的类。
+实现1：工厂方法模式+多方法；实现2：简单工厂模式+多方法+反射。 （好处1：只需修改一次工厂，即可完成不同产品的配置；
+好处2：具体类名，实例的创建与客户端分离，不会出现在客户端代码中）&lt;/p&gt;
+
+&lt;p&gt;建造者模式：（画小人故事）将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示。
+主要角色有：产品基类，产品类1···产品类n,指挥官，客户端。其中指挥官负责构建算法，产品类负责表示。&lt;/p&gt;
+
+&lt;p&gt;原型模式：（做简历故事）用原型实例指定创建对象的种类，并且通过拷贝这些原型创建新对象。
+原型模式是从一个对象创建另外一个可定制对象，不需要知道创建的细节。（注意C#和JAVA直接赋值为引用赋值，浅复制）&lt;/p&gt;
+
+&lt;p&gt;单例模式：（MDI窗体故事）保证一个类仅有一个实例，并提供一个访问它的全局访问点。
+懒汉模式：在类内采用静态变量的方式保存创建状态，注意多线程访问时，公共变量要加锁访问。
+饿汉模式：使用静态变量初始化方法。自动解决多线程不安全问题。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-5&quot;&gt;7种结构型模式&lt;/h3&gt;
+&lt;p&gt;适配器模式：（NBA翻译故事）将一个类的接口转换成客户希望的另外一个接口。使得原本由于接口不兼容而不能一起工作的类可以一起工作。
+想要一个已经存在的类，但是接口不同，且双方都不太容易修改的情况下，可以考虑适配器模式，提高类的复用性。&lt;/p&gt;
+
+&lt;p&gt;装饰模式：（穿衣品味故事）动态地给一个对象添加一些额外的职责，就整加功能来说，装饰模式比生成子类更为灵活。
+从基类开始，不断向下传递对象，并添加新功能。最终调用时，从下向上回归调用。通过基类实现类似Ｃ语言的双向链表，
+一个新节点为一个新职责。&lt;/p&gt;
+
+&lt;p&gt;桥接模式：（手机游戏故事）将抽象部分与它的实现部分分离，使他们都可以独立变化。实现系统可能有多角度分类，
+每一个分类都有可能变化，就把多角度分离出来独立变化，通过基类与基类之间的调用，使用合成/聚合,减少类的继承，
+从而减少类之间的耦合。桥接模式强调系统之间的转换，好比交换机，适配器模式强调类与类之间转换，好比网线。&lt;/p&gt;
+
+&lt;p&gt;组合模式：（OA分公司故事）将对象组合成树形结构以表示“部分-整体”的层次结构，组合模式使得用户对单个对象
+和组合对象的使用具有一致性。该模式可以创建树形结构数据，3种类：基类、叶、节点。类递归方式显示。
+组合模式可以让用户忽略忽略组合对象与单个对象区别，一致访问所有对象。&lt;/p&gt;
+
+&lt;p&gt;享元模式：（外包项目故事）运用共享技术有效地支持大量细粒度的对象。通过Hasable标出对象，并检测是否重返创建，
+享元模式通过共享大量相似的类的开销，把不同部分移到类外部，才调用时传入，达到减少内存消耗的目的。&lt;/p&gt;
+
+&lt;p&gt;代理模式：（追女生故事）为其他对象提供一种代理以控制对这个对象的访问。框架类似适配器模式，代理4中应用场合：
+1、远程代理，不同地址空间访问；2、虚拟代理，存放实例化需要很长时间的真是对象；3、安全代理，访问权限控制；
+4、智能代理。&lt;/p&gt;
+
+&lt;p&gt;外观模式：（基金炒股故事）为子系统中的一组接口提供一个一直的界面，此模块定义了一个高层接口，
+这个接口使得这一子系统更加容易使用。外观模式主要应用在软件层次之间，为一层类中的复杂的代码关系，提供简单的接口。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-6&quot;&gt;11种行为型模式&lt;/h3&gt;
+&lt;p&gt;观察者模式：（上班炒股故事）定义一种一对多的依赖关系，让多个观察者对象同时监听某一个主体对象。
+当主体对象状态发生变化时，会通知所有观察者对象，使他们能够更新自己。通过List维护所有观察者，并循环调用。
+改进：当观察者为不同类别时，使用事件委托实现。&lt;/p&gt;
+
+&lt;p&gt;模版方法模式：（考试故事）定义一个操作中算法的骨架，而将一些步骤延迟到子类中。
+该方法使得子类可以不改变一个算法的结构即可从定义算法的某些参数、特定步骤。模版方法是很好的代码复用平台，
+充分体现了继承的优势。&lt;/p&gt;
+
+&lt;p&gt;命令模式：（烤羊肉串故事）将一个请求封装为一个对象，从而可以使用不同的请求对客户端进行初始化，对请求排队，
+或记录请求日志，以及支持可撤销操作。添加新请求只需要添加新类。把操作请求对象与操作执行对象分割开。&lt;/p&gt;
+
+&lt;p&gt;状态模式：（加班故事）当一个对象内在状态发生改变时允许改变其行为，这个对象看起来像是改变了其类。
+主要解决在状态转换条件表达式过于复杂时的情况，把状态的判断转移到不同状态的一系列类中。&lt;/p&gt;
+
+&lt;p&gt;职责链模式：使多个对象都有机会处理请求，从而避免发送者与请求者之间的耦合关系，将对象连成一条链，
+并沿着这条链传递该请求，直到有一个对象处理它为止。类是状态模式。可以简化对象之间的相互连接。&lt;/p&gt;
+
+&lt;p&gt;解释器模式：给定一个语言，定义它的文法的一种表示，并定义一个解释器，该解释器使用该表示解释句子。
+当一类问题发生频率很高，可以将实例表述为一个句子，解释器通过解释句子，从而解决问题。&lt;/p&gt;
+
+&lt;p&gt;中介者模式：（联合国故事）用一个中介对象封装一系列对象的交互，中介者使个对象不需要现实地相互调用，
+而且可以独立地改变他们之间的交互。分位注册，调用两个步骤完成。&lt;/p&gt;
+
+&lt;p&gt;访问者模式：（男人女人故事）表示一个作用于某对象结构中的各元素的操作。它使你可以在不改变个元素的类的前提下，
+定义作用域这些元素的新操作。适用于数据结构相对稳定，使数据和操作之间的耦合解脱开，方便增加新操作。
+结构中操作名不变，新操作只需添加新类，并注册。&lt;/p&gt;
+
+&lt;p&gt;策略模式：（商场促销）定义算法簇，分别封装起来，相互可替换，即使算法发生变化，也不影响算法的客户。&lt;/p&gt;
+
+&lt;p&gt;备忘录模式：（游戏备份故事）在不破坏封装性的情况下，捕获一个对象的内部状态，并在对象之外保存，
+这样可以以后恢复到原先保存的状态。（发起者、备忘录、管理者3个类）&lt;/p&gt;
+
+&lt;p&gt;迭代器模式：（买票故事）提供一种方法顺序访问一个聚合对象中的各个元素，而不暴露元素的内部表示。
+由于高级语言中foreach语句的出现，该模式已经逐渐被弃用。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-7&quot;&gt;目前疑惑&lt;/h2&gt;
+
+&lt;p&gt;状态模式VS职责链模式&lt;/p&gt;
+
+&lt;p&gt;代理模式VS适配器模式&lt;/p&gt;
+
+&lt;p&gt;中介者模式VS桥接模式&lt;/p&gt;
+
+&lt;p&gt;快速阅读了解掌握了书上的一些设计模式的原理，并没有领会思想，不能灵活运用，不过所谓“知之而后行”，慢慢悟，慢慢悟！&lt;/p&gt;
+
+&lt;h2 id=&quot;section-8&quot;&gt;结束&lt;/h2&gt;
+&lt;p&gt;作者让我想起了我的小学老师，一个个形象的故事，点出了面向对象做事和编程的基本思想。使用教小学生的方法来讲述大学知识，
+我学到的更不仅仅是大学知识。希望自己有一天也能具备讲故事的能力。&lt;/p&gt;
+
+&lt;p&gt;另外，想想以后自己又可以静静地装X了，心里有点小激动呢~&lt;/p&gt;
+
+&lt;h2 id=&quot;section-9&quot;&gt;其他资料&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.cnblogs.com/beijiguangyong/archive/2010/11/15/2302807.html&quot;&gt;23种设计模式UML图+说明&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>（未完成）简单定制Android ROM</title>
+      <link>luckyshq.github.io/android/2015/10/22/Android-ROM%E7%AE%80%E5%8D%95%E5%AE%9A%E5%88%B6.html</link>
+      <pubDate>22 Oct 2015</pubDate>
+      <author>luckyshq</author>
+      <guid>luckyshq.github.io/android/2015/10/22/Android ROM简单定制</guid>
+      <description>&lt;h2 id=&quot;section&quot;&gt;用途&lt;/h2&gt;
+&lt;p&gt;想像一下，手机开机是自己女朋友照片是一种怎么样的体验！&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;简单定制-修改开机动画&lt;/h2&gt;
+
+&lt;p&gt;Android开机动画主要由两部分组成:
+Linux内核启动页面和Android系统启动页面，下面将如何修改。&lt;/p&gt;
+
+&lt;h3 id=&quot;linux&quot;&gt;linux内核启动画面:&lt;/h3&gt;
+
+&lt;h3 id=&quot;android&quot;&gt;Android应用层启动画面&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Android 4.2源代码编译教程</title>
+      <link>luckyshq.github.io/android/2015/10/21/Android4.2%E6%BA%90%E4%BB%A3%E7%A0%81%E7%BC%96%E8%AF%91.html</link>
+      <pubDate>21 Oct 2015</pubDate>
+      <author>luckyshq</author>
+      <guid>luckyshq.github.io/android/2015/10/21/Android4.2源代码编译</guid>
+      <description>&lt;h2 id=&quot;section&quot;&gt;背景&lt;/h2&gt;
+
+&lt;p&gt;Android源代码作为公开源码,不读一下,总感觉Android学的不够(其实本来就不够),心里不踏实.这里就Nexus 7为基础,对Android 4.2源代码进行了编译,希望自己能够装X成功!&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;编译环境搭建&lt;/h2&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;基础环境&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;操作系统:Ubuntu 14.04-64位(虚拟机)&lt;/li&gt;
+    &lt;li&gt;运行硬件:nexus 7 I代(WIFI)&lt;/li&gt;
+    &lt;li&gt;硬盘:60G&lt;/li&gt;
+    &lt;li&gt;内存:1G&lt;/li&gt;
+    &lt;li&gt;虚拟内存:2G&lt;/li&gt;
+    &lt;li&gt;翻墙软件:&lt;a href=&quot;http://www.yueliang123.com/&quot;&gt;月亮VPN:￥15/月&lt;/a&gt;   &lt;a href=&quot;http://www.vpn333.cn&quot;&gt;VPN333:￥18/月&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;JDK:JAVA SE 6 &lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/archive-139210.html&quot;&gt;下载&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;SDK:23 &lt;a href=&quot;http://developer.android.com/sdk/installing/adding-packages.html&quot;&gt;下载&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;编译所需工具链&lt;/h3&gt;
+
+&lt;p&gt;在Ubuntu 联网的情况下,通过下面命令安装所需的包:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt-get install gcc-multilib bison g++-multilib git gperf libxml2-utils make libncurses5-dev lib32ncurses5-dev libswitch-perl libgl1-mesa-glx:i386 libglapi-mesa:i386 libgl1-mesa-dev:i386 python-networkx zlib1g-dev:i386 zip schedtool xsltproc flex&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;因为Android SDK没有64位版本,64位的操作系统需安装如下支持包:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;libc6&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i386&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lib32stdc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lib32gcc1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lib32ncurses5&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lib32z1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;通过&lt;sdk目录&gt;/tool/android 启动sdk-tool,后借助翻墙软件,可下载相应的工具,如adb,fastboot等.&lt;/sdk目录&gt;&lt;/p&gt;
+
+&lt;p&gt;下载完,需要将JDK,SDK等软件添加到/etc/profile 中,以便添加到环境变量中.&lt;/p&gt;
+
+&lt;h2 id=&quot;section-4&quot;&gt;源码下载&lt;/h2&gt;
+
+&lt;h3 id=&quot;system&quot;&gt;System层代码&lt;/h3&gt;
+
+&lt;p&gt;Android 源代码除了谷歌官方提供的之外,还有一个重要的组织：CM，常年提供各种适配机型的源代码．这里就是使用CM的源代码.通过如下命令:
+//这里假设准备把源代码下载到:/home/xbb/android/&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;源代码目录&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;curl&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;repo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;googlecode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;files&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;repo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;源代码目录&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/bin/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;repo&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;源代码目录&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/bin/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;repo&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;repo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;init&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;u&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;git&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;CyanogenMod&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;android&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cm&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;repo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sync&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;同步完成,即完成了system层代码的下载.&lt;/p&gt;
+
+&lt;h3 id=&quot;hal&quot;&gt;HAL层源代码&lt;/h3&gt;
+
+&lt;p&gt;命令:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;源代码目录&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/ventor/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cm&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;prebuilts&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;源代码目录&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/build/en&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vsetup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sh&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;breakfast&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;crepo&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;linux&quot;&gt;Linux内核源代码&lt;/h3&gt;
+
+&lt;p&gt;上述同步即会下载内核代码,不过速度较慢,如果/device/中的内容下载玩,可以停止同步,手动下载相应的内核代码.
+内核代码可以在CM官网,wiki中选择自己的&lt;a href=&quot;https://wiki.cyanogenmod.org/w/Devices&quot;&gt;Devices&lt;/a&gt; 来选择内核下载
+Nexus 7 的内核下载地址为:&lt;a href=&quot;https://wiki.cyanogenmod.org/w/Grouper_Info&quot;&gt;下载&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;下载完成后,解压到:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;源代码目录&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/kernel/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;asus&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;grouper&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;如果不想解压,也可自己到相应的目录,使用git对相应的代码进行clone.&lt;/p&gt;
+
+&lt;p&gt;下载完代码,发现&lt;源代码目录&gt;/.repo中有大量缓冲文件,文件可删除,但是后续就不方便切换分支了.
+代码总大小:约27G。&lt;/源代码目录&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-5&quot;&gt;源码编译&lt;/h2&gt;
+&lt;p&gt;你好&lt;/p&gt;
+
+&lt;h3 id=&quot;section-6&quot;&gt;编译准备&lt;/h3&gt;
+
+&lt;p&gt;编译前需要从目标设备上下载相应的配置文件.需要adb支持和硬件支持.命令:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;源代码目录&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/device/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;asus&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;grouper&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;extract&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;files&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sh&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;下载完即可编译:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;USE_CCACHE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;croot&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;brunch&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;grouper&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;编译成功后,可得到:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;源代码目录&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/out/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;product&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;XXXX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;zip&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;烧录文件&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;源代码目录&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/out/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;product&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;recovery&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;recovery&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;文件&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;section-7&quot;&gt;其他&lt;/h3&gt;
+
+&lt;p&gt;编译时长:约10小时
+编译后总大小:45G&lt;/p&gt;
+
+&lt;h2 id=&quot;section-8&quot;&gt;系统烧录&lt;/h2&gt;
+
+&lt;h3 id=&quot;section-9&quot;&gt;解锁&lt;/h3&gt;
+
+&lt;p&gt;Nexus 7默认的bootloader是锁定的,需要解锁后才能进行正常的烧录,在正常开机状态下通过命令:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;adb&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;reboot&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bootloder&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;系统进入&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bootloader&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;模式&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;也可在关机状态下,同时按下”开机键、音量+、音量-“,开机后即进入bootloader模式.
+通过命令:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;fastboot&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;oem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;unlock&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;解锁硬件&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;期间可能会弹出删除数据的提示,点”是”继续.当显示 lock status=unlock 即为解锁成功!&lt;/p&gt;
+
+&lt;h3 id=&quot;recovery&quot;&gt;刷入recovery&lt;/h3&gt;
+
+&lt;p&gt;通过命令输入recovery:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;fastboot&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flash&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;recovery&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;recovery&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;刷入&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;recovery&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;刷入过程很快,刷完即可进入recovery模式.&lt;/p&gt;
+
+&lt;h3 id=&quot;section-10&quot;&gt;刷入系统&lt;/h3&gt;
+
+&lt;p&gt;开机重启,进入系统,因为unlock删除了数据,所以进入系统后,会有系统欢迎页面.完成后将编译好的XXXX.zip复制到手机里面.关机,开机时,同时按下”开机键、音量+、音量-“,进入recovery模式.
+在recovery菜单中依次选择:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;wipe&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;factory&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;reset&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;YES&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;wipe&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cache&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;partition&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;YES&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;zip&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;choose&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;zip&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sdcard&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;XXXX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;zip&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;路径&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;刷入系统完成即可重启,体验自己亲手制作的智能操作系统~&lt;/p&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>grep与find多文件内容查找</title>
+      <link>luckyshq.github.io/linux/2015/10/21/grep%E4%B8%8Efind%E5%AE%9E%E7%8E%B0%E5%A4%9A%E4%B8%AA%E6%96%87%E4%BB%B6%E5%86%85%E5%AE%B9%E6%9F%A5%E6%89%BE.html</link>
+      <pubDate>21 Oct 2015</pubDate>
+      <author>luckyshq</author>
+      <guid>luckyshq.github.io/linux/2015/10/21/grep与find实现多个文件内容查找</guid>
+      <description>&lt;h3 id=&quot;section&quot;&gt;用途&lt;/h3&gt;
+
+&lt;p&gt;当我们阅读代码时,经常会遇到要在一堆源代码文件中找到某个关键字符串.字符串是读代码的重要参考,&lt;/p&gt;
+
+&lt;h3 id=&quot;grep&quot;&gt;grep查找文件内容&lt;/h3&gt;
+
+&lt;p&gt;grep 专做字符串查找,后面可接正则表达式来达到想要的结果.使用命令也较为简单:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-coffeescript&quot; data-lang=&quot;coffeescript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;abcd&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;find&quot;&gt;find查找文件内容&lt;/h3&gt;
+
+&lt;p&gt;find 作为文件名查找命令,可以通过管道来传递文件名,使用下面命令:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-coffeescript&quot; data-lang=&quot;coffeescript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;find&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;*&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;xargs&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;abcd&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;但是针对一些特殊的文件名,如文件名中包含 “单引号:’“、”空格: “、”双引号:”“等特殊符号时,徽导致xargs解析错误,最终导致查找结果不全面.此时需要对find 的查找结果加双引号,以实现特殊字符的字符串化.此时使用西面命令进行查找:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-coffeescript&quot; data-lang=&quot;coffeescript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;find&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;*&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;print0&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;xargs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;abcd&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Linux下Socket编程备忘</title>
+      <link>luckyshq.github.io/network/2015/01/31/Linux%E4%B8%8BSocket%E9%80%9A%E4%BF%A1%E6%B1%87%E6%80%BB.html</link>
+      <pubDate>31 Jan 2015</pubDate>
+      <author>luckyshq</author>
+      <guid>luckyshq.github.io/network/2015/01/31/Linux下Socket通信汇总</guid>
+      <description>&lt;p&gt;Foreword：人老了，什么都会忘记，这里记一些我的独门秘籍，外人千万不要偷看！！！&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-socket&quot;&gt;What is Socket&lt;/h3&gt;
+&lt;p&gt;Socket直译‘插座’，技术翻译‘套接字’，是操作系统提供的一个TCP/IP协议网络编程接口，它运行在TCP/IP协议的应用层
+与传输层之间（个人认为,仅供参考），向下访问TCP/UDP提供的API，向上为应用层提供网络数据流。&lt;/p&gt;
+
+&lt;p&gt;具体定义还望百度，这里提供两例Linux下的TCP/UDP的demo，有需要的同学可以在这里下载。已测试，通信正常，
+编译遇到问题的可以联系我。(∩_∩)&lt;/p&gt;
+
+&lt;h3 id=&quot;tcp-demo&quot;&gt;TCP Demo&lt;/h3&gt;
+&lt;p&gt;TCP是连接的，传输可靠。适合小流量，高安全的数据传输。编程相对复杂一些。
+  下面是2个TCP协议的Demo:&lt;/p&gt;
+
+&lt;p&gt;Demo1可以处理多个连接，接收完数据后显示接收到的数据，断开连接，处理其他连接。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/xnzaa/socket_linux/tree/master/TCP/Demo1&quot;&gt;Demo1 https://github.com/xnzaa/socket_linux/tree/master/TCP/Demo1&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Demo2循环处理一个连接，不断的接收数据，然后将接收到的数据回发。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/xnzaa/socket_linux/tree/master/TCP/Demo2&quot;&gt;Demo2 https://github.com/xnzaa/socket_linux/tree/master/TCP/Demo2&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;udp-demo&quot;&gt;UDP Demo&lt;/h3&gt;
+&lt;p&gt;UDP是无连接的，传输不可靠。适合大流量的数据传输。编程相对简单一些。&lt;/p&gt;
+
+&lt;p&gt;UDP 不需要建立连接，Demo中发数据抛出去就不管了，接数据就一直监听某个端口
+  &lt;a href=&quot;https://github.com/xnzaa/socket_linux/tree/master/UDP&quot;&gt;Demo https://github.com/xnzaa/socket_linux/tree/master/UDP&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;remark&quot;&gt;Remark&lt;/h3&gt;
+&lt;p&gt;由于服务器端需要一个死循环不停的监听是否有数据传来，在实际编程使用过程中常常结合多线程编程来解决
+死循环的问题。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>多级目录Makefile编写方法</title>
+      <link>luckyshq.github.io/linux/2015/01/26/Makefile%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B.html</link>
+      <pubDate>26 Jan 2015</pubDate>
+      <author>luckyshq</author>
+      <guid>luckyshq.github.io/linux/2015/01/26/Makefile基础教程</guid>
+      <description>&lt;h2 id=&quot;section&quot;&gt;文章简介&lt;/h2&gt;
+
+&lt;p&gt;想要在Linux下进行C语言编程，Makefile自然是必不可少的，源代码在单个目录下Makefile编写是So,easy!可是当工程量变大，代码分目录管理时，我们该怎么办呢？现在能否编写多目录Makefile，已经标志这一个软件工程师能否胜任大型软件的开发工作。&lt;/p&gt;
+
+&lt;p&gt;寡人最近研究一番多目录Makefile编写的规则之后，发现现有帖子不全面，现总结2种编译规则如下，希望能解决你大型工程Makefile管理代码的疑惑，但是在读下面的文章之前需要你有一些Makefile的基础知识，推荐文章底部的书籍1，可以系统的学习Makefile的基础知识。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;请注意，前方高能，前方高能！！！！！&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;makefile&quot;&gt;多级目录Makefile文件的编写&lt;/h2&gt;
+
+&lt;p&gt;现在Makefile的管理方式大致有“集中式”，“分布式”2种管理方式，每种方式都有自己的优缺点，你可以根据你的爱好选择一个较为“爽”的来弄。&lt;/p&gt;
+
+&lt;h3 id=&quot;makefile-1&quot;&gt;集中式–单个Makefile统一管理&lt;/h3&gt;
+
+&lt;p&gt;这种管理方法的基本思想是：去目录化， 管理方式：&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;扫描-&amp;gt;编译-&amp;gt;链接&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;其中扫描，是通过扫描工程中的所有目录，找到所有.c文件，扫描结果是包含相对路径的.c文件，接下来将所有的.c汇总到Makefile中，像单个目录下的Makefile编译规则一样，只是.c文件带了相对路径。&lt;/p&gt;
+
+&lt;p&gt;优点是书写简单，方便理解，但是可扩充性差，不适合大型项目的管理。&lt;/p&gt;
+
+&lt;h3 id=&quot;makefile-2&quot;&gt;分布式–多个Makefile分散管理&lt;/h3&gt;
+&lt;p&gt;这中管理方式，那家伙，那是相当高端。引用了函数化编程的基本思想， 管理方式：&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;调用-&amp;gt;调用-&amp;gt;...-&amp;gt;调用-&amp;gt;汇编-&amp;gt;链接&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;一个主Makefile负责启动编译，并调用各级目录下的子Makefile。这种分级的调用关系，使得每个Makefile分工相当明细。
+子Makefile管理相对独立的包，汇编生成多个静态链接库。最后子Makefile对多个静态链接库进行连接生成最终的程序。&lt;/p&gt;
+
+&lt;p&gt;优点是每个Makefile相对独立，扩充性好，方便管理，但是多个Makefile使得初期创建起来较为繁琐。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;参考代码：&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/xnzaa/makefile-multi-dir&quot;&gt;git地址：https://github.com/xnzaa/makefile-multi-dir&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/xnzaa/makefile-multi-dir/tree/master/mk-centralization&quot;&gt;分布式：mk-centralization&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/xnzaa/makefile-multi-dir/tree/master/mk-distributed&quot;&gt;集中式：mk-distributed&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/xnzaa/makefile-multi-dir/tree/master/mk-synthesize&quot;&gt;两者结合：mk-synthesize&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;参考书籍&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://pan.baidu.com/s/1i3glndN&quot;&gt;Makefile 编写教程&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>#Git命令笔记</title>
+      <link>luckyshq.github.io/other/2015/01/18/Git%E5%91%BD%E4%BB%A4%E7%AC%94%E8%AE%B0.html</link>
+      <pubDate>18 Jan 2015</pubDate>
+      <author>luckyshq</author>
+      <guid>luckyshq.github.io/other/2015/01/18/Git命令笔记</guid>
+      <description>&lt;h3 id=&quot;section&quot;&gt;文章简介&lt;/h3&gt;
+&lt;p&gt;GIThub是一款优秀的分布式代码托管平台，这里写一些常用的git命令，以供以后使用。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;基本命令&lt;/h3&gt;
+
+&lt;p&gt;下载代码：git clone git@github.com:xnzaa/xnzaa.github.io.git&lt;/p&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;自动上传脚本&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;add&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;commit&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;%1&#39;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;push&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;some-command&quot;&gt;some command&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;git add ./ -u 解决本地删除引起远程rm失败的解决方法
+[alias]
+delete = !git ls-files -z –deleted | xargs -0 git rm&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;git reset –hard HEAD~3 退回某次提交的repository、index 和 working directory&lt;/li&gt;
+    &lt;li&gt;git reset –soft HEAD~2 只回退repository。HEAD～2表示回退到前2次提交。&lt;/li&gt;
+    &lt;li&gt;git checkout test 切换分支&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>C与shell的相互调用</title>
+      <link>luckyshq.github.io/linux/2015/01/10/C%E4%B8%8Eshell%E7%9A%84%E7%9B%B8%E4%BA%92%E8%B0%83%E7%94%A8.html</link>
+      <pubDate>10 Jan 2015</pubDate>
+      <author>luckyshq</author>
+      <guid>luckyshq.github.io/linux/2015/01/10/C与shell的相互调用</guid>
+      <description>&lt;h2 id=&quot;shellc&quot;&gt;Shell脚本调用C语言&lt;/h2&gt;
+
+&lt;p&gt;直接使用命令启动C语言程序+参数即可。
+例如：&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;main&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;cshell&quot;&gt;C程序调用Shell脚本&lt;/h2&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;方法一：&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;#include &quot;stdio.h&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;nb&quot;&gt;system&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;ls&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;方法二：&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;#include &quot;stdio.h&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;no&quot;&gt;FILE&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
+   &lt;span class=&quot;n&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;buffer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+   &lt;span class=&quot;n&quot;&gt;fp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;popen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;pwd&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;r&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+   &lt;span class=&quot;n&quot;&gt;fgets&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;buffer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sizeof&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;buffer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+   &lt;span class=&quot;nb&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;%s&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;buffer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+   &lt;span class=&quot;n&quot;&gt;pclose&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <!--[if lte IE 9]><meta http-equiv="refresh" content="0;url=/ie.html"><![endif]-->
 
-    <title>徐兵的博客</title>
+    <title>Linux下Socket编程备忘</title>
     <meta name="description" content="">
 
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
@@ -170,26 +170,50 @@
     <div id="post">
       <div id="pjax">
         <article id="post__content">
-  <h1 id="post__title">欢迎来看我！--小鸟在嗷嗷</h1>
-  <h2>About me</h2>
-  <ul>
-    <li>工作：手机贴膜</li>
-    <li>口号：Linux万岁</li>
-    <li>状态：研究生遇见很多大神，心情很Down，要加油，拒绝坐井观天</li>
-    <li>爱好：智能数码，游戏，动漫</li>
-    <li>疑问：什么时候做个自己的产品出来</li>
-    <li>短期目标：完成研究生学业</li>
-  </ul>
-  <h2>Contact me</h2>
-  <ul>
-    <li>Github：<a href="https://github.com/xnzaa">xnzaa</a></li>
-    <li>Mail: <a href="mailto:649981201@qq.com">649981201@qq.com</a></li>
-  </ul>
-  <p></p>
-  <p></p>
-  <p></p>
+  <h1 id="post__title" data-identifier="20150131">Linux下Socket编程备忘</h1>
+  <p>Foreword：人老了，什么都会忘记，这里记一些我的独门秘籍，外人千万不要偷看！！！</p>
+
+<h3 id="what-is-socket">What is Socket</h3>
+<p>Socket直译‘插座’，技术翻译‘套接字’，是操作系统提供的一个TCP/IP协议网络编程接口，它运行在TCP/IP协议的应用层
+与传输层之间（个人认为,仅供参考），向下访问TCP/UDP提供的API，向上为应用层提供网络数据流。</p>
+
+<p>具体定义还望百度，这里提供两例Linux下的TCP/UDP的demo，有需要的同学可以在这里下载。已测试，通信正常，
+编译遇到问题的可以联系我。(∩_∩)</p>
+
+<h3 id="tcp-demo">TCP Demo</h3>
+<p>TCP是连接的，传输可靠。适合小流量，高安全的数据传输。编程相对复杂一些。
+  下面是2个TCP协议的Demo:</p>
+
+<p>Demo1可以处理多个连接，接收完数据后显示接收到的数据，断开连接，处理其他连接。</p>
+
+<p><a href="https://github.com/xnzaa/socket_linux/tree/master/TCP/Demo1">Demo1 https://github.com/xnzaa/socket_linux/tree/master/TCP/Demo1</a></p>
+
+<p>Demo2循环处理一个连接，不断的接收数据，然后将接收到的数据回发。</p>
+
+<p><a href="https://github.com/xnzaa/socket_linux/tree/master/TCP/Demo2">Demo2 https://github.com/xnzaa/socket_linux/tree/master/TCP/Demo2</a></p>
+
+<h3 id="udp-demo">UDP Demo</h3>
+<p>UDP是无连接的，传输不可靠。适合大流量的数据传输。编程相对简单一些。</p>
+
+<p>UDP 不需要建立连接，Demo中发数据抛出去就不管了，接数据就一直监听某个端口
+  <a href="https://github.com/xnzaa/socket_linux/tree/master/UDP">Demo https://github.com/xnzaa/socket_linux/tree/master/UDP</a></p>
+
+<h3 id="remark">Remark</h3>
+<p>由于服务器端需要一个死循环不停的监听是否有数据传来，在实际编程使用过程中常常结合多线程编程来解决
+死循环的问题。</p>
+
 </article> <!-- end #post__content -->
 
+<!--<div id="post__share">
+  <a id="icon-weibo" class="fontello" href="http://v.t.sina.com.cn/share/share.php?url=xnzaa.github.io/network/2015/01/31/Linux%E4%B8%8BSocket%E9%80%9A%E4%BF%A1%E6%B1%87%E6%80%BB.html&title=Linux下Socket编程备忘" target="_blank"></a>
+  <a id="icon-twitter" class="fontello" href="https://twitter.com/intent/tweet?url=xnzaa.github.io/network/2015/01/31/Linux%E4%B8%8BSocket%E9%80%9A%E4%BF%A1%E6%B1%87%E6%80%BB.html&text=Linux下Socket编程备忘" target="_blank"></a>
+  <!--<a id="icon-cc" class="fontello" href="http://creativecommons.org/licenses/by-nc-sa/3.0" target="_blank"></a>-->
+<!--</div> <!-- end #post__share -->
+
+
+ <script  type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1995082"></script>
+ 
+ <div id="uyan_frame"></div>
       </div> <!-- end #pjax -->
 
       <div id="post__toc-trigger">

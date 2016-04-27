@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <!--[if lte IE 9]><meta http-equiv="refresh" content="0;url=/ie.html"><![endif]-->
 
-    <title>徐兵的博客</title>
+    <title>C与shell的相互调用</title>
     <meta name="description" content="">
 
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
@@ -170,26 +170,50 @@
     <div id="post">
       <div id="pjax">
         <article id="post__content">
-  <h1 id="post__title">欢迎来看我！--小鸟在嗷嗷</h1>
-  <h2>About me</h2>
-  <ul>
-    <li>工作：手机贴膜</li>
-    <li>口号：Linux万岁</li>
-    <li>状态：研究生遇见很多大神，心情很Down，要加油，拒绝坐井观天</li>
-    <li>爱好：智能数码，游戏，动漫</li>
-    <li>疑问：什么时候做个自己的产品出来</li>
-    <li>短期目标：完成研究生学业</li>
-  </ul>
-  <h2>Contact me</h2>
-  <ul>
-    <li>Github：<a href="https://github.com/xnzaa">xnzaa</a></li>
-    <li>Mail: <a href="mailto:649981201@qq.com">649981201@qq.com</a></li>
-  </ul>
-  <p></p>
-  <p></p>
-  <p></p>
+  <h1 id="post__title" data-identifier="20150110">C与shell的相互调用</h1>
+  <h2 id="shellc">Shell脚本调用C语言</h2>
+
+<p>直接使用命令启动C语言程序+参数即可。
+例如：</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="p">.</span><span class="nf">bin</span><span class="o">/</span><span class="n">main</span> <span class="mi">1</span> <span class="mi">2</span></code></pre></figure>
+
+<h2 id="cshell">C程序调用Shell脚本</h2>
+
+<h3 id="section">方法一：</h3>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#include "stdio.h"</span>
+<span class="n">void</span> <span class="n">main</span><span class="p">()</span>
+<span class="p">{</span>
+   <span class="nb">system</span><span class="p">(</span><span class="s2">"ls"</span><span class="p">);</span>
+<span class="p">}</span></code></pre></figure>
+
+<h3 id="section-1">方法二：</h3>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#include "stdio.h"</span>
+<span class="n">void</span> <span class="n">main</span><span class="p">()</span>
+<span class="p">{</span>
+   <span class="no">FILE</span> <span class="o">*</span> <span class="n">fp</span><span class="p">;</span> 
+   <span class="n">char</span> <span class="n">buffer</span><span class="p">[</span><span class="mi">80</span><span class="p">];</span>
+   <span class="n">fp</span><span class="o">=</span><span class="n">popen</span><span class="p">(</span><span class="s2">"pwd"</span><span class="p">,</span><span class="s2">"r"</span><span class="p">);</span>
+   <span class="n">fgets</span><span class="p">(</span><span class="n">buffer</span><span class="p">,</span><span class="n">sizeof</span><span class="p">(</span><span class="n">buffer</span><span class="p">),</span><span class="n">fp</span><span class="p">);</span>
+   <span class="nb">printf</span><span class="p">(</span><span class="s2">"%s"</span><span class="p">,</span><span class="n">buffer</span><span class="p">);</span>
+   <span class="n">pclose</span><span class="p">(</span><span class="n">fp</span><span class="p">);</span>
+<span class="p">}</span></code></pre></figure>
+
+
 </article> <!-- end #post__content -->
 
+<!--<div id="post__share">
+  <a id="icon-weibo" class="fontello" href="http://v.t.sina.com.cn/share/share.php?url=xnzaa.github.io/linux/2015/01/10/C%E4%B8%8Eshell%E7%9A%84%E7%9B%B8%E4%BA%92%E8%B0%83%E7%94%A8.html&title=C与shell的相互调用" target="_blank"></a>
+  <a id="icon-twitter" class="fontello" href="https://twitter.com/intent/tweet?url=xnzaa.github.io/linux/2015/01/10/C%E4%B8%8Eshell%E7%9A%84%E7%9B%B8%E4%BA%92%E8%B0%83%E7%94%A8.html&text=C与shell的相互调用" target="_blank"></a>
+  <!--<a id="icon-cc" class="fontello" href="http://creativecommons.org/licenses/by-nc-sa/3.0" target="_blank"></a>-->
+<!--</div> <!-- end #post__share -->
+
+
+ <script  type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1995082"></script>
+ 
+ <div id="uyan_frame"></div>
       </div> <!-- end #pjax -->
 
       <div id="post__toc-trigger">
