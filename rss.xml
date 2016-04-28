@@ -6,9 +6,39 @@
     <atom:link href="luckyshq.github.io/rss.xml" rel="self" type="application/rss+xml" />
     <description>Computer can change your life for the better.</description>
     <language>zh-cn</language>
-    <pubDate>Thu, 28 Apr 2016 09:42:36 +0800</pubDate>
-    <lastBuildDate>Thu, 28 Apr 2016 09:42:36 +0800</lastBuildDate>
+    <pubDate>Thu, 28 Apr 2016 12:41:17 +0800</pubDate>
+    <lastBuildDate>Thu, 28 Apr 2016 12:41:17 +0800</lastBuildDate>
 
+    
+    <item>
+      <title>Jekyll学习</title>
+      <link>luckyshq.github.io/linux/2016/04/28/Jekyll%E5%AD%A6%E4%B9%A0.html</link>
+      <pubDate>28 Apr 2016</pubDate>
+      <author>luckyshq</author>
+      <guid>luckyshq.github.io/linux/2016/04/28/Jekyll学习</guid>
+      <description>&lt;p&gt;自己建站&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;首先看其他大神的博客&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;1：Github的使用&lt;/li&gt;
+    &lt;li&gt;2：Jekyll的使用&lt;/li&gt;
+    &lt;li&gt;3：自定义的域名&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;下面是测试图像&lt;/h3&gt;
+
+&lt;p&gt;http://eiot.github.io/assets/img/time.png&lt;/p&gt;
+
+&lt;h4 id=&quot;section-2&quot;&gt;再见啦，俺会想念大家滴，在下面留言 @_@ 。&lt;/h4&gt;
+
+&lt;p&gt;—做有节操的程序员&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
     
     <item>
       <title>C++学习书籍</title>
@@ -777,45 +807,6 @@ delete = !git ls-files -z –deleted | xargs -0 git rm&lt;/li&gt;
     &lt;li&gt;git checkout test 切换分支&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/blockquote&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>C与shell的相互调用</title>
-      <link>luckyshq.github.io/linux/2015/01/10/C%E4%B8%8Eshell%E7%9A%84%E7%9B%B8%E4%BA%92%E8%B0%83%E7%94%A8.html</link>
-      <pubDate>10 Jan 2015</pubDate>
-      <author>luckyshq</author>
-      <guid>luckyshq.github.io/linux/2015/01/10/C与shell的相互调用</guid>
-      <description>&lt;h2 id=&quot;shellc&quot;&gt;Shell脚本调用C语言&lt;/h2&gt;
-
-&lt;p&gt;直接使用命令启动C语言程序+参数即可。
-例如：&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;main&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;cshell&quot;&gt;C程序调用Shell脚本&lt;/h2&gt;
-
-&lt;h3 id=&quot;section&quot;&gt;方法一：&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;#include &quot;stdio.h&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-   &lt;span class=&quot;nb&quot;&gt;system&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;ls&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;section-1&quot;&gt;方法二：&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;#include &quot;stdio.h&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-   &lt;span class=&quot;no&quot;&gt;FILE&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-   &lt;span class=&quot;n&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;buffer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-   &lt;span class=&quot;n&quot;&gt;fp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;popen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;pwd&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;r&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-   &lt;span class=&quot;n&quot;&gt;fgets&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;buffer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sizeof&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;buffer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-   &lt;span class=&quot;nb&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;%s&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;buffer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-   &lt;span class=&quot;n&quot;&gt;pclose&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
 </description>
     </item>
     
