@@ -12,9 +12,9 @@ if ($(window).width() <= 1280) {
 
 // Variables
     tag1       = $('.pl__all'),
-    tag2       = $('.embedded'),
+    tag2       = $('.linux'),
     tag3       = $('.algorithm'),
-    tag4       = $('.linux'),
+    tag4       = $('.embedded'),
     tag5       = $('.network'),
     tag6       = $('.android'),
     tag7       = $('.rtos'),
