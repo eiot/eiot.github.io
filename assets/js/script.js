@@ -10,7 +10,7 @@ if ($(window).width() <= 1280) {
   $('#sidebar').addClass('mobile')
 }
 
-// Variables
+// Variables   这里还要对应_layouts/index.html中的显示内容！
     tag1       = $('.pl__all'),
     tag2       = $('.linux'),
     tag3       = $('.algorithm'),

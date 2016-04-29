@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 29 Apr 2016 11:44:40 +0800</pubDate>
-    <lastBuildDate>Fri, 29 Apr 2016 11:44:40 +0800</lastBuildDate>
+    <pubDate>Fri, 29 Apr 2016 12:00:21 +0800</pubDate>
+    <lastBuildDate>Fri, 29 Apr 2016 12:00:21 +0800</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
     
       <item>
@@ -102,6 +102,42 @@ $ git config --global user.email &quot;email@example.com&quot;&lt;/code&gt;&lt;/
         
         
         <category>linux</category>
+        
+      </item>
+    
+      <item>
+        <title>查看Android-Wifi密码</title>
+        <description>&lt;h3 id=&quot;section&quot;&gt;方法&lt;/h3&gt;
+&lt;p&gt;要想查看Android手机的Wifi密码，必须先获取手机的&lt;strong&gt;root权限&lt;/strong&gt;！！！&lt;/p&gt;
+
+&lt;p&gt;1.下载并安装好 RE管理器
+2.进入data/misc/wifi（RE管理器可以显示隐藏的文件，手机自带的文件系统不行）
+3.使用文本查看器打开bcm_supp.conf或wpa_supplicant.conf&lt;/p&gt;
+
+&lt;p&gt;以下内容：&lt;br /&gt;
+&lt;code&gt;network={
+ssid=&quot;TP-LINK_92E3C2&quot;
+psk=&quot;cheng21210882&quot;
+key_mgmt=WPA-PSK
+priority=10
+} &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ssid=&lt;/code&gt;后面的就是你连接的WIFI网络名。&lt;br /&gt;
+&lt;code&gt;psk=&lt;/code&gt;后面的就是此WIFI网络的密码。&lt;br /&gt;
+&lt;code&gt;key_mgmt=&lt;/code&gt;后面内容为加密类型。&lt;br /&gt;
+&lt;code&gt;priority=&lt;/code&gt;越小优先级越高&lt;/p&gt;
+
+&lt;p&gt;还能同时修改一下自动连接wifi的&lt;strong&gt;优先级&lt;/strong&gt;顺序 O(∩_∩)O~&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;有问题反馈&lt;/h3&gt;
+&lt;p&gt;在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
+</description>
+        <pubDate>Tue, 19 Jan 2016 08:32:34 +0800</pubDate>
+        <link>/knack/2016/01/19/%E6%9F%A5%E7%9C%8BAndroid-Wifi%E5%AF%86%E7%A0%81.html</link>
+        <guid isPermaLink="true">/knack/2016/01/19/%E6%9F%A5%E7%9C%8BAndroid-Wifi%E5%AF%86%E7%A0%81.html</guid>
+        
+        
+        <category>knack</category>
         
       </item>
     
