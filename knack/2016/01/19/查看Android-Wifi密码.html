@@ -112,18 +112,20 @@
 2.进入data/misc/wifi（RE管理器可以显示隐藏的文件，手机自带的文件系统不行）
 3.使用文本查看器打开bcm_supp.conf或wpa_supplicant.conf</p>
 
-<p>以下内容：<br />
-<code>network={
-ssid="TP-LINK_92E3C2"
-psk="cheng21210882"
-key_mgmt=WPA-PSK
-priority=10
-} </code></p>
+<p>以下内容：</p>
 
-<p><code>ssid=</code>后面的就是你连接的WIFI网络名。<br />
-<code>psk=</code>后面的就是此WIFI网络的密码。<br />
-<code>key_mgmt=</code>后面内容为加密类型。<br />
-<code>priority=</code>越小优先级越高</p>
+<figure class="highlight"><pre><code class="language-java" data-lang="java">  
+<span class="n">network</span><span class="o">={</span>  
+	<span class="n">ssid</span><span class="o">=</span><span class="s">"TP-LINK_92E3C2"</span>  
+	<span class="n">psk</span><span class="o">=</span><span class="s">"cheng21210882"</span>  
+	<span class="n">key_mgmt</span><span class="o">=</span><span class="n">WPA</span><span class="o">-</span><span class="n">PSK</span>  
+	<span class="n">priority</span><span class="o">=</span><span class="mi">10</span>  
+<span class="o">}</span> </code></pre></figure>
+
+<p><code class="highlighter-rouge">ssid=</code>后面的就是你连接的WIFI网络名。<br />
+<code class="highlighter-rouge">psk=</code>后面的就是此WIFI网络的密码。<br />
+<code class="highlighter-rouge">key_mgmt=</code>后面内容为加密类型。<br />
+<code class="highlighter-rouge">priority=</code>越小优先级越高</p>
 
 <p>还能同时修改一下自动连接wifi的<strong>优先级</strong>顺序 O(∩_∩)O~</p>
 

@@ -6,8 +6,8 @@
     <atom:link href="eiot.github.io/rss.xml" rel="self" type="application/rss+xml" />
     <description>Computer can change your life for the better.</description>
     <language>zh-cn</language>
-    <pubDate>Fri, 29 Apr 2016 12:00:21 +0800</pubDate>
-    <lastBuildDate>Fri, 29 Apr 2016 12:00:21 +0800</lastBuildDate>
+    <pubDate>Fri, 29 Apr 2016 15:59:28 +0800</pubDate>
+    <lastBuildDate>Fri, 29 Apr 2016 15:59:28 +0800</lastBuildDate>
 
     
     <item>
@@ -18,16 +18,58 @@
       <guid>eiot.github.io/linux/2016/04/28/Jekyll学习</guid>
       <description>&lt;p&gt;自己建站&lt;/p&gt;
 
-&lt;h3 id=&quot;section&quot;&gt;首先看其他大神的博客&lt;/h3&gt;
+&lt;h3 id=&quot;jekyll&quot;&gt;Jekyll的文件架构&lt;/h3&gt;
 
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;1：Github的使用&lt;/li&gt;
-    &lt;li&gt;2：Jekyll的使用&lt;/li&gt;
-    &lt;li&gt;3：自定义的域名&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;  
+&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_includes&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;footer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;icon&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;我暂时没有！&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;icon&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;svg&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;我暂时没有！&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;icon&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;twitter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;我暂时没有！&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;└&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;icon&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;twitter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;svg&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;我暂时没有！&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_layouts&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;模板暂时没有！&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;└&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_posts&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;撰写的博文都放在这里&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;└&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2016&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;03&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;04&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;welcome&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;markdown&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_sass&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;├&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_base&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;scss&lt;/span&gt;  
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_layout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;scss&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;└&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_syntax&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;highlighting&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;scss&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;assets&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;模板暂时没有！&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;├&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;└&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;css&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;└&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;scss&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;gitignore&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;yml&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;404&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;模板暂时没有！&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;about&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;md&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;feed&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;xml&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ie&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;xml&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;模板暂时没有！&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;LICENSE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;txt&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;模板暂时没有！&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;└&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rss&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;xml&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;模板暂时没有！&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
+&lt;h3 id=&quot;section&quot;&gt;博文的头文件&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;  
+&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;nl&quot;&gt;layout:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;
+&lt;span class=&quot;nl&quot;&gt;title:&lt;/span&gt;  &lt;span class=&quot;s&quot;&gt;&quot;Jekyll学习&quot;&lt;/span&gt;
+&lt;span class=&quot;nl&quot;&gt;date:&lt;/span&gt;   &lt;span class=&quot;mi&quot;&gt;2016&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;04&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;28&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;00&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;34&lt;/span&gt;
+&lt;span class=&quot;nl&quot;&gt;categories:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;linux&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;layout&lt;/code&gt;表示使用的是post布局，&lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt;是文章标题，&lt;code class=&quot;highlighter-rouge&quot;&gt;date&lt;/code&gt;是自动生成的日期，&lt;code class=&quot;highlighter-rouge&quot;&gt;categories&lt;/code&gt;是该文章生成html文件后存放的目录，可以去_site下找到对应日期下面的html文档。
+当然也可以只设置jekyll单一的目录，甚至是更多级别的目录，用空格分开即可。头信息设置完成后就可以书写正文了。&lt;/p&gt;
+
+&lt;h3 id=&quot;next&quot;&gt;NEXT&lt;/h3&gt;
 &lt;p&gt;摸索中！！！过几天再来写吧！&lt;/p&gt;
 
 &lt;h3 id=&quot;section-1&quot;&gt;有问题反馈&lt;/h3&gt;
@@ -46,43 +88,43 @@
 
 &lt;h3 id=&quot;git-1&quot;&gt;Git的安装与配置&lt;/h3&gt;
 &lt;p&gt;Windows下有较为方便的客户端，便不再详述了，只介绍Linux命令行中的使用方法。&lt;br /&gt;
-尝试输入&lt;code&gt;$ git&lt;/code&gt;，就能检查系统有没有安装Git。&lt;br /&gt;
-如果系统正好是Debian或Ubuntu，&lt;code&gt;$ sudo apt-get install git&lt;/code&gt;这一句命令就能够方便地完成Git的安装！&lt;br /&gt;
+尝试输入&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git&lt;/code&gt;，就能检查系统有没有安装Git。&lt;br /&gt;
+如果系统正好是Debian或Ubuntu，&lt;code class=&quot;highlighter-rouge&quot;&gt;$ sudo apt-get install git&lt;/code&gt;这一句命令就能够方便地完成Git的安装！&lt;br /&gt;
 安装完成后，还需要一步设置来自报家门（你的名字和Email地址）：&lt;br /&gt;
-&lt;code&gt;$ git config --global user.name &quot;Your Name&quot;  
+&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git config --global user.name &quot;Your Name&quot;  
 $ git config --global user.email &quot;email@example.com&quot;&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Git中的术语&lt;strong&gt;repository&lt;/strong&gt;就是版本库，又名仓库，可以简单理解成Git管理的一个目录。每个文件的修改、删除，Git都能跟踪，以便任何时刻都可以追踪历史，或者在将来某个时刻可以“还原”。为了避免遇到各种莫名其妙的问题，请确保目录名（包括父目录）中&lt;strong&gt;不包含中文&lt;/strong&gt;！&lt;/p&gt;
 
-&lt;p&gt;通过&lt;code&gt;$ git init&lt;/code&gt;可将这个目录初始化为Git可以管理的仓库。
+&lt;p&gt;通过&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git init&lt;/code&gt;可将这个目录初始化为Git可以管理的仓库。
 这时当前目录下会多出一个.git的目录，这个目录是Git来跟踪管理版本库的，千万不要手动修改这个目录里面的文件，不然就把Git仓库给破坏了。&lt;/p&gt;
 
 &lt;h3 id=&quot;git-2&quot;&gt;Git的常用方法&lt;/h3&gt;
-&lt;p&gt;(1)&lt;code&gt;$ git status&lt;/code&gt;可以让我们时刻掌握仓库当前的状态。&lt;br /&gt;
-(2)&lt;code&gt;$ git diff readme.txt&lt;/code&gt;就是查看文件readme.txt 的改变。&lt;br /&gt;
-(3)&lt;code&gt;$ git add readme.txt&lt;/code&gt;  文件readme.txt修改添加到暂存区&lt;br /&gt;
-(4)&lt;code&gt;$ git commit -m &quot;3th&quot;&lt;/code&gt;  将暂存区的所有内容提交到当前分支中，“3th”是备注。&lt;br /&gt;
-(5)&lt;code&gt;$ git log&lt;/code&gt;  查看版本控制的历史记录&lt;br /&gt;
+&lt;p&gt;(1)&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git status&lt;/code&gt;可以让我们时刻掌握仓库当前的状态。&lt;br /&gt;
+(2)&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git diff readme.txt&lt;/code&gt;就是查看文件readme.txt 的改变。&lt;br /&gt;
+(3)&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git add readme.txt&lt;/code&gt;  文件readme.txt修改添加到暂存区&lt;br /&gt;
+(4)&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git commit -m &quot;3th&quot;&lt;/code&gt;  将暂存区的所有内容提交到当前分支中，“3th”是备注。&lt;br /&gt;
+(5)&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git log&lt;/code&gt;  查看版本控制的历史记录&lt;br /&gt;
 由于协同工作等原因，使用传统版本编号方式容易冲突，每个版本是以&lt;strong&gt;SHA1值&lt;/strong&gt;来进行编号的，平时使用时输入前几位数即可！&lt;br /&gt;
-(6)&lt;code&gt;$ git log --pretty=oneline&lt;/code&gt;只显示历史记录的SHA1值和备注&lt;br /&gt;
-(7)&lt;code&gt;$ git reset --hard HEAD^&lt;/code&gt;   回退到上一个版本&lt;br /&gt;
+(6)&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git log --pretty=oneline&lt;/code&gt;只显示历史记录的SHA1值和备注&lt;br /&gt;
+(7)&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git reset --hard HEAD^&lt;/code&gt;   回退到上一个版本&lt;br /&gt;
 在Git中，用HEAD表示当前版本，上一个版本就是HEAD^，上上一个版本就是HEAD^^，当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100&lt;br /&gt;
-(8)&lt;code&gt;$ git reset --hard 3628164&lt;/code&gt;  回退到某一个版本&lt;br /&gt;
+(8)&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git reset --hard 3628164&lt;/code&gt;  回退到某一个版本&lt;br /&gt;
 代表回退到SHA1值以3628164开头的那个版本&lt;br /&gt;
-(9)&lt;code&gt;$ cat readme.txt&lt;/code&gt;  查看readme.txt的内容&lt;br /&gt;
-(10)&lt;code&gt;$ git reflog&lt;/code&gt;  记录每一次的输入命令&lt;br /&gt;
-(11)&lt;code&gt;$ git checkout -- readme.txt&lt;/code&gt;  回到最近一次git commit或git add时的状态&lt;br /&gt;
-(12)&lt;code&gt;$ git reset HEAD readme.txt&lt;/code&gt;  把暂存区的修改撤销掉，重新放回工作区&lt;br /&gt;
-(13)&lt;code&gt;$ git rm test.txt&lt;/code&gt;  从版本库中删除该文件  需要配合git commit&lt;br /&gt;
-(14)&lt;code&gt;$ git remote add origin git@github.com:eiot/git_project.git&lt;/code&gt; 本地关联远程库&lt;br /&gt;
-(15)&lt;code&gt;$ git push -u origin master&lt;/code&gt; 把本地库的所有内容推送到远程库上(第一次-u关联)&lt;br /&gt;
-(16)&lt;code&gt;$ git push origin master&lt;/code&gt;&lt;br /&gt;
-(17)&lt;code&gt;$ git clone git@github.com:eiot/matlab.git&lt;/code&gt;&lt;br /&gt;
-(18)&lt;code&gt;$ git checkout -b dev&lt;/code&gt;  创建并切换至dev分支&lt;br /&gt;
-(19)&lt;code&gt;$ git branch&lt;/code&gt;  查看当前分支,当前分支前面会标一个*号&lt;br /&gt;
-(20)&lt;code&gt;$ git checkout master&lt;/code&gt;  切换回master分支&lt;br /&gt;
-(21)&lt;code&gt;$ git merge dev &lt;/code&gt; 把dev分支的工作成果合并到master分支&lt;br /&gt;
-(22)&lt;code&gt;$ git branch -d dev &lt;/code&gt; 删除dev分支&lt;/p&gt;
+(9)&lt;code class=&quot;highlighter-rouge&quot;&gt;$ cat readme.txt&lt;/code&gt;  查看readme.txt的内容&lt;br /&gt;
+(10)&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git reflog&lt;/code&gt;  记录每一次的输入命令&lt;br /&gt;
+(11)&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git checkout -- readme.txt&lt;/code&gt;  回到最近一次git commit或git add时的状态&lt;br /&gt;
+(12)&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git reset HEAD readme.txt&lt;/code&gt;  把暂存区的修改撤销掉，重新放回工作区&lt;br /&gt;
+(13)&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git rm test.txt&lt;/code&gt;  从版本库中删除该文件  需要配合git commit&lt;br /&gt;
+(14)&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git remote add origin git@github.com:eiot/git_project.git&lt;/code&gt; 本地关联远程库&lt;br /&gt;
+(15)&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git push -u origin master&lt;/code&gt; 把本地库的所有内容推送到远程库上(第一次-u关联)&lt;br /&gt;
+(16)&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git push origin master&lt;/code&gt;&lt;br /&gt;
+(17)&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git clone git@github.com:eiot/matlab.git&lt;/code&gt;&lt;br /&gt;
+(18)&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git checkout -b dev&lt;/code&gt;  创建并切换至dev分支&lt;br /&gt;
+(19)&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git branch&lt;/code&gt;  查看当前分支,当前分支前面会标一个*号&lt;br /&gt;
+(20)&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git checkout master&lt;/code&gt;  切换回master分支&lt;br /&gt;
+(21)&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git merge dev &lt;/code&gt; 把dev分支的工作成果合并到master分支&lt;br /&gt;
+(22)&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git branch -d dev &lt;/code&gt; 删除dev分支&lt;/p&gt;
 
 &lt;p&gt;个人觉得&lt;a href=&quot;http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000&quot;&gt;廖雪峰&lt;/a&gt;是个蛮不错的Git入门级教程！大家有时间最好多看看！&lt;/p&gt;
 
@@ -113,18 +155,20 @@ $ git config --global user.email &quot;email@example.com&quot;&lt;/code&gt;&lt;/
 2.进入data/misc/wifi（RE管理器可以显示隐藏的文件，手机自带的文件系统不行）
 3.使用文本查看器打开bcm_supp.conf或wpa_supplicant.conf&lt;/p&gt;
 
-&lt;p&gt;以下内容：&lt;br /&gt;
-&lt;code&gt;network={
-ssid=&quot;TP-LINK_92E3C2&quot;
-psk=&quot;cheng21210882&quot;
-key_mgmt=WPA-PSK
-priority=10
-} &lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;以下内容：&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;ssid=&lt;/code&gt;后面的就是你连接的WIFI网络名。&lt;br /&gt;
-&lt;code&gt;psk=&lt;/code&gt;后面的就是此WIFI网络的密码。&lt;br /&gt;
-&lt;code&gt;key_mgmt=&lt;/code&gt;后面内容为加密类型。&lt;br /&gt;
-&lt;code&gt;priority=&lt;/code&gt;越小优先级越高&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;  
+&lt;span class=&quot;n&quot;&gt;network&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;={&lt;/span&gt;  
+	&lt;span class=&quot;n&quot;&gt;ssid&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;TP-LINK_92E3C2&quot;&lt;/span&gt;  
+	&lt;span class=&quot;n&quot;&gt;psk&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;cheng21210882&quot;&lt;/span&gt;  
+	&lt;span class=&quot;n&quot;&gt;key_mgmt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;WPA&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PSK&lt;/span&gt;  
+	&lt;span class=&quot;n&quot;&gt;priority&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;  
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ssid=&lt;/code&gt;后面的就是你连接的WIFI网络名。&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;psk=&lt;/code&gt;后面的就是此WIFI网络的密码。&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;key_mgmt=&lt;/code&gt;后面内容为加密类型。&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;priority=&lt;/code&gt;越小优先级越高&lt;/p&gt;
 
 &lt;p&gt;还能同时修改一下自动连接wifi的&lt;strong&gt;优先级&lt;/strong&gt;顺序 O(∩_∩)O~&lt;/p&gt;
 
