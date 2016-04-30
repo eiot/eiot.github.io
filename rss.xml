@@ -6,8 +6,8 @@
     <atom:link href="eiot.github.io/rss.xml" rel="self" type="application/rss+xml" />
     <description>Computer can change your life for the better.</description>
     <language>zh-cn</language>
-    <pubDate>Fri, 29 Apr 2016 15:59:28 +0800</pubDate>
-    <lastBuildDate>Fri, 29 Apr 2016 15:59:28 +0800</lastBuildDate>
+    <pubDate>Sat, 30 Apr 2016 13:30:03 +0800</pubDate>
+    <lastBuildDate>Sat, 30 Apr 2016 13:30:03 +0800</lastBuildDate>
 
     
     <item>
@@ -16,7 +16,7 @@
       <pubDate>28 Apr 2016</pubDate>
       <author>Huangxu</author>
       <guid>eiot.github.io/linux/2016/04/28/Jekyll学习</guid>
-      <description>&lt;p&gt;自己建站&lt;/p&gt;
+      <description>&lt;p&gt;这是个人在github上建站的基本教程！&lt;/p&gt;
 
 &lt;h3 id=&quot;jekyll&quot;&gt;Jekyll的文件架构&lt;/h3&gt;
 
@@ -91,8 +91,8 @@
 尝试输入&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git&lt;/code&gt;，就能检查系统有没有安装Git。&lt;br /&gt;
 如果系统正好是Debian或Ubuntu，&lt;code class=&quot;highlighter-rouge&quot;&gt;$ sudo apt-get install git&lt;/code&gt;这一句命令就能够方便地完成Git的安装！&lt;br /&gt;
 安装完成后，还需要一步设置来自报家门（你的名字和Email地址）：&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git config --global user.name &quot;Your Name&quot;  
-$ git config --global user.email &quot;email@example.com&quot;&lt;/code&gt;&lt;/p&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git config --global user.name &quot;Your Name&quot;&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git config --global user.email &quot;email@example.com&quot;&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Git中的术语&lt;strong&gt;repository&lt;/strong&gt;就是版本库，又名仓库，可以简单理解成Git管理的一个目录。每个文件的修改、删除，Git都能跟踪，以便任何时刻都可以追踪历史，或者在将来某个时刻可以“还原”。为了避免遇到各种莫名其妙的问题，请确保目录名（包括父目录）中&lt;strong&gt;不包含中文&lt;/strong&gt;！&lt;/p&gt;
 
@@ -143,6 +143,67 @@ $ git config --global user.email &quot;email@example.com&quot;&lt;/code&gt;&lt;/
     </item>
     
     <item>
+      <title>解决unknown-filesystem-grub-rescue</title>
+      <link>eiot.github.io/knack/2016/02/28/%E8%A7%A3%E5%86%B3unknown-filesystem-grub-rescue.html</link>
+      <pubDate>28 Feb 2016</pubDate>
+      <author>Huangxu</author>
+      <guid>eiot.github.io/knack/2016/02/28/解决unknown-filesystem-grub-rescue</guid>
+      <description>&lt;h3 id=&quot;section&quot;&gt;症状&lt;/h3&gt;
+&lt;p&gt;双系统电脑出现了故障方法，显示&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;error：unknown filesystem grub rescue&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;解决方案&lt;/h3&gt;
+
+&lt;p&gt;1.找出你的Linux盘在那个分区以及grub目录在什么位置&lt;br /&gt;
+如果你还记得最好，忘了也无所谓，使用下面命令逐个试探即可。&lt;br /&gt;
+·grub rescue&amp;gt;ls·  //列出本机所有磁盘及分区，比如:hd0,(hd0,1) ,(hd0,4),(hd0,7),(hd0,8),(hd0,9)等 &lt;br /&gt;
+循环使用下面的命令，直至显示该分区所包含内容而不是&lt;code class=&quot;highlighter-rouge&quot;&gt;unknown filesystem&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;grub rescue&amp;gt;ls (hd0,0)/grub&lt;/code&gt; &lt;br /&gt;
+假设我们试到(hd0,8)时，成功显示了内容。&lt;/p&gt;
+
+&lt;p&gt;2.设置路径&lt;br /&gt;
+执行&lt;code class=&quot;highlighter-rouge&quot;&gt;grub rescue&amp;gt;set  root=(hd0,8) &lt;/code&gt;  //括号里为上一步尝试成功的分区&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;grub rescue&amp;gt;set  prefix=(hd0,8)/grub&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;3.退出grub rescue模式&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;grub rescue&amp;gt;insmod  /grub/normal.mod&lt;/code&gt;&lt;br /&gt;
+退出了grub rescue模式，进入了熟悉的grub模式。&lt;/p&gt;
+
+&lt;p&gt;4.确定设置&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;grub&amp;gt;normal&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;5.修复grub&lt;br /&gt;
+进入Linux系统后，执行&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo  update-grub&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;6.安装grub
+&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo grub-install /dev/sda&lt;/code&gt;              //sda是你的启动磁盘&lt;/p&gt;
+
+&lt;p&gt;可参考&lt;a href=&quot;http://jingyan.baidu.com/article/c85b7a640cd7d6003bac95f8.html&quot;&gt;百度经验&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;有问题反馈&lt;/h3&gt;
+&lt;p&gt;在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>阻止Win10升级</title>
+      <link>eiot.github.io/knack/2016/02/23/%E9%98%BB%E6%AD%A2Win10%E5%8D%87%E7%BA%A7.html</link>
+      <pubDate>23 Feb 2016</pubDate>
+      <author>Huangxu</author>
+      <guid>eiot.github.io/knack/2016/02/23/阻止Win10升级</guid>
+      <description>&lt;h3 id=&quot;win10&quot;&gt;系统提示升级到Win10&lt;/h3&gt;
+&lt;p&gt;下面老是跳出提示要求升级到Win10&lt;/p&gt;
+
+&lt;p&gt;可进入控制面板，卸载以下这两个更新即可
+&lt;code class=&quot;highlighter-rouge&quot;&gt;KB3035583&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;KB2952664&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;有问题反馈&lt;/h3&gt;
+&lt;p&gt;在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>查看Android-Wifi密码</title>
       <link>eiot.github.io/knack/2016/01/19/%E6%9F%A5%E7%9C%8BAndroid-Wifi%E5%AF%86%E7%A0%81.html</link>
       <pubDate>19 Jan 2016</pubDate>
@@ -151,8 +212,8 @@ $ git config --global user.email &quot;email@example.com&quot;&lt;/code&gt;&lt;/
       <description>&lt;h3 id=&quot;section&quot;&gt;方法&lt;/h3&gt;
 &lt;p&gt;要想查看Android手机的Wifi密码，必须先获取手机的&lt;strong&gt;root权限&lt;/strong&gt;！！！&lt;/p&gt;
 
-&lt;p&gt;1.下载并安装好 RE管理器
-2.进入data/misc/wifi（RE管理器可以显示隐藏的文件，手机自带的文件系统不行）
+&lt;p&gt;1.下载并安装好 &lt;strong&gt;RE管理器&lt;/strong&gt;
+2.进入data/misc/wifi（RE管理器可以显示&lt;strong&gt;隐藏的文件&lt;/strong&gt;，手机自带的文件系统不行）
 3.使用文本查看器打开bcm_supp.conf或wpa_supplicant.conf&lt;/p&gt;
 
 &lt;p&gt;以下内容：&lt;/p&gt;
@@ -166,7 +227,7 @@ $ git config --global user.email &quot;email@example.com&quot;&lt;/code&gt;&lt;/
 &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ssid=&lt;/code&gt;后面的就是你连接的WIFI网络名。&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;psk=&lt;/code&gt;后面的就是此WIFI网络的密码。&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;psk=&lt;/code&gt;后面的就是此WIFI网络的&lt;strong&gt;密码&lt;/strong&gt;。&lt;br /&gt;
 &lt;code class=&quot;highlighter-rouge&quot;&gt;key_mgmt=&lt;/code&gt;后面内容为加密类型。&lt;br /&gt;
 &lt;code class=&quot;highlighter-rouge&quot;&gt;priority=&lt;/code&gt;越小优先级越高&lt;/p&gt;
 
