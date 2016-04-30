@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <!--[if lte IE 9]><meta http-equiv="refresh" content="0;url=/ie.html"><![endif]-->
 
-    <title>404 Not Found Error</title>
+    <title>解决双系统unknown-filesystem-grub-rescue</title>
     <meta name="description" content="">
 
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
@@ -125,10 +125,68 @@
     <div id="post">
       <div id="pjax">
         <article id="post__content">
-  <h1 id="post__title">找不到页面，404错误</h1>
+  <h1 id="post__title" data-identifier="20160228">解决双系统unknown-filesystem-grub-rescue</h1>
+  <h3 id="section">症状</h3>
+<p>双系统电脑出现了故障方法，显示<br />
+<code class="highlighter-rouge">error：unknown filesystem grub rescue</code></p>
+
+<h3 id="section-1">解决方案</h3>
+
+<p>1.找出你的Linux盘在那个分区以及grub目录在什么位置<br />
+如果你还记得最好，忘了也无所谓，使用下面命令逐个试探即可。<br />
+<code class="highlighter-rouge">grub rescue&gt;ls</code>  //列出本机所有磁盘及分区，比如:hd0,(hd0,1) ,(hd0,4),(hd0,7),(hd0,8),(hd0,9)等 <br />
+循环使用下面的命令，直至显示该分区所包含内容而不是<code class="highlighter-rouge">unknown filesystem</code>
+<code class="highlighter-rouge">grub rescue&gt;ls (hd0,0)/grub</code> <br />
+假设我们试到(hd0,8)时，成功显示了内容。</p>
+
+<p>2.设置路径<br />
+<code class="highlighter-rouge">grub rescue&gt;set  root=(hd0,8) </code>  //括号里为上一步尝试成功的分区<br />
+<code class="highlighter-rouge">grub rescue&gt;set  prefix=(hd0,8)/grub</code></p>
+
+<p>3.退出grub rescue模式<br />
+<code class="highlighter-rouge">grub rescue&gt;insmod  /grub/normal.mod</code><br />
+退出了grub rescue模式，进入了熟悉的grub模式。</p>
+
+<p>4.确定设置<br />
+<code class="highlighter-rouge">grub&gt;normal</code></p>
+
+<p>5.修复grub<br />
+进入Linux系统后，执行<br />
+<code class="highlighter-rouge">sudo  update-grub</code></p>
+
+<p>6.安装grub
+<code class="highlighter-rouge">sudo grub-install /dev/sda</code>              //sda是你的启动磁盘</p>
+
+<p>可参考<a href="http://jingyan.baidu.com/article/c85b7a640cd7d6003bac95f8.html">百度经验</a></p>
+
+<h3 id="section-2">有问题反馈</h3>
+<p>在使用中有任何问题，欢迎反馈给我！</p>
+
 </article> <!-- end #post__content -->
 
-<script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8" homePageUrl="http://eiot.github.io/index.html" homePageName="返回到博客的主页！"></script>
+<div id="post__share">
+  <a id="icon-weibo" class="fontello" href="http://v.t.sina.com.cn/share/share.php?url=eiot.github.io/knack/2016/02/28/%E8%A7%A3%E5%86%B3%E5%8F%8C%E7%B3%BB%E7%BB%9Funknown-filesystem-grub-rescue.html&title=解决双系统unknown-filesystem-grub-rescue" target="_blank"></a>
+  <a id="icon-twitter" class="fontello" href="https://twitter.com/intent/tweet?url=eiot.github.io/knack/2016/02/28/%E8%A7%A3%E5%86%B3%E5%8F%8C%E7%B3%BB%E7%BB%9Funknown-filesystem-grub-rescue.html&text=解决双系统unknown-filesystem-grub-rescue" target="_blank"></a>
+  <!--<a id="icon-cc" class="fontello" href="http://creativecommons.org/licenses/by-nc-sa/3.0" target="_blank"></a>-->
+</div> <!-- end #post__share -->
+
+
+ <script  type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1995082"></script>
+ 
+ <!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
+<!-- UY END -->
+ <!--友言http://www.uyan.cc/getcode-->
+  <div id="uyan_frame"></div>
+  
+  <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink" target="_blank">Loading Disqus comments...</a>
+</div> <!-- end #disqus_thread -->
+
+<p id="copyright">Powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a>&nbsp;&nbsp;|&nbsp;&nbsp;Theme <a href="https://github.com/P233/3-Jekyll" target="_blank">3-Jekyll</a></p>
+
       </div> <!-- end #pjax -->
 
       <div id="post__toc-trigger">
