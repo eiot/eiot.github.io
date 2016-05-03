@@ -6,8 +6,8 @@
     <atom:link href="eiot.github.io/rss.xml" rel="self" type="application/rss+xml" />
     <description>Computer can change your life for the better.</description>
     <language>zh-cn</language>
-    <pubDate>Tue, 03 May 2016 18:50:08 +0800</pubDate>
-    <lastBuildDate>Tue, 03 May 2016 18:50:08 +0800</lastBuildDate>
+    <pubDate>Tue, 03 May 2016 18:58:17 +0800</pubDate>
+    <lastBuildDate>Tue, 03 May 2016 18:58:17 +0800</lastBuildDate>
 
     
     <item>
@@ -143,11 +143,11 @@
     </item>
     
     <item>
-      <title>解决双系统unknown-filesystem-grub-rescue</title>
+      <title>解决双系统unknown filesystem grub rescue</title>
       <link>eiot.github.io/knack/2016/02/28/%E8%A7%A3%E5%86%B3%E5%8F%8C%E7%B3%BB%E7%BB%9Funknown-filesystem-grub-rescue.html</link>
       <pubDate>28 Feb 2016</pubDate>
       <author>Huangxu</author>
-      <guid>eiot.github.io/knack/2016/02/28/解决双系统unknown-filesystem-grub-rescue</guid>
+      <guid>eiot.github.io/knack/2016/02/28/解决双系统unknown filesystem grub rescue</guid>
       <description>&lt;h3 id=&quot;section&quot;&gt;症状&lt;/h3&gt;
 &lt;p&gt;双系统电脑出现了故障方法，显示&lt;br /&gt;
 &lt;code class=&quot;highlighter-rouge&quot;&gt;error：unknown filesystem grub rescue&lt;/code&gt;&lt;/p&gt;
@@ -187,11 +187,11 @@
     </item>
     
     <item>
-      <title>阻止Win10升级</title>
-      <link>eiot.github.io/knack/2016/02/23/%E9%98%BB%E6%AD%A2Win10%E5%8D%87%E7%BA%A7.html</link>
+      <title>阻止升级为Win10</title>
+      <link>eiot.github.io/knack/2016/02/23/%E9%98%BB%E6%AD%A2%E5%8D%87%E7%BA%A7%E4%B8%BAWin10.html</link>
       <pubDate>23 Feb 2016</pubDate>
       <author>Huangxu</author>
-      <guid>eiot.github.io/knack/2016/02/23/阻止Win10升级</guid>
+      <guid>eiot.github.io/knack/2016/02/23/阻止升级为Win10</guid>
       <description>&lt;h3 id=&quot;win10&quot;&gt;系统提示升级到Win10&lt;/h3&gt;
 &lt;p&gt;下面老是跳出提示要求升级到Win10&lt;/p&gt;
 
@@ -205,11 +205,11 @@
     </item>
     
     <item>
-      <title>查看Android-Wifi密码</title>
+      <title>查看Android Wifi密码</title>
       <link>eiot.github.io/knack/2016/01/19/%E6%9F%A5%E7%9C%8BAndroid-Wifi%E5%AF%86%E7%A0%81.html</link>
       <pubDate>19 Jan 2016</pubDate>
       <author>Huangxu</author>
-      <guid>eiot.github.io/knack/2016/01/19/查看Android-Wifi密码</guid>
+      <guid>eiot.github.io/knack/2016/01/19/查看Android Wifi密码</guid>
       <description>&lt;h3 id=&quot;section&quot;&gt;方法&lt;/h3&gt;
 &lt;p&gt;要想查看Android手机的Wifi密码，必须先获取手机的&lt;strong&gt;root权限&lt;/strong&gt;！！！&lt;/p&gt;
 
