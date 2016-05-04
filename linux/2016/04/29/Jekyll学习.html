@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <!--[if lte IE 9]><meta http-equiv="refresh" content="0;url=/ie.html"><![endif]-->
 
-    <title>解决双系统unknown filesystem grub rescue</title>
+    <title>Jekyll学习</title>
     <meta name="description" content="">
 
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
@@ -132,48 +132,72 @@
     <div id="post">
       <div id="pjax">
         <article id="post__content">
-  <h1 id="post__title" data-identifier="20160228">解决双系统unknown filesystem grub rescue</h1>
-  <h3 id="section">症状</h3>
-<p>双系统电脑出现了故障方法，显示<br />
-<code class="highlighter-rouge">error：unknown filesystem grub rescue</code></p>
+  <h1 id="post__title" data-identifier="20160429">Jekyll学习</h1>
+  <p>这是个人在github上建站的基本教程！<br />
+<a href="/index.html">回到主页</a></p>
 
-<h3 id="section-1">解决方案</h3>
+<h3 id="jekyll">Jekyll的文件架构</h3>
 
-<p>1.找出你的Linux盘在那个分区以及grub目录在什么位置<br />
-如果你还记得最好，忘了也无所谓，使用下面命令逐个试探即可。<br />
-<code class="highlighter-rouge">grub rescue&gt;ls</code>  //列出本机所有磁盘及分区，比如:hd0,(hd0,1) ,(hd0,4),(hd0,7),(hd0,8),(hd0,9)等 <br />
-循环使用下面的命令，直至显示该分区所包含内容而不是<code class="highlighter-rouge">unknown filesystem</code>
-<code class="highlighter-rouge">grub rescue&gt;ls (hd0,0)/grub</code> <br />
-假设我们试到(hd0,8)时，成功显示了内容。</p>
+<figure class="highlight"><pre><code class="language-java" data-lang="java">  
+<span class="o">.</span>
+<span class="err">├</span> <span class="n">_includes</span>  <span class="err">作为公共的内容被其他文章引用</span>
+<span class="err">│</span>   <span class="err">├</span> <span class="n">footer</span><span class="o">.</span><span class="na">html</span>
+<span class="err">│</span>   <span class="err">├</span> <span class="n">header</span><span class="o">.</span><span class="na">html</span>
+<span class="err">│</span>   <span class="err">├</span> <span class="n">head</span><span class="o">.</span><span class="na">html</span>
+<span class="err">│</span>   <span class="err">├</span> <span class="n">icon</span><span class="o">-</span><span class="n">github</span><span class="o">.</span><span class="na">html</span>   <span class="err">我暂时没有！</span>
+<span class="err">│</span>   <span class="err">├</span> <span class="n">icon</span><span class="o">-</span><span class="n">github</span><span class="o">.</span><span class="na">svg</span>   <span class="err">我暂时没有！</span>
+<span class="err">│</span>   <span class="err">├</span> <span class="n">icon</span><span class="o">-</span><span class="n">twitter</span><span class="o">.</span><span class="na">html</span>   <span class="err">我暂时没有！</span>
+<span class="err">│</span>   <span class="err">└</span> <span class="n">icon</span><span class="o">-</span><span class="n">twitter</span><span class="o">.</span><span class="na">svg</span>   <span class="err">我暂时没有！</span>
+<span class="err">├</span> <span class="n">_layouts</span>   <span class="err">默认的公共页面，主要的模板文件</span>
+<span class="err">│</span>   <span class="err">├</span> <span class="k">default</span><span class="o">.</span><span class="na">html</span>
+<span class="err">│</span>   <span class="err">├</span> <span class="n">index</span><span class="o">.</span><span class="na">html</span>   <span class="err">模板暂时没有！</span>
+<span class="err">│</span>   <span class="err">├</span> <span class="n">page</span><span class="o">.</span><span class="na">html</span>
+<span class="err">│</span>   <span class="err">└</span> <span class="n">post</span><span class="o">.</span><span class="na">html</span>
+<span class="err">├</span> <span class="n">_posts</span>  <span class="err">撰写的博文都放在这里</span><span class="o">!</span><span class="err">文件名必须是</span><span class="n">YYYY</span><span class="o">-</span><span class="n">MM</span><span class="o">-</span><span class="n">DD</span><span class="o">-</span><span class="n">title</span>
+<span class="err">│</span>   <span class="err">└</span> <span class="mi">2016</span><span class="o">-</span><span class="mi">03</span><span class="o">-</span><span class="mi">04</span><span class="o">-</span><span class="n">welcome</span><span class="o">-</span><span class="n">to</span><span class="o">-</span><span class="n">jekyll</span><span class="o">.</span><span class="na">markdown</span>
+<span class="err">├</span> <span class="n">_sass</span>
+<span class="err">│</span>   <span class="err">├</span><span class="n">_base</span><span class="o">.</span><span class="na">scss</span>  
+<span class="err">│</span>   <span class="err">├</span> <span class="n">_layout</span><span class="o">.</span><span class="na">scss</span>
+<span class="err">│</span>   <span class="err">└</span> <span class="n">_syntax</span><span class="o">-</span><span class="n">highlighting</span><span class="o">.</span><span class="na">scss</span>
+<span class="err">├</span> <span class="n">assets</span>   <span class="err">模板暂时没有！</span>
+<span class="err">│</span>   <span class="err">├</span>
+<span class="err">│</span>   <span class="err">└</span>
+<span class="err">├</span> <span class="n">css</span>
+<span class="err">│</span>   <span class="err">└</span> <span class="n">main</span><span class="o">.</span><span class="na">scss</span>
+<span class="err">├</span> <span class="o">.</span><span class="na">gitignore</span>  
+<span class="err">├</span> <span class="n">_config</span><span class="o">.</span><span class="na">yml</span>  <span class="err">关于</span><span class="n">jekyll</span><span class="err">模板引擎的配置文件</span>
+<span class="err">├</span> <span class="mi">404</span><span class="o">.</span><span class="na">html</span>   <span class="err">模板暂时没有！</span>
+<span class="err">├</span> <span class="n">about</span><span class="o">.</span><span class="na">md</span>
+<span class="err">├</span> <span class="n">feed</span><span class="o">.</span><span class="na">xml</span>
+<span class="err">├</span> <span class="n">ie</span><span class="o">.</span><span class="na">xml</span>   <span class="err">模板暂时没有！</span>
+<span class="err">├</span> <span class="n">index</span><span class="o">.</span><span class="na">html</span>  <span class="err">默认的主页</span>
+<span class="err">├</span> <span class="n">LICENSE</span><span class="o">.</span><span class="na">txt</span>   <span class="err">模板暂时没有！</span>
+<span class="err">└</span> <span class="n">rss</span><span class="o">.</span><span class="na">xml</span>   <span class="err">模板暂时没有！</span></code></pre></figure>
 
-<p>2.设置路径<br />
-<code class="highlighter-rouge">grub rescue&gt;set  root=(hd0,8) </code>  //括号里为上一步尝试成功的分区<br />
-<code class="highlighter-rouge">grub rescue&gt;set  prefix=(hd0,8)/grub</code></p>
+<h3 id="section">博文的头文件</h3>
 
-<p>3.退出grub rescue模式<br />
-<code class="highlighter-rouge">grub rescue&gt;insmod  /grub/normal.mod</code><br />
-退出了grub rescue模式，进入了熟悉的grub模式。</p>
+<figure class="highlight"><pre><code class="language-java" data-lang="java">  
+<span class="o">---</span>
+<span class="nl">layout:</span> <span class="n">post</span>
+<span class="nl">title:</span>  <span class="s">"Jekyll学习"</span>
+<span class="nl">date:</span>   <span class="mi">2016</span><span class="o">-</span><span class="mi">04</span><span class="o">-</span><span class="mi">28</span> <span class="mi">00</span><span class="o">:</span><span class="mi">32</span><span class="o">:</span><span class="mi">34</span>
+<span class="nl">categories:</span> <span class="n">linux</span>
+<span class="o">---</span></code></pre></figure>
 
-<p>4.确定设置<br />
-<code class="highlighter-rouge">grub&gt;normal</code></p>
+<p><code class="highlighter-rouge">layout</code>表示使用的是post布局，<code class="highlighter-rouge">title</code>是文章标题，<code class="highlighter-rouge">date</code>是自动生成的日期，<code class="highlighter-rouge">categories</code>是该文章生成html文件后存放的目录，可以去_site下找到对应日期下面的html文档。
+当然也可以只设置jekyll单一的目录，甚至是更多级别的目录，用空格分开即可。头信息设置完成后就可以书写正文了。</p>
 
-<p>5.修复grub<br />
-进入Linux系统后，执行<br />
-<code class="highlighter-rouge">sudo  update-grub</code></p>
+<h3 id="next">NEXT</h3>
+<p>摸索中！！！过几天再来写吧！</p>
 
-<p>6.安装grub<br />
-<code class="highlighter-rouge">sudo grub-install /dev/sda</code>              //sda是你的启动磁盘</p>
-
-<p>可参考<a href="http://jingyan.baidu.com/article/c85b7a640cd7d6003bac95f8.html">百度经验</a></p>
-
-<h3 id="section-2">有问题反馈</h3>
+<h3 id="section-1">有问题反馈</h3>
 <p>在使用中有任何问题，欢迎反馈给我！</p>
 
 </article> <!-- end #post__content -->
 
 <div id="post__share">
-  <a id="icon-weibo" class="fontello" href="http://v.t.sina.com.cn/share/share.php?url=eiot.github.io/knack/2016/02/28/%E8%A7%A3%E5%86%B3%E5%8F%8C%E7%B3%BB%E7%BB%9Funknown-filesystem-grub-rescue.html&title=解决双系统unknown filesystem grub rescue" target="_blank"></a>
-  <a id="icon-twitter" class="fontello" href="https://twitter.com/intent/tweet?url=eiot.github.io/knack/2016/02/28/%E8%A7%A3%E5%86%B3%E5%8F%8C%E7%B3%BB%E7%BB%9Funknown-filesystem-grub-rescue.html&text=解决双系统unknown filesystem grub rescue" target="_blank"></a>
+  <a id="icon-weibo" class="fontello" href="http://v.t.sina.com.cn/share/share.php?url=eiot.github.io/linux/2016/04/29/Jekyll%E5%AD%A6%E4%B9%A0.html&title=Jekyll学习" target="_blank"></a>
+  <a id="icon-twitter" class="fontello" href="https://twitter.com/intent/tweet?url=eiot.github.io/linux/2016/04/29/Jekyll%E5%AD%A6%E4%B9%A0.html&text=Jekyll学习" target="_blank"></a>
   <!--<a id="icon-cc" class="fontello" href="http://creativecommons.org/licenses/by-nc-sa/3.0" target="_blank"></a>-->
 </div> <!-- end #post__share -->
 

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <!--[if lte IE 9]><meta http-equiv="refresh" content="0;url=/ie.html"><![endif]-->
 
-    <title>Huangxu的博客</title>
+    <title>Git学习笔记</title>
     <meta name="description" content="">
 
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
@@ -132,39 +132,88 @@
     <div id="post">
       <div id="pjax">
         <article id="post__content">
-  <div>
-    <script>
-      (function() {
-         var cx = '002834760431752757995:6khrcmt9pig';
-         var gcse = document.createElement('script');
-         gcse.type = 'text/javascript';
-         gcse.async = true;
-         gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-          s = document.getElementsByTagName('script')[0];
-         s.parentNode.insertBefore(gcse, s);
-       })();
-    </script>
-    <gcse:search></gcse:search>
-  </div><!-- google提供的搜索引擎https://cse.google.com/cse/ -->
-  
-  <h1 id="post__title">欢迎大家来看我！--EIOT</h1>
-  <h2>About me</h2>
-  <ul>
-    <li>口号：今天学习不用功，明天努力找工作！</li>
-    <li>状态：研究生遇见很多大神，心情很Down，要加油，拒绝坐井观天</li>
-    <li>爱好：智能数码，财经新闻，户外活动</li>
-    <li>疑问：什么时候能够遇见那个她</li>
-    <li>短期目标：完成研究生学业</li>
-  </ul>
-  <h2>Contact me</h2>
-  <ul>
-    <li>Github：<a href="https://github.com/eiot">eiot</a></li>
-    <li>Mail: <a href="mailto:huangxu@hust.edu.cn">huangxu@hust.edu.cn</a></li>
-  </ul>
-  <p>ppp</p>
-  <p>普通正文</p>
-  <p>测试最后一行</p>
+  <h1 id="post__title" data-identifier="20160401">Git学习笔记</h1>
+  <h3 id="git">Git简介</h3>
+<p>Git是目前世界上最先进的分布式版本控制系统，没有之一！它能够方便地保存所有的版本。</p>
+
+<h3 id="git-1">Git的安装与配置</h3>
+<p>Windows下有较为方便的客户端，便不再详述了，只介绍Linux命令行中的使用方法。<br />
+尝试输入<code class="highlighter-rouge">$ git</code>，就能检查系统有没有安装Git。<br />
+如果系统正好是Debian或Ubuntu，<code class="highlighter-rouge">$ sudo apt-get install git</code>这一句命令就能够方便地完成Git的安装！<br />
+安装完成后，还需要一步设置来自报家门（你的名字和Email地址）：<br />
+<code class="highlighter-rouge">$ git config --global user.name "Your Name"</code>
+<code class="highlighter-rouge">$ git config --global user.email "email@example.com"</code></p>
+
+<p>Git中的术语<strong>repository</strong>就是版本库，又名仓库，可以简单理解成Git管理的一个目录。每个文件的修改、删除，Git都能跟踪，以便任何时刻都可以追踪历史，或者在将来某个时刻可以“还原”。为了避免遇到各种莫名其妙的问题，请确保目录名（包括父目录）中<strong>不包含中文</strong>！</p>
+
+<p>通过<code class="highlighter-rouge">$ git init</code>可将这个目录初始化为Git可以管理的仓库。
+这时当前目录下会多出一个.git的目录，这个目录是Git来跟踪管理版本库的，千万不要手动修改这个目录里面的文件，不然就把Git仓库给破坏了。</p>
+
+<h3 id="git-2">Git的常用方法</h3>
+<p>(1)<code class="highlighter-rouge">$ git status</code>可以让我们时刻掌握仓库当前的状态。<br />
+(2)<code class="highlighter-rouge">$ git diff readme.txt</code>就是查看文件readme.txt 的改变。<br />
+(3)<code class="highlighter-rouge">$ git add readme.txt</code>  文件readme.txt修改添加到暂存区<br />
+(4)<code class="highlighter-rouge">$ git commit -m "3th"</code>  将暂存区的所有内容提交到当前分支中，“3th”是备注。<br />
+(5)<code class="highlighter-rouge">$ git log</code>  查看版本控制的历史记录<br />
+由于协同工作等原因，使用传统版本编号方式容易冲突，每个版本是以<strong>SHA1值</strong>来进行编号的，平时使用时输入前几位数即可！<br />
+(6)<code class="highlighter-rouge">$ git log --pretty=oneline</code>只显示历史记录的SHA1值和备注<br />
+(7)<code class="highlighter-rouge">$ git reset --hard HEAD^</code>   回退到上一个版本<br />
+在Git中，用HEAD表示当前版本，上一个版本就是HEAD^，上上一个版本就是HEAD^^，当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100<br />
+(8)<code class="highlighter-rouge">$ git reset --hard 3628164</code>  回退到某一个版本<br />
+代表回退到SHA1值以3628164开头的那个版本<br />
+(9)<code class="highlighter-rouge">$ cat readme.txt</code>  查看readme.txt的内容<br />
+(10)<code class="highlighter-rouge">$ git reflog</code>  记录每一次的输入命令<br />
+(11)<code class="highlighter-rouge">$ git checkout -- readme.txt</code>  回到最近一次git commit或git add时的状态<br />
+(12)<code class="highlighter-rouge">$ git reset HEAD readme.txt</code>  把暂存区的修改撤销掉，重新放回工作区<br />
+(13)<code class="highlighter-rouge">$ git rm test.txt</code>  从版本库中删除该文件  需要配合git commit<br />
+(14)<code class="highlighter-rouge">$ git remote add origin git@github.com:eiot/git_project.git</code> 本地关联远程库<br />
+(15)<code class="highlighter-rouge">$ git push -u origin master</code> 把本地库的所有内容推送到远程库上(第一次-u关联)<br />
+(16)<code class="highlighter-rouge">$ git push origin master</code><br />
+(17)<code class="highlighter-rouge">$ git clone git@github.com:eiot/matlab.git</code><br />
+(18)<code class="highlighter-rouge">$ git checkout -b dev</code>  创建并切换至dev分支<br />
+(19)<code class="highlighter-rouge">$ git branch</code>  查看当前分支,当前分支前面会标一个*号<br />
+(20)<code class="highlighter-rouge">$ git checkout master</code>  切换回master分支<br />
+(21)<code class="highlighter-rouge">$ git merge dev </code> 把dev分支的工作成果合并到master分支<br />
+(22)<code class="highlighter-rouge">$ git branch -d dev </code> 删除dev分支</p>
+
+<p>个人觉得<a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000">廖雪峰</a>是个蛮不错的Git入门级教程！大家有时间最好多看看！</p>
+
+<h3 id="readmemd">关于README.md文件</h3>
+
+<p>github上的<strong>README.md</strong>文件就是使用的Markdown语言编写的，是一种可实现易读易写的轻量级标记语言。</p>
+
+<p>快速编辑时可参考以下网页：<br />
+* <a href="https://maxiang.io/">马克飞象</a><br />
+* <a href="http://mahua.jser.me/">mou</a></p>
+
+<h3 id="section">有问题反馈</h3>
+<p>如果您在使用中有任何问题，欢迎反馈给我！</p>
+
+
 </article> <!-- end #post__content -->
+
+<div id="post__share">
+  <a id="icon-weibo" class="fontello" href="http://v.t.sina.com.cn/share/share.php?url=eiot.github.io/linux/2016/04/01/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html&title=Git学习笔记" target="_blank"></a>
+  <a id="icon-twitter" class="fontello" href="https://twitter.com/intent/tweet?url=eiot.github.io/linux/2016/04/01/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html&text=Git学习笔记" target="_blank"></a>
+  <!--<a id="icon-cc" class="fontello" href="http://creativecommons.org/licenses/by-nc-sa/3.0" target="_blank"></a>-->
+</div> <!-- end #post__share -->
+
+
+ <script  type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1995082"></script>
+ 
+ <!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
+<!-- UY END -->
+ <!--友言http://www.uyan.cc/getcode-->
+  <div id="uyan_frame"></div>
+  
+  <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink" target="_blank">Loading Disqus comments...</a>
+</div> <!-- end #disqus_thread -->
+
+<p id="copyright">Powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a>&nbsp;&nbsp;|&nbsp;&nbsp;Theme <a href="https://github.com/P233/3-Jekyll" target="_blank">3-Jekyll</a></p>
 
       </div> <!-- end #pjax -->
 

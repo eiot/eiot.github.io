@@ -5,19 +5,2468 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 03 May 2016 18:58:17 +0800</pubDate>
-    <lastBuildDate>Tue, 03 May 2016 18:58:17 +0800</lastBuildDate>
+    <pubDate>Wed, 04 May 2016 22:50:00 +0800</pubDate>
+    <lastBuildDate>Wed, 04 May 2016 22:50:00 +0800</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
     
       <item>
+        <title>莆田系医院名单</title>
+        <description>&lt;p&gt;将github用到了极致！
+IT的业界良心！&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;莆田系医院名单&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://fuchenxuan.cn/GetHosp/&quot;&gt;推荐本站外的查询方式&lt;/a&gt;
+&lt;a href=&quot;https://github.com/langhua9527/BlackheartedHospital&quot;&gt;本页参考来源&lt;/a&gt;
+&lt;a href=&quot;[http://news.ifeng.com/mainland/special/ptxyy/](http://news.ifeng.com/mainland/special/ptxyy/)&quot;&gt;凤凰网医院名单（较少）&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;blackheartedhospital&quot;&gt;BlackheartedHospital&lt;/h1&gt;
+
+&lt;p&gt;网传附莆田系医院名单！&lt;br /&gt;
+本文信息来自于互联网，内容与本人无关！本人仅仅转发了相关内容！  &lt;br /&gt;
+wandergis 已经根据凤凰网的数据做了一个地图出来 https://github.com/wandergis/hospital-viz&lt;br /&gt;
+fushenghua 也开源了一个查询的 https://github.com/fushenghua/GetHosp/ 的项目&lt;/p&gt;
+
+&lt;h1 id=&quot;beta&quot;&gt;版本1.2beta&lt;/h1&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;武汉&lt;/h2&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;不孕症：&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;武汉送子鸟不孕不育医院&lt;/li&gt;
+  &lt;li&gt;武汉黄浦中西医结合医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;妇科、产科：&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;武汉现代妇产医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 27 6883 6686&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;武汉当代佳丽医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 27 8756 3555&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;武汉阳光女子医院&lt;/li&gt;
+  &lt;li&gt;广州军区武汉总医院南湖妇产中心&lt;/li&gt;
+  &lt;li&gt;武汉百佳医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 27 6666 6333&lt;/li&gt;
+      &lt;li&gt;网址 www.whbjyy.com&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;武汉玛利亚妇产科医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 27 8885 8965&lt;/li&gt;
+      &lt;li&gt;网址 www.mlyfc.net&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;武汉都市妇产医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 27 8526 8003&lt;/li&gt;
+      &lt;li&gt;网址 www.whdsfk.com&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;武汉真爱妇产医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 27 8718 9999&lt;/li&gt;
+      &lt;li&gt;网址 www.87189999.com&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;武汉友好医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-4&quot;&gt;男科：&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;武汉阿波罗男科医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 27 8588 8669&lt;/li&gt;
+      &lt;li&gt;网址 www.whablnk.com&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;武汉曙光中西医结合医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 27 8812 9788&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;武汉博大男科医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 27 8589 6666&lt;/li&gt;
+      &lt;li&gt;网址 www.whnanke.net&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;武汉现代泌尿外科医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 27 8288 6888&lt;/li&gt;
+      &lt;li&gt;网址 www.xdmnyy.com&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;武汉名仕泌尿外科医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 27 8832 8080&lt;/li&gt;
+      &lt;li&gt;网址 www.whmsnk.com&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-5&quot;&gt;综合医院&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;武汉华夏医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 27 8727 5566&lt;/li&gt;
+      &lt;li&gt;网址 www.whhxyy.com&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;湖北省荣军医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 27 6208 4891&lt;/li&gt;
+      &lt;li&gt;网址 www.hbsrjyy.com&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;武汉仁爱医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 27 8379 8531&lt;/li&gt;
+      &lt;li&gt;网址 www.whrenai.com&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;武汉中原医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 27 8573 3999&lt;/li&gt;
+      &lt;li&gt;网址 www.whzyyy.com&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;武汉博爱医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 27 8672 2223&lt;/li&gt;
+      &lt;li&gt;网址 www.boaifk.com&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;武汉华仁医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 27 8787 5387&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;武汉东南医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 27 8365 9999&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;武汉同济来福康医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 27 8388 4040&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;武汉虎泉医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 27 8808 9120&lt;/li&gt;
+      &lt;li&gt;网址 www.hqsmk.com&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-6&quot;&gt;整形科：&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;武汉华美整形医院&lt;/li&gt;
+  &lt;li&gt;武汉五洲美莱整形美容医院&lt;/li&gt;
+  &lt;li&gt;武汉韩辰整形医院&lt;/li&gt;
+  &lt;li&gt;武汉艺星医疗美容医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-7&quot;&gt;专科&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;武汉华美医院&lt;/li&gt;
+  &lt;li&gt;武汉博仕肛肠肛肠医院&lt;/li&gt;
+  &lt;li&gt;武汉仁安眼耳鼻喉医院&lt;/li&gt;
+  &lt;li&gt;武汉京都结石病医院&lt;/li&gt;
+  &lt;li&gt;武汉太医堂中医院&lt;/li&gt;
+  &lt;li&gt;武汉国医堂&lt;/li&gt;
+  &lt;li&gt;武汉明德肛肠医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-8&quot;&gt;三甲医院外包科室名单如下：&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;广州军区武汉总医院（生殖中心、肿瘤科、整形）&lt;/li&gt;
+  &lt;li&gt;武汉八医院（肛肠科）&lt;/li&gt;
+  &lt;li&gt;解放军161（骨科、妇科、男科、整形）&lt;/li&gt;
+  &lt;li&gt;空军457（骨科、肝病、妇科、男科、整形）&lt;/li&gt;
+  &lt;li&gt;硚口中山医院（骨科）&lt;/li&gt;
+  &lt;li&gt;武汉科技大学附属天佑医院（介入中心、植发）&lt;/li&gt;
+  &lt;li&gt;梨园医院（介入中心、肿瘤科）&lt;/li&gt;
+  &lt;li&gt;湖北省武警总医院（整形）&lt;/li&gt;
+  &lt;li&gt;武汉解放军193医院（肝病、整形）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-9&quot;&gt;上海&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;上海市闵行区中医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 21 5187 6888&lt;/li&gt;
+      &lt;li&gt;网址 www.tcmmh.com&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;上海华美美莱整形医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 21 5885 6655&lt;/li&gt;
+      &lt;li&gt;网址 www.shhuamei.cn&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;上海万众医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 400 889 2218&lt;/li&gt;
+      &lt;li&gt;网址 www.wz120.cc&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;上海安真医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 21 5771 1006&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;上海福华医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 21 5196 1999&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;上海玛丽女子医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 21 6972 6299&lt;/li&gt;
+      &lt;li&gt;网址 www.mary120.cn&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;上海真爱女子医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 21 6226 9000&lt;/li&gt;
+      &lt;li&gt;网址 www.shzhenai.com&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;上海心脏病医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 21 6482 9999&lt;/li&gt;
+      &lt;li&gt;网址 www.yodak.net&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;上海沪申五官科医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 21 5430 5338&lt;/li&gt;
+      &lt;li&gt;网址 www.hs5g.com&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;上海远大心胸医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 21 6482 9999&lt;/li&gt;
+      &lt;li&gt;网址 www.yodak.net&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;上海仁爱医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 21 6468 8888&lt;/li&gt;
+      &lt;li&gt;网址 www.renai.cn&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;上海天大医疗美容医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 21 6408 0808&lt;/li&gt;
+      &lt;li&gt;网址 www.tida.sh.cn&lt;/li&gt;
+      &lt;li&gt;网址 www.tida120.com&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;上海五官科医院（注：这个隶属深圳博爱医疗集团，非汾阳路的复旦大学附属眼耳鼻喉科医院/上海市五官科医院）&lt;/li&gt;
+  &lt;li&gt;上海博爱医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 21 6433 3999&lt;/li&gt;
+      &lt;li&gt;网址 boaihospital.com&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;上海新虹桥医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 21 6209 2255&lt;/li&gt;
+      &lt;li&gt;网址 www.shhqyy.com&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;上海九龙男子医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 21 5273 9067&lt;/li&gt;
+      &lt;li&gt;网址 www.long120.cn&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;上海城市女子医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 21 5109 2999&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;上海西郊骨科医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 21 5220 8866&lt;/li&gt;
+      &lt;li&gt;网址 www.sdaj.net&lt;/li&gt;
+      &lt;li&gt;网址 www.gb5u.com&lt;/li&gt;
+      &lt;li&gt;网址 www.gkyy120.com&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;上海真美妇科医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 21 5509 9999&lt;/li&gt;
+      &lt;li&gt;网址 www.giivi.com&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;上海南浦妇科医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 21 5889 1199&lt;/li&gt;
+      &lt;li&gt;网址 www.nanpuyy.com&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;上海虹桥医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 21 6465 9999&lt;/li&gt;
+      &lt;li&gt;网址 www.shhqyy.com&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;上海健桥医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 21 5665 9999&lt;/li&gt;
+      &lt;li&gt;网址 www.jqbyby.com&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;上海博爱医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 21 6433 3999&lt;/li&gt;
+      &lt;li&gt;网址 boaihospital.com&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;上海长江医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 21 6502 2556&lt;/li&gt;
+      &lt;li&gt;网址 www.cjhospital.com&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;解放军411医院
+    &lt;ul&gt;
+      &lt;li&gt;电话 +86 400 0789 411&lt;/li&gt;
+      &lt;li&gt;网址 www.sh411wgk.com&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;上海阳光中医医院&lt;/li&gt;
+  &lt;li&gt;上海英港泌尿外科医院&lt;/li&gt;
+  &lt;li&gt;上海阿波罗男子医院&lt;/li&gt;
+  &lt;li&gt;上海玫瑰女子医院&lt;/li&gt;
+  &lt;li&gt;上海康新医院&lt;/li&gt;
+  &lt;li&gt;上海圣爱医院&lt;/li&gt;
+  &lt;li&gt;上海同德医院&lt;/li&gt;
+  &lt;li&gt;上海安平医院&lt;/li&gt;
+  &lt;li&gt;江东泌尿外科医院&lt;/li&gt;
+  &lt;li&gt;上海九州泌尿医院&lt;/li&gt;
+  &lt;li&gt;上海青城医院&lt;/li&gt;
+  &lt;li&gt;上海博大医院&lt;/li&gt;
+  &lt;li&gt;上海中亚医院&lt;/li&gt;
+  &lt;li&gt;上海时光整形外科医院&lt;/li&gt;
+  &lt;li&gt;上海市黄浦区中西医结合医院&lt;/li&gt;
+  &lt;li&gt;上海曙康口腔医院&lt;/li&gt;
+  &lt;li&gt;上海市浦东新区传染病医院&lt;/li&gt;
+  &lt;li&gt;上海中医药大学附属曙光医院(这个医院的整形科是莆田系的。时光整形被承包。本体不是莆田系的)&lt;/li&gt;
+  &lt;li&gt;浦东肝病专科医院&lt;/li&gt;
+  &lt;li&gt;众仁曙光医疗保健中心&lt;/li&gt;
+  &lt;li&gt;上海市松江区方塔中医医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-10&quot;&gt;北京&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;武警北京市总队第二医院&lt;/li&gt;
+  &lt;li&gt;北京华美美莱整形医院&lt;/li&gt;
+  &lt;li&gt;北京俪人女子医院&lt;/li&gt;
+  &lt;li&gt;北京北海医院&lt;/li&gt;
+  &lt;li&gt;北京前海股骨头医院&lt;/li&gt;
+  &lt;li&gt;北京市慧慈医院&lt;/li&gt;
+  &lt;li&gt;北京五洲女子医院&lt;/li&gt;
+  &lt;li&gt;北京圣保罗男子医院&lt;/li&gt;
+  &lt;li&gt;北京恒安中医院&lt;/li&gt;
+  &lt;li&gt;北京建国医院&lt;/li&gt;
+  &lt;li&gt;北京国际医疗中心&lt;/li&gt;
+  &lt;li&gt;北京天伦不孕不育医院&lt;/li&gt;
+  &lt;li&gt;北京玛丽妇婴医院&lt;/li&gt;
+  &lt;li&gt;北京美联臣医疗美容医院&lt;/li&gt;
+  &lt;li&gt;北京慧中医院&lt;/li&gt;
+  &lt;li&gt;北京阳光丽人妇科医院&lt;/li&gt;
+  &lt;li&gt;北京恒安中医院&lt;/li&gt;
+  &lt;li&gt;北京京城皮肤病医院&lt;/li&gt;
+  &lt;li&gt;北京京北医院&lt;/li&gt;
+  &lt;li&gt;北京瑞京糖尿病医院&lt;/li&gt;
+  &lt;li&gt;北京众安康中医骨科&lt;/li&gt;
+  &lt;li&gt;北京玛丽妇婴医院&lt;/li&gt;
+  &lt;li&gt;北京麦瑞骨科医院&lt;/li&gt;
+  &lt;li&gt;北京健宫医院&lt;/li&gt;
+  &lt;li&gt;北京华医中西医结合皮肤病医院&lt;/li&gt;
+  &lt;li&gt;北京德胜门中医院&lt;/li&gt;
+  &lt;li&gt;北京军都医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-11&quot;&gt;苏州&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;苏州东吴医院&lt;/li&gt;
+  &lt;li&gt;苏州华美美莱整形医院&lt;/li&gt;
+  &lt;li&gt;昆山虹桥医院&lt;/li&gt;
+  &lt;li&gt;常熟东方妇科医院&lt;/li&gt;
+  &lt;li&gt;常熟仁爱医院&lt;/li&gt;
+  &lt;li&gt;昆山阳光医院&lt;/li&gt;
+  &lt;li&gt;苏州圣爱医院&lt;/li&gt;
+  &lt;li&gt;苏州新医科&lt;/li&gt;
+  &lt;li&gt;张家港朝阳五官科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-12&quot;&gt;天津&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;天津坤如玛丽医院&lt;/li&gt;
+  &lt;li&gt;天津华北医院&lt;/li&gt;
+  &lt;li&gt;天津华厦医院&lt;/li&gt;
+  &lt;li&gt;天津丽人女子医院&lt;/li&gt;
+  &lt;li&gt;天津华山医院&lt;/li&gt;
+  &lt;li&gt;天津怡泰生殖专科医院&lt;/li&gt;
+  &lt;li&gt;天津现代女子医院&lt;/li&gt;
+  &lt;li&gt;天津怡泰医院&lt;/li&gt;
+  &lt;li&gt;天津乐园医院&lt;/li&gt;
+  &lt;li&gt;天津长庚耳鼻喉医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-13&quot;&gt;广州&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;广州华美美莱整形医院&lt;/li&gt;
+  &lt;li&gt;广州现代医院&lt;/li&gt;
+  &lt;li&gt;广州长安医院&lt;/li&gt;
+  &lt;li&gt;广州益寿医院&lt;/li&gt;
+  &lt;li&gt;广州利德医院&lt;/li&gt;
+  &lt;li&gt;番禺东方俪人医院&lt;/li&gt;
+  &lt;li&gt;番禺玛莉亚肛肠医院&lt;/li&gt;
+  &lt;li&gt;广州圣亚泌尿外科医院&lt;/li&gt;
+  &lt;li&gt;广州女子医院&lt;/li&gt;
+  &lt;li&gt;广州市江南医院&lt;/li&gt;
+  &lt;li&gt;广州济慈医院&lt;/li&gt;
+  &lt;li&gt;广东民安医院&lt;/li&gt;
+  &lt;li&gt;广州长泰医院&lt;/li&gt;
+  &lt;li&gt;广州健安医院&lt;/li&gt;
+  &lt;li&gt;广州458医院&lt;/li&gt;
+  &lt;li&gt;广州花都人爱医院&lt;/li&gt;
+  &lt;li&gt;广州远东美容医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-14&quot;&gt;珠海&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;珠海惠爱医院&lt;/li&gt;
+  &lt;li&gt;珠海九龙医院&lt;/li&gt;
+  &lt;li&gt;珠海阳光医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-15&quot;&gt;惠州&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;惠州仁德妇科医院&lt;/li&gt;
+  &lt;li&gt;惠阳女子医院&lt;/li&gt;
+  &lt;li&gt;惠州东江泌尿专科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-16&quot;&gt;中山&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;中山现代妇科医院&lt;/li&gt;
+  &lt;li&gt;中山市国丹中医院&lt;/li&gt;
+  &lt;li&gt;中山和平中医院&lt;/li&gt;
+  &lt;li&gt;中山阳光医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-17&quot;&gt;汕头&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;汕头妇产医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-18&quot;&gt;东莞&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;东莞现代妇科医院&lt;/li&gt;
+  &lt;li&gt;塘厦康桥医院&lt;/li&gt;
+  &lt;li&gt;东莞康桥妇科医院&lt;/li&gt;
+  &lt;li&gt;东莞乌沙医院&lt;/li&gt;
+  &lt;li&gt;东莞万福妇产医院&lt;/li&gt;
+  &lt;li&gt;东莞南华妇科医院&lt;/li&gt;
+  &lt;li&gt;东莞东方泌尿专科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-19&quot;&gt;江门&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;江门玛丽妇科医院&lt;/li&gt;
+  &lt;li&gt;江门福康医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-20&quot;&gt;肇庆&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;肇庆福康医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-21&quot;&gt;佛山&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;佛山三水女子医院&lt;/li&gt;
+  &lt;li&gt;顺德广济中医院&lt;/li&gt;
+  &lt;li&gt;顺德新世纪泌尿医院&lt;/li&gt;
+  &lt;li&gt;顺德庄头医院&lt;/li&gt;
+  &lt;li&gt;顺德阳光康复医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-22&quot;&gt;深圳&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;深圳美莱美容医院&lt;/li&gt;
+  &lt;li&gt;深圳福华中西医结合医院&lt;/li&gt;
+  &lt;li&gt;深圳博爱医院&lt;/li&gt;
+  &lt;li&gt;深圳曙光医院&lt;/li&gt;
+  &lt;li&gt;深圳远东妇儿科医院&lt;/li&gt;
+  &lt;li&gt;深圳仁爱医院&lt;/li&gt;
+  &lt;li&gt;深圳和美妇儿科医院&lt;/li&gt;
+  &lt;li&gt;深圳仁康医院&lt;/li&gt;
+  &lt;li&gt;深圳罗岗医院&lt;/li&gt;
+  &lt;li&gt;深圳雪象医院&lt;/li&gt;
+  &lt;li&gt;深圳健安医院&lt;/li&gt;
+  &lt;li&gt;深圳华南妇科医院&lt;/li&gt;
+  &lt;li&gt;深圳国瑞泌尿外科医院&lt;/li&gt;
+  &lt;li&gt;深圳韩美医疗美容医院&lt;/li&gt;
+  &lt;li&gt;深圳健丰医院&lt;/li&gt;
+  &lt;li&gt;深圳龙济医院&lt;/li&gt;
+  &lt;li&gt;深圳同仁妇科医院&lt;/li&gt;
+  &lt;li&gt;深圳凤凰医院&lt;/li&gt;
+  &lt;li&gt;深圳阳光医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-23&quot;&gt;昆明&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;昆明华美美莱整形医院&lt;/li&gt;
+  &lt;li&gt;云南玛莉亚女子医院&lt;/li&gt;
+  &lt;li&gt;云南玛莉亚医院&lt;/li&gt;
+  &lt;li&gt;昆明西昌路医院&lt;/li&gt;
+  &lt;li&gt;昆明阳光医院&lt;/li&gt;
+  &lt;li&gt;昆明仁爱医院&lt;/li&gt;
+  &lt;li&gt;昆明九州医院&lt;/li&gt;
+  &lt;li&gt;解放军478医院妇产中心&lt;/li&gt;
+  &lt;li&gt;昆明九州泌尿医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-24&quot;&gt;玉溪&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;玉溪九州医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-25&quot;&gt;曲靖&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;富源阳光医院&lt;/li&gt;
+  &lt;li&gt;曲靖九州医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-26&quot;&gt;重庆&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;重庆华美美莱整形医院&lt;/li&gt;
+  &lt;li&gt;重庆华山中医乳腺病医院&lt;/li&gt;
+  &lt;li&gt;重庆坤如玛丽医院&lt;/li&gt;
+  &lt;li&gt;重庆现代女子医院&lt;/li&gt;
+  &lt;li&gt;重庆都市丽人医院&lt;/li&gt;
+  &lt;li&gt;重庆万州博生医院&lt;/li&gt;
+  &lt;li&gt;重庆万州美妇产医院&lt;/li&gt;
+  &lt;li&gt;涪陵博生和美妇产医院&lt;/li&gt;
+  &lt;li&gt;重庆市爱德华医院&lt;/li&gt;
+  &lt;li&gt;重庆五洲女子医院&lt;/li&gt;
+  &lt;li&gt;重庆安琪儿妇产医院&lt;/li&gt;
+  &lt;li&gt;重庆阳光医院&lt;/li&gt;
+  &lt;li&gt;万州阳光眼科医院&lt;/li&gt;
+  &lt;li&gt;重庆爱德华医院&lt;/li&gt;
+  &lt;li&gt;重庆生殖健康医院&lt;/li&gt;
+  &lt;li&gt;重庆红楼医院&lt;/li&gt;
+  &lt;li&gt;解放军第324医院&lt;/li&gt;
+  &lt;li&gt;涪陵三峡医院&lt;/li&gt;
+  &lt;li&gt;重庆红十字会医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-27&quot;&gt;成都&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;成都长征医院&lt;/li&gt;
+  &lt;li&gt;成都博爱医院&lt;/li&gt;
+  &lt;li&gt;成都丽人女子医院&lt;/li&gt;
+  &lt;li&gt;成都华美美莱整形医院&lt;/li&gt;
+  &lt;li&gt;四川华美紫馨医学美容医院&lt;/li&gt;
+  &lt;li&gt;成都安琪儿妇产医院&lt;/li&gt;
+  &lt;li&gt;成都蜀都乳腺医院&lt;/li&gt;
+  &lt;li&gt;成都糖尿病专科医院&lt;/li&gt;
+  &lt;li&gt;成都曙光男科医院&lt;/li&gt;
+  &lt;li&gt;成都玛利亚妇产医院&lt;/li&gt;
+  &lt;li&gt;成都欧亚男科医院&lt;/li&gt;
+  &lt;li&gt;四川阳光妇科医院&lt;/li&gt;
+  &lt;li&gt;成都康新妇科医院&lt;/li&gt;
+  &lt;li&gt;成都济民女子医院&lt;/li&gt;
+  &lt;li&gt;成都糖尿病专科医院&lt;/li&gt;
+  &lt;li&gt;成都天大不孕不育医院&lt;/li&gt;
+  &lt;li&gt;成都送子鸟不孕不育医院&lt;/li&gt;
+  &lt;li&gt;四川省生殖健康研究中心附属生殖专科医院&lt;/li&gt;
+  &lt;li&gt;成都九龙医院&lt;/li&gt;
+  &lt;li&gt;成都喜得儿不孕不育医院&lt;/li&gt;
+  &lt;li&gt;成都维多利亚女子医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-28&quot;&gt;雅安&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;解放军第三十七医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-29&quot;&gt;遵义&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;遵义女子医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-30&quot;&gt;凉山&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;凉山妇产医院&lt;/li&gt;
+  &lt;li&gt;凉山男科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-31&quot;&gt;南充&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;南充解放军51医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-32&quot;&gt;乐山&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;武警四川总队医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-33&quot;&gt;福州&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;福州华美美莱整形医院&lt;/li&gt;
+  &lt;li&gt;福州鼓楼医院&lt;/li&gt;
+  &lt;li&gt;福州现代妇产医院&lt;/li&gt;
+  &lt;li&gt;福州左海医院&lt;/li&gt;
+  &lt;li&gt;福州总医院第二附属医院&lt;/li&gt;
+  &lt;li&gt;福清阳光女子医院&lt;/li&gt;
+  &lt;li&gt;福州东南女子医院&lt;/li&gt;
+  &lt;li&gt;福州福兴妇产医院&lt;/li&gt;
+  &lt;li&gt;福州誉盛医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-34&quot;&gt;舟山&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;舟山现代妇科医院&lt;/li&gt;
+  &lt;li&gt;舟山市千岛医院&lt;/li&gt;
+  &lt;li&gt;舟山市千岛医院妇产科&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-35&quot;&gt;厦门&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;厦门登特口腔医院&lt;/li&gt;
+  &lt;li&gt;厦门友好妇科&lt;/li&gt;
+  &lt;li&gt;厦门湖里康乐门诊部&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-36&quot;&gt;莆田&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;莆田丽人妇科医院&lt;/li&gt;
+  &lt;li&gt;莆田盛兴医院&lt;/li&gt;
+  &lt;li&gt;莆田中西医肛肠医院&lt;/li&gt;
+  &lt;li&gt;莆田口腔医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-37&quot;&gt;宁波&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;宁波美莱整形美容医院&lt;/li&gt;
+  &lt;li&gt;宁波博爱医院&lt;/li&gt;
+  &lt;li&gt;宁波虹桥医院&lt;/li&gt;
+  &lt;li&gt;宁波欧亚男科医院&lt;/li&gt;
+  &lt;li&gt;宁波甬城医院&lt;/li&gt;
+  &lt;li&gt;慈溪圣爱医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-38&quot;&gt;杭州&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;杭州新东方妇产科医院&lt;/li&gt;
+  &lt;li&gt;杭州玛莉亚妇女医院&lt;/li&gt;
+  &lt;li&gt;杭州虹桥医院&lt;/li&gt;
+  &lt;li&gt;杭州建国医院&lt;/li&gt;
+  &lt;li&gt;杭州天目山妇产医院&lt;/li&gt;
+  &lt;li&gt;杭州萧山九龙男科医院&lt;/li&gt;
+  &lt;li&gt;杭州广仁医院&lt;/li&gt;
+  &lt;li&gt;杭州阿波罗男子医院&lt;/li&gt;
+  &lt;li&gt;杭州和睦医院&lt;/li&gt;
+  &lt;li&gt;杭州真爱医院&lt;/li&gt;
+  &lt;li&gt;杭州瑞丽医疗美容医院&lt;/li&gt;
+  &lt;li&gt;杭州同济医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-39&quot;&gt;湖州&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;湖州阳光女子医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-40&quot;&gt;泉州&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;泉州华美美莱整形医院&lt;/li&gt;
+  &lt;li&gt;泉州南亚华侨医院&lt;/li&gt;
+  &lt;li&gt;泉州新阳光女子医院&lt;/li&gt;
+  &lt;li&gt;泉州坤如玛丽医院&lt;/li&gt;
+  &lt;li&gt;泉州南亚医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-41&quot;&gt;金华&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;浙江金华博康生殖医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-42&quot;&gt;嘉兴&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;浙江新安国际医院&lt;/li&gt;
+  &lt;li&gt;嘉兴曙光中西医结合医院&lt;/li&gt;
+  &lt;li&gt;嘉兴博爱医院&lt;/li&gt;
+  &lt;li&gt;嘉兴曙光中西医结合医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-43&quot;&gt;台州&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;温岭和平医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-44&quot;&gt;温州&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;瑞安华东医院&lt;/li&gt;
+  &lt;li&gt;温州长征医院&lt;/li&gt;
+  &lt;li&gt;温州协和医院&lt;/li&gt;
+  &lt;li&gt;温州建国医院&lt;/li&gt;
+  &lt;li&gt;温州红旗医院&lt;/li&gt;
+  &lt;li&gt;温州爱尔五官科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-45&quot;&gt;龙岩&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;龙岩女子医院&lt;/li&gt;
+  &lt;li&gt;龙岩阳光医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-46&quot;&gt;济南&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;山东东方男科医院&lt;/li&gt;
+  &lt;li&gt;山东紫荆花医院&lt;/li&gt;
+  &lt;li&gt;山东红十字会医院&lt;/li&gt;
+  &lt;li&gt;济南一零六医院&lt;/li&gt;
+  &lt;li&gt;济南中医不孕不育医院&lt;/li&gt;
+  &lt;li&gt;济南中医白癜风医院&lt;/li&gt;
+  &lt;li&gt;济南中医精神病医院&lt;/li&gt;
+  &lt;li&gt;济南中医肝病医院&lt;/li&gt;
+  &lt;li&gt;济南中医静脉曲张医院&lt;/li&gt;
+  &lt;li&gt;济南中医风湿病医院&lt;/li&gt;
+  &lt;li&gt;济南中山肝病医院&lt;/li&gt;
+  &lt;li&gt;济南中德骨科医院&lt;/li&gt;
+  &lt;li&gt;济南中研皮肤病医院&lt;/li&gt;
+  &lt;li&gt;济南九龙泌尿专科医院&lt;/li&gt;
+  &lt;li&gt;济南乳腺医院&lt;/li&gt;
+  &lt;li&gt;济南乳腺病医院&lt;/li&gt;
+  &lt;li&gt;济南五洲医院&lt;/li&gt;
+  &lt;li&gt;济南六一天使儿童医院&lt;/li&gt;
+  &lt;li&gt;济南华夏医院&lt;/li&gt;
+  &lt;li&gt;济南协和肝病医院&lt;/li&gt;
+  &lt;li&gt;济南和谐妇科医院&lt;/li&gt;
+  &lt;li&gt;济南哮喘病医院&lt;/li&gt;
+  &lt;li&gt;济南圣玛利亚妇产医院&lt;/li&gt;
+  &lt;li&gt;济南坤如玛丽医院&lt;/li&gt;
+  &lt;li&gt;济南复元康复医院&lt;/li&gt;
+  &lt;li&gt;济南妇科医院&lt;/li&gt;
+  &lt;li&gt;济南整形美容医院&lt;/li&gt;
+  &lt;li&gt;济南泉城医院&lt;/li&gt;
+  &lt;li&gt;济南海峡美容整形医院&lt;/li&gt;
+  &lt;li&gt;济南现代皮肤病医院&lt;/li&gt;
+  &lt;li&gt;济南白癜风医院&lt;/li&gt;
+  &lt;li&gt;济南真爱妇科医院&lt;/li&gt;
+  &lt;li&gt;济南神康医院&lt;/li&gt;
+  &lt;li&gt;济南美莱整形医院&lt;/li&gt;
+  &lt;li&gt;济南耳鼻喉医院&lt;/li&gt;
+  &lt;li&gt;济南肛肠医院&lt;/li&gt;
+  &lt;li&gt;济南股骨头医院&lt;/li&gt;
+  &lt;li&gt;济南肾病医院&lt;/li&gt;
+  &lt;li&gt;济南胃肠病医院&lt;/li&gt;
+  &lt;li&gt;济南血液病医院&lt;/li&gt;
+  &lt;li&gt;济南银屑病医院&lt;/li&gt;
+  &lt;li&gt;济南阳光女子医院&lt;/li&gt;
+  &lt;li&gt;济南集美美容整形医院&lt;/li&gt;
+  &lt;li&gt;济南青华不孕不育医院&lt;/li&gt;
+  &lt;li&gt;济南骨科医院&lt;/li&gt;
+  &lt;li&gt;解放军第三七一中心医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-47&quot;&gt;潍坊&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;潍坊博爱医院&lt;/li&gt;
+  &lt;li&gt;潍坊长安医院&lt;/li&gt;
+  &lt;li&gt;潍坊和平医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-48&quot;&gt;青岛&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;青岛妇婴医院&lt;/li&gt;
+  &lt;li&gt;青岛玛丽妇产医院&lt;/li&gt;
+  &lt;li&gt;青岛长征院&lt;/li&gt;
+  &lt;li&gt;青岛曙光男科医院&lt;/li&gt;
+  &lt;li&gt;山东青岛曙光医院&lt;/li&gt;
+  &lt;li&gt;青岛集美整形美容医院&lt;/li&gt;
+  &lt;li&gt;青岛新阳光医院&lt;/li&gt;
+  &lt;li&gt;青岛安宁医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-49&quot;&gt;德州&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;齐河阳光医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-50&quot;&gt;威海&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;威海现代女子医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-51&quot;&gt;聊城&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;聊城东昌府三医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-52&quot;&gt;淄博&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;山东淄博金盾医院&lt;/li&gt;
+  &lt;li&gt;淄博女子医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-53&quot;&gt;哈尔滨&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;黑龙江玛丽亚妇产医院&lt;/li&gt;
+  &lt;li&gt;黑龙江东北医院&lt;/li&gt;
+  &lt;li&gt;黑龙江和平医院&lt;/li&gt;
+  &lt;li&gt;黑龙江和美妇产医院&lt;/li&gt;
+  &lt;li&gt;哈尔滨市生殖保健中心院&lt;/li&gt;
+  &lt;li&gt;哈尔滨欧亚男科医院&lt;/li&gt;
+  &lt;li&gt;黑龙江长庚耳鼻喉医院&lt;/li&gt;
+  &lt;li&gt;黑龙江阳光女子医院&lt;/li&gt;
+  &lt;li&gt;黑龙江省武警黄金医院妇科&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-54&quot;&gt;长春&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;长春同济医院&lt;/li&gt;
+  &lt;li&gt;吉林总队医院&lt;/li&gt;
+  &lt;li&gt;长春长庚耳鼻喉医院&lt;/li&gt;
+  &lt;li&gt;长春阳光女子医院&lt;/li&gt;
+  &lt;li&gt;长春阳光口腔医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-55&quot;&gt;四平&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;四平阳光医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-56&quot;&gt;延边&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;延吉博生现代妇科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-57&quot;&gt;沈阳&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;沈阳北陵医院&lt;/li&gt;
+  &lt;li&gt;沈阳曙光男科医院&lt;/li&gt;
+  &lt;li&gt;武警辽宁省总队医院&lt;/li&gt;
+  &lt;li&gt;解放军沈阳463医院希美整形美容&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-58&quot;&gt;大连&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;大连长城妇科医院&lt;/li&gt;
+  &lt;li&gt;大连新世纪医院&lt;/li&gt;
+  &lt;li&gt;大连阳光医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-59&quot;&gt;无锡&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;无锡玛丽亚医院&lt;/li&gt;
+  &lt;li&gt;无锡嘉仕恒信医院&lt;/li&gt;
+  &lt;li&gt;无锡南站医院&lt;/li&gt;
+  &lt;li&gt;无锡虹桥医院&lt;/li&gt;
+  &lt;li&gt;江阴东方女子医院&lt;/li&gt;
+  &lt;li&gt;宜兴武警医院&lt;/li&gt;
+  &lt;li&gt;江阴九龙泌尿外科医院&lt;/li&gt;
+  &lt;li&gt;无锡新区医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-60&quot;&gt;南京&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;江苏施尔美整形美容医院&lt;/li&gt;
+  &lt;li&gt;南京曙光医院&lt;/li&gt;
+  &lt;li&gt;南京江宁博爱医院&lt;/li&gt;
+  &lt;li&gt;南京市江宁区众彩门诊部&lt;/li&gt;
+  &lt;li&gt;南京世纪现代妇产医院（南院、东院）&lt;/li&gt;
+  &lt;li&gt;南京建国男科医院&lt;/li&gt;
+  &lt;li&gt;南京康豪妇科&lt;/li&gt;
+  &lt;li&gt;南京阳光肿瘤医院&lt;/li&gt;
+  &lt;li&gt;南京港龙医院&lt;/li&gt;
+  &lt;li&gt;454医院植发科&lt;/li&gt;
+  &lt;li&gt;南京长江医院植发科&lt;/li&gt;
+  &lt;li&gt;南京医科二附院协作医院&lt;/li&gt;
+  &lt;li&gt;天长现代妇产医院&lt;/li&gt;
+  &lt;li&gt;南京医科大学附属友谊整形外科医院&lt;/li&gt;
+  &lt;li&gt;南京解放军81医院&lt;/li&gt;
+  &lt;li&gt;南京454医院妇产科&lt;/li&gt;
+  &lt;li&gt;南京蓝十字脑科医院&lt;/li&gt;
+  &lt;li&gt;南京迈皋桥医院&lt;/li&gt;
+  &lt;li&gt;南京东院门诊部&lt;/li&gt;
+  &lt;li&gt;南京华美整形美容医院&lt;/li&gt;
+  &lt;li&gt;南京空军机关医院神经科&lt;/li&gt;
+  &lt;li&gt;南京军区机关医院妇科&lt;/li&gt;
+  &lt;li&gt;南京长江医院&lt;/li&gt;
+  &lt;li&gt;南京长海医院&lt;/li&gt;
+  &lt;li&gt;南京美迪亚医院&lt;/li&gt;
+  &lt;li&gt;南京亚韩整形美容医院&lt;/li&gt;
+  &lt;li&gt;南京仁品耳鼻喉专科医院&lt;/li&gt;
+  &lt;li&gt;南京邦德骨科医院&lt;/li&gt;
+  &lt;li&gt;南京肛泰中医院&lt;/li&gt;
+  &lt;li&gt;南京维多利亚美容诊所&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-61&quot;&gt;泰州&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;江苏泰州红房子医院&lt;/li&gt;
+  &lt;li&gt;泰州市海陵医院&lt;/li&gt;
+  &lt;li&gt;泰州海陵女子医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-62&quot;&gt;盐城&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;盐城协和康复医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-63&quot;&gt;宿迁&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;宿迁市妇产医院&lt;/li&gt;
+  &lt;li&gt;泗洪阳光儿童医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-64&quot;&gt;淮安&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;江苏淮安中山医院&lt;/li&gt;
+  &lt;li&gt;淮安中山医院&lt;/li&gt;
+  &lt;li&gt;淮安生殖医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-65&quot;&gt;南通&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;江苏海安华山医院&lt;/li&gt;
+  &lt;li&gt;南通和美家妇产科医院&lt;/li&gt;
+  &lt;li&gt;南通长城医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-66&quot;&gt;荆州&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;荆州华康医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-67&quot;&gt;黄冈&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;黄冈泌尿专科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-68&quot;&gt;黄石&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;湖北黄石福康医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-69&quot;&gt;襄阳&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;襄阳市第五人民医院&lt;/li&gt;
+  &lt;li&gt;襄阳东大肛肠医院&lt;/li&gt;
+  &lt;li&gt;襄阳仁爱女子医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-70&quot;&gt;乌海&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;乌海现代医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-71&quot;&gt;呼和浩特&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;内蒙古天骄医院&lt;/li&gt;
+  &lt;li&gt;呼和浩特五洲女子医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-72&quot;&gt;贵阳&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;贵州退休医师医院&lt;/li&gt;
+  &lt;li&gt;贵阳五官中心&lt;/li&gt;
+  &lt;li&gt;贵阳长江医院&lt;/li&gt;
+  &lt;li&gt;贵阳和谐阳光医院&lt;/li&gt;
+  &lt;li&gt;贵阳马王庙医院&lt;/li&gt;
+  &lt;li&gt;贵阳现代女子医院&lt;/li&gt;
+  &lt;li&gt;贵阳和美妇产医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-73&quot;&gt;铜仁&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;铜仁华夏医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-74&quot;&gt;安顺&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;安顺阳光妇科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-75&quot;&gt;毕节&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;毕节现代医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-76&quot;&gt;长沙&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;长沙华夏医院&lt;/li&gt;
+  &lt;li&gt;长沙湘江医院七大医院&lt;/li&gt;
+  &lt;li&gt;长沙阳光医院&lt;/li&gt;
+  &lt;li&gt;长沙仁爱医院&lt;/li&gt;
+  &lt;li&gt;长沙恒生手外科医院&lt;/li&gt;
+  &lt;li&gt;长沙博大泌尿专科医院&lt;/li&gt;
+  &lt;li&gt;长沙南方骨外科医院&lt;/li&gt;
+  &lt;li&gt;长沙现代女子医院&lt;/li&gt;
+  &lt;li&gt;长沙丽人妇产医院&lt;/li&gt;
+  &lt;li&gt;长沙阳光医院&lt;/li&gt;
+  &lt;li&gt;武警湖南省总队医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-77&quot;&gt;郴州&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;湖南郴州福康医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-78&quot;&gt;湘潭&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;湘潭阳光眼科中心&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-79&quot;&gt;娄底&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;娄底阳光医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-80&quot;&gt;南昌&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;南昌市第五医院&lt;/li&gt;
+  &lt;li&gt;南昌仁爱女子医院&lt;/li&gt;
+  &lt;li&gt;南昌曙光手足外科医院&lt;/li&gt;
+  &lt;li&gt;南昌佳美美容医院&lt;/li&gt;
+  &lt;li&gt;南昌华山不孕不育医院&lt;/li&gt;
+  &lt;li&gt;南昌博爱泌尿专科医院&lt;/li&gt;
+  &lt;li&gt;南昌东大肛肠专科医院&lt;/li&gt;
+  &lt;li&gt;南昌博大耳鼻咽喉专科医院&lt;/li&gt;
+  &lt;li&gt;南昌泌尿专科医院&lt;/li&gt;
+  &lt;li&gt;南昌仁爱女子医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-81&quot;&gt;九江&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;九江玛丽亚医院&lt;/li&gt;
+  &lt;li&gt;九江新世纪医院&lt;/li&gt;
+  &lt;li&gt;九江阳光女子医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-82&quot;&gt;吉安&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;江西吉安市第二人民医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-83&quot;&gt;萍乡&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;萍乡市新世纪泌尿专科医院&lt;/li&gt;
+  &lt;li&gt;萍乡妇科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-84&quot;&gt;赣州&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;赣州现代泌尿专科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-85&quot;&gt;上饶&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;上饶东大肛肠专科医院&lt;/li&gt;
+  &lt;li&gt;上饶协和医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-86&quot;&gt;太原&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;山西现代妇产医院&lt;/li&gt;
+  &lt;li&gt;山西民生医院&lt;/li&gt;
+  &lt;li&gt;太原糖尿病专科医院&lt;/li&gt;
+  &lt;li&gt;太原新医医院&lt;/li&gt;
+  &lt;li&gt;太原益民中医院&lt;/li&gt;
+  &lt;li&gt;武警山西总队医院&lt;/li&gt;
+  &lt;li&gt;山西长庚耳鼻喉医院&lt;/li&gt;
+  &lt;li&gt;太原糖尿病专科医院&lt;/li&gt;
+  &lt;li&gt;太原新医医院&lt;/li&gt;
+  &lt;li&gt;太原益民中医院&lt;/li&gt;
+  &lt;li&gt;太白癜风医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-87&quot;&gt;临汾&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;临汾现代女子医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-88&quot;&gt;阳泉&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;山西阳泉东方生殖医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-89&quot;&gt;长治&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;长治女子医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-90&quot;&gt;大同&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;大同新时代妇科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-91&quot;&gt;晋城&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;晋城现代女子医院&lt;/li&gt;
+  &lt;li&gt;晋城生殖医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-92&quot;&gt;晋中&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;山西新阳光妇科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-93&quot;&gt;运城&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;运城禹都人民医院&lt;/li&gt;
+  &lt;li&gt;运城禹都人民医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-94&quot;&gt;西安&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;西安俪人医院&lt;/li&gt;
+  &lt;li&gt;武警陕西总队医院&lt;/li&gt;
+  &lt;li&gt;西安阳光医院&lt;/li&gt;
+  &lt;li&gt;西安东大肛肠医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-95&quot;&gt;包头&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;包头现代女子妇产医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-96&quot;&gt;蚌埠&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;澳美佳女子医院&lt;/li&gt;
+  &lt;li&gt;蚌埠解放军一二三中心医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-97&quot;&gt;亳州&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;涡阳阳光医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-98&quot;&gt;芜湖&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;芜湖阳光眼科医院&lt;/li&gt;
+  &lt;li&gt;芜湖丹凤朝阳妇科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-99&quot;&gt;巢湖&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;巢湖康平妇产医院&lt;/li&gt;
+  &lt;li&gt;巢湖阳光妇幼医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-100&quot;&gt;淮北&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;淮北女子医院&lt;/li&gt;
+  &lt;li&gt;淮北阳光心理院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-101&quot;&gt;合肥&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;合肥市中山医院&lt;/li&gt;
+  &lt;li&gt;合肥九龙男科医院&lt;/li&gt;
+  &lt;li&gt;合肥丹凤朝阳妇科医院&lt;/li&gt;
+  &lt;li&gt;合肥105医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-102&quot;&gt;安阳&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;安阳协和医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-103&quot;&gt;郑州&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;河南中都皮肤病医院&lt;/li&gt;
+  &lt;li&gt;河南省军区医院&lt;/li&gt;
+  &lt;li&gt;郑州集美整形美容医院&lt;/li&gt;
+  &lt;li&gt;郑州华夏白癜风医院&lt;/li&gt;
+  &lt;li&gt;巩义阳光医院&lt;/li&gt;
+  &lt;li&gt;郑州华山医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-104&quot;&gt;许昌&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;许昌新时代妇科医院&lt;/li&gt;
+  &lt;li&gt;许昌凤凰医院&lt;/li&gt;
+  &lt;li&gt;许昌中山医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-105&quot;&gt;廊坊&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;廊坊万福医院&lt;/li&gt;
+  &lt;li&gt;廊坊世纪协和医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-106&quot;&gt;保定&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;保定京津医院&lt;/li&gt;
+  &lt;li&gt;保定世纪协和医院&lt;/li&gt;
+  &lt;li&gt;保定长安医院&lt;/li&gt;
+  &lt;li&gt;保定现代女子医院&lt;/li&gt;
+  &lt;li&gt;保定白癜风医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-107&quot;&gt;唐山&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;唐山京城皮肤病医院&lt;/li&gt;
+  &lt;li&gt;唐山女子医院&lt;/li&gt;
+  &lt;li&gt;唐山红十字医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-108&quot;&gt;洛阳&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;洛阳牡丹女子医院&lt;/li&gt;
+  &lt;li&gt;解放军534医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-109&quot;&gt;信阳&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;信阳泌尿外科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-110&quot;&gt;平顶山&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;平顶山市武警医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-111&quot;&gt;漯河&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;漯河东方医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-112&quot;&gt;石家庄&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;河北东方中西医结合医院&lt;/li&gt;
+  &lt;li&gt;石家庄美联臣医疗美容医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-113&quot;&gt;邯郸&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;邯郸仁爱妇科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-114&quot;&gt;拉萨&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;西藏博爱医院&lt;/li&gt;
+  &lt;li&gt;拉萨北大泌尿生殖医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-115&quot;&gt;银川&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;宁夏西京妇产医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-116&quot;&gt;兰州&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;兰州仁和医院&lt;/li&gt;
+  &lt;li&gt;兰州仁和医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-117&quot;&gt;桂林&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;广西阳光医院&lt;/li&gt;
+  &lt;li&gt;桂林阳光医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-118&quot;&gt;柳州&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;柳州福康医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-119&quot;&gt;伊犁&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;伊犁阳光女子医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-120&quot;&gt;伊宁&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;伊宁阳光女子医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-121&quot;&gt;乌鲁木齐&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;新彊维吾尔自治区人民医院肿瘤中心&lt;/li&gt;
+  &lt;li&gt;新疆爱德华医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-122&quot;&gt;海口&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;武警海南总队医院妇科中心&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;beta-1&quot;&gt;版本1.1beta&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1.更新部分成都地区医院名单&lt;/li&gt;
+  &lt;li&gt;2.使用Markdown格式,使阅读各方便&lt;/li&gt;
+  &lt;li&gt;3.Markdown格式请访问 &lt;a href=&quot;https://github.com/langhua9527/BlackheartedHospital/blob/master/README.md&quot;&gt;https://github.com/langhua9527/BlackheartedHospital/blob/master/README.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-123&quot;&gt;詹氏医疗集团&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;成都长征医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-124&quot;&gt;陈金秀/西红柿医疗集团&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;成都华美美莱整形医院&lt;/li&gt;
+  &lt;li&gt;成都永康医院&lt;/li&gt;
+  &lt;li&gt;资阳泌尿专科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-125&quot;&gt;林玉明/博生医疗投资公司&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;成都丽人女子医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-126&quot;&gt;林卓朝阳/四川省福建商会常务副会长&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;成都博爱医院&lt;/li&gt;
+  &lt;li&gt;成都安琪儿妇产医院&lt;/li&gt;
+  &lt;li&gt;成都蜀都乳腺医院&lt;/li&gt;
+  &lt;li&gt;成都康新妇科医院&lt;/li&gt;
+  &lt;li&gt;成都市青羊区第二人民医院&lt;/li&gt;
+  &lt;li&gt;圣贝国际牙科（成都）旗舰医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-127&quot;&gt;卓国金/香港瑞恩集团&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;成都糖尿病专科医院&lt;/li&gt;
+  &lt;li&gt;成都曙光男科医院&lt;/li&gt;
+  &lt;li&gt;成都瑞恩糖尿病医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-128&quot;&gt;卓国华/玛丽亚医疗投资集团&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;成都玛利亚妇产医院&lt;/li&gt;
+  &lt;li&gt;成都欧亚男科医院&lt;/li&gt;
+  &lt;li&gt;成都玛丽亚（南区）天府国际妇产儿童医院&lt;/li&gt;
+  &lt;li&gt;成都市西区医院产科&lt;/li&gt;
+  &lt;li&gt;绵阳玛丽亚妇产儿童医院&lt;/li&gt;
+  &lt;li&gt;成都新世纪肛肠医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-129&quot;&gt;阳光医院连锁集团&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;四川阳光妇科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-130&quot;&gt;陈新贤/新加坡华康集团&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;成都康新妇科医院&lt;/li&gt;
+  &lt;li&gt;武警四川总队医院（部分科室）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-131&quot;&gt;鸿业医疗投资集团&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;成都济民女子医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-132&quot;&gt;蔡兵洪/上海盛康医院投资管理公司&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;成都肛泰肛肠医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-133&quot;&gt;李国顺/四川省福建商会名誉会长&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;成都维多利亚女子医院&lt;/li&gt;
+  &lt;li&gt;成都阳光妇科医院&lt;/li&gt;
+  &lt;li&gt;四川生殖健康中心专科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-134&quot;&gt;林玉明/博生医疗投资公司&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;成都丽人女子医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-135&quot;&gt;黄开飞/上海邦泰医疗集团&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;武警四川省消防总队医院（妇科/泌尿科）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-136&quot;&gt;陈金章/上海鑫玺源投资集团&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;成都仁品耳鼻喉专科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-137&quot;&gt;苏瑞高/创新高医疗投资集团&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;成都天康医院&lt;/li&gt;
+  &lt;li&gt;成都龙都医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-138&quot;&gt;林玉盛/福建誉盛投资公司&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;成都养和堂综合门诊部&lt;/li&gt;
+  &lt;li&gt;成都中仁泌尿外科医院&lt;/li&gt;
+  &lt;li&gt;凉山妇产医院&lt;/li&gt;
+  &lt;li&gt;凉山华西医院&lt;/li&gt;
+  &lt;li&gt;凉山生殖健康医院&lt;/li&gt;
+  &lt;li&gt;凉山骨科医院&lt;/li&gt;
+  &lt;li&gt;凉山男科医院&lt;/li&gt;
+  &lt;li&gt;四川中医药高等专科学校附属医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-139&quot;&gt;北京东大医院管理公司&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;成都东大肛肠医院&lt;/li&gt;
+  &lt;li&gt;南充东大肛肠医院&lt;/li&gt;
+  &lt;li&gt;四川肛肠医院&lt;/li&gt;
+  &lt;li&gt;泸州东大肛肠医院&lt;/li&gt;
+  &lt;li&gt;襄阳东大肛肠医院&lt;/li&gt;
+  &lt;li&gt;西安东大肛肠医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-140&quot;&gt;吴德坤/北京中德博大投资公司&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;成都博大男科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-141&quot;&gt;陈国森/江苏博润投资公司&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;成都博润白癜风医院&lt;/li&gt;
+  &lt;li&gt;成都西南骨科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-142&quot;&gt;詹国连/北京中健华医投资公司&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;四川绵阳美康医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;版本1.0beta&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;这里的绝大部分军队医院治疗妇科病，男科，皮肤病，不孕不育，痔疮，肝病，牙科，眼科，整形美容，性病，增高，这些相关的科室都已经被承包出去了，99%以上的非三甲的军队医院，武警医院的这些科室都已经是莆田系医院承包出去的了，百度看到了这些医院，绝对不要去！&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-143&quot;&gt;莆田系 部分民营医院梳理&lt;/h1&gt;
+
+&lt;h2 id=&quot;section-144&quot;&gt;詹氏家族&lt;/h2&gt;
+
+&lt;h3 id=&quot;section-145&quot;&gt;詹氏医疗集团，下属中屿、中骏等医疗集团，家族主要成员詹 国团、詹玉鹏、詹国营、詹国连、詹开土、詹阳斌为首，由于这个家族的关系和事业都是千丝万缕的，所以把他们合并起来。家族集团通过独立创办、参股合作等多 种形式，先后在黑龙江、辽宁、吉林、山东等全国各地开办了上百家的医疗机构，现有员工6000余人。&lt;/h3&gt;
+
+&lt;h4 id=&quot;section-146&quot;&gt;詹国团：1964年出生。詹国团2001年重组成立了上海华衡投资（集团）有限公司。旗下目前有三大机构：&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;上海衡域实业有限公司&lt;/li&gt;
+  &lt;li&gt;上海新钟广告有限公司&lt;/li&gt;
+  &lt;li&gt;浙江新安国际医院有限公司&lt;/li&gt;
+  &lt;li&gt;浙江新安国际医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;section-147&quot;&gt;詹玉鹏”1957年出生。詹玉鹏嫡系机构有：坤如玛丽医院集团是全国性大型专业妇科、产科连锁医疗集团。集团年营业额预计三亿元。旗下医院有：&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;黑龙江玛丽亚妇产医院&lt;/li&gt;
+  &lt;li&gt;青岛妇婴医院&lt;/li&gt;
+  &lt;li&gt;青岛玛丽妇产医院&lt;/li&gt;
+  &lt;li&gt;济南乳腺医院&lt;/li&gt;
+  &lt;li&gt;无锡玛丽亚医院&lt;/li&gt;
+  &lt;li&gt;重庆华山中医乳腺病医院&lt;/li&gt;
+  &lt;li&gt;济南坤如玛丽医院&lt;/li&gt;
+  &lt;li&gt;重庆坤如玛丽医院&lt;/li&gt;
+  &lt;li&gt;泉州坤如玛丽医院&lt;/li&gt;
+  &lt;li&gt;天津坤如玛丽医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;section-148&quot;&gt;詹阳斌&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;天津华北医院&lt;/li&gt;
+  &lt;li&gt;天津华厦医院&lt;/li&gt;
+  &lt;li&gt;天津丽人女子医院&lt;/li&gt;
+  &lt;li&gt;北京天院&lt;/li&gt;
+  &lt;li&gt;北京俪人女子医院&lt;/li&gt;
+  &lt;li&gt;北京北海医院&lt;/li&gt;
+  &lt;li&gt;上海万众医疗投资股份有限公司&lt;/li&gt;
+  &lt;li&gt;上海万众医院&lt;/li&gt;
+  &lt;li&gt;上海安真医院&lt;/li&gt;
+  &lt;li&gt;上海福华医院&lt;/li&gt;
+  &lt;li&gt;上海玛丽女子医院&lt;/li&gt;
+  &lt;li&gt;温岭和平医院&lt;/li&gt;
+  &lt;li&gt;深圳福华中西医结合医院&lt;/li&gt;
+  &lt;li&gt;黑龙江东北医院等&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;section-149&quot;&gt;詹氏医疗集团，下属企业还有：&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;新加坡中骏医院（投资）集团&lt;/li&gt;
+  &lt;li&gt;上海中骏医学科学研究所&lt;/li&gt;
+  &lt;li&gt;上海澳信医院管理公司&lt;/li&gt;
+  &lt;li&gt;上海澳信实业有限公司&lt;/li&gt;
+  &lt;li&gt;厦门奥琪进出口贸易有限公司&lt;/li&gt;
+  &lt;li&gt;厦门福鹏山生态园&lt;/li&gt;
+  &lt;li&gt;厦门中屿基地工程有限公司&lt;/li&gt;
+  &lt;li&gt;福建莆田水利工程有限公司&lt;/li&gt;
+  &lt;li&gt;福建奥琪汽车贸易公司&lt;/li&gt;
+  &lt;li&gt;福州通产光电技术有限公司&lt;/li&gt;
+  &lt;li&gt;北京品康科技发展有限公司&lt;/li&gt;
+  &lt;li&gt;上海拓能医疗器械有限公司重庆兴渝药业有限公司&lt;/li&gt;
+  &lt;li&gt;山东中骏医院管理公司&lt;/li&gt;
+  &lt;li&gt;重庆华山医院管理有限公司&lt;/li&gt;
+  &lt;li&gt;京品康医院管理有限公司&lt;/li&gt;
+  &lt;li&gt;天津华山医院&lt;/li&gt;
+  &lt;li&gt;上海博爱医院&lt;/li&gt;
+  &lt;li&gt;上海真爱女子医院&lt;/li&gt;
+  &lt;li&gt;江苏施尔美整形美容医院&lt;/li&gt;
+  &lt;li&gt;泉州南亚医院黑龙江和平医院&lt;/li&gt;
+  &lt;li&gt;福州鼓楼医院&lt;/li&gt;
+  &lt;li&gt;深圳福华中西医结合医院&lt;/li&gt;
+  &lt;li&gt;长春同济医院&lt;/li&gt;
+  &lt;li&gt;云南 玛莉亚女子医院&lt;/li&gt;
+  &lt;li&gt;中骏医学科学研究所&lt;/li&gt;
+  &lt;li&gt;珠海惠爱医院&lt;/li&gt;
+  &lt;li&gt;沈阳北陵医院&lt;/li&gt;
+  &lt;li&gt;青岛长征院&lt;/li&gt;
+  &lt;li&gt;成都长征医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-150&quot;&gt;西红柿医疗集团&lt;/h1&gt;
+
+&lt;h2 id=&quot;section-151&quot;&gt;陈金秀家族的上海西红柿投资有限公司已投资上海浦西医院、苏州美莱美容医院、苏州东吴医院等10余家医院,并拥有”美莱整形”和”华美整形”两个品牌。形成了以上海为中心、长江三角洲为重点区域的发展格局。麾下的企业有：&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;上海市闵行区中医院&lt;/li&gt;
+  &lt;li&gt;苏州东吴医院&lt;/li&gt;
+  &lt;li&gt;成都华美美莱整形医院&lt;/li&gt;
+  &lt;li&gt;泉州华美美莱整形医院&lt;/li&gt;
+  &lt;li&gt;苏州华美美莱整形医院&lt;/li&gt;
+  &lt;li&gt;广州华美美莱整形医院&lt;/li&gt;
+  &lt;li&gt;昆明华美美莱整形医院&lt;/li&gt;
+  &lt;li&gt;重庆华美美莱整形医院&lt;/li&gt;
+  &lt;li&gt;福州华美美莱整形医院&lt;/li&gt;
+  &lt;li&gt;北京华美美莱整形医院&lt;/li&gt;
+  &lt;li&gt;上海华美美莱整形医院&lt;/li&gt;
+  &lt;li&gt;一品健康体检中心（四家）&lt;/li&gt;
+  &lt;li&gt;杭州新东方妇产科医院&lt;/li&gt;
+  &lt;li&gt;厦门登特口腔医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-152&quot;&gt;陈建煌&lt;/h1&gt;
+
+&lt;h2 id=&quot;section-153&quot;&gt;1964年出生，莆田市秀屿区东峤镇，华夏时代投资集团地处政治经济文化发达的北京市海淀区，集团注册总资本2.8亿元，现有总资产40多亿元，全资和控股等六十多家子公司。拥有员工 10000余人，其中博士后20余名，博士120余名，硕士研究生600多名，大专以上学历员工占员工总人数85%。华夏时代投资集团三级医院两家，二级 医院六家。&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;济南华夏医院&lt;/li&gt;
+  &lt;li&gt;武汉华夏医院&lt;/li&gt;
+  &lt;li&gt;内蒙古天骄医院&lt;/li&gt;
+  &lt;li&gt;北京前海股骨头医院&lt;/li&gt;
+  &lt;li&gt;贵州退休医师医院&lt;/li&gt;
+  &lt;li&gt;荆州华康医院&lt;/li&gt;
+  &lt;li&gt;武汉华美医院&lt;/li&gt;
+  &lt;li&gt;瑞安华东医院&lt;/li&gt;
+  &lt;li&gt;铜仁华夏医院&lt;/li&gt;
+  &lt;li&gt;聊城东昌府三医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-154&quot;&gt;林志忠 林志程&lt;/h1&gt;
+
+&lt;h2 id=&quot;section-155&quot;&gt;中国博爱企业集团创建于1989年，是一家以医疗投资、医院管理和临床医疗服务为主导产业，融广告、影视、网络及相关产业为一体的大型现代化集团企业。下辖八大集团拥有近百家大型医疗机构，集团员工总数逾万人，是全球最大医疗企业集团之一。&lt;/h2&gt;
+
+&lt;h2 id=&quot;section-156&quot;&gt;深圳博爱医疗集团旗下机构有：&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;医网&lt;/li&gt;
+  &lt;li&gt;中华整形网&lt;/li&gt;
+  &lt;li&gt;中华不育网&lt;/li&gt;
+  &lt;li&gt;广州人流网&lt;/li&gt;
+  &lt;li&gt;中华肿瘤网&lt;/li&gt;
+  &lt;li&gt;广州现代医院&lt;/li&gt;
+  &lt;li&gt;广州长安医院&lt;/li&gt;
+  &lt;li&gt;广州益寿医院&lt;/li&gt;
+  &lt;li&gt;惠州仁德妇科医院&lt;/li&gt;
+  &lt;li&gt;广州利德医院&lt;/li&gt;
+  &lt;li&gt;东方俪人医院&lt;/li&gt;
+  &lt;li&gt;番禺玛莉亚肛肠医院&lt;/li&gt;
+  &lt;li&gt;贵阳五官中心&lt;/li&gt;
+  &lt;li&gt;广州圣亚泌尿外科医院&lt;/li&gt;
+  &lt;li&gt;深圳博爱医院&lt;/li&gt;
+  &lt;li&gt;深圳曙光医院&lt;/li&gt;
+  &lt;li&gt;深圳远东妇儿科医院&lt;/li&gt;
+  &lt;li&gt;上海仁爱医院&lt;/li&gt;
+  &lt;li&gt;上海心脏病医院&lt;/li&gt;
+  &lt;li&gt;上海沪申五官科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-157&quot;&gt;香港和谐投资集团现投资&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;贵阳长江医院&lt;/li&gt;
+  &lt;li&gt;贵阳和谐阳光医院&lt;/li&gt;
+  &lt;li&gt;贵阳马王庙医院&lt;/li&gt;
+  &lt;li&gt;安顺阳光妇科医院&lt;/li&gt;
+  &lt;li&gt;毕节现代医院&lt;/li&gt;
+  &lt;li&gt;长沙华夏医院&lt;/li&gt;
+  &lt;li&gt;长沙湘江医院七大医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-158&quot;&gt;湖南年轮医疗集团&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;长沙阳光医院&lt;/li&gt;
+  &lt;li&gt;长沙仁爱医院&lt;/li&gt;
+  &lt;li&gt;长沙恒生手外科医院&lt;/li&gt;
+  &lt;li&gt;长沙博大泌尿专科医院&lt;/li&gt;
+  &lt;li&gt;长沙南方骨外科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-159&quot;&gt;香港康联（国际）&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;南昌市第五医院&lt;/li&gt;
+  &lt;li&gt;南昌仁爱女子医院&lt;/li&gt;
+  &lt;li&gt;南昌曙光手足外科医院&lt;/li&gt;
+  &lt;li&gt;南昌佳美美容医院&lt;/li&gt;
+  &lt;li&gt;南昌华山不孕不育医院&lt;/li&gt;
+  &lt;li&gt;南昌博爱泌尿专科医院&lt;/li&gt;
+  &lt;li&gt;南昌东大肛肠专科医院&lt;/li&gt;
+  &lt;li&gt;南昌博大耳鼻咽喉专科医院&lt;/li&gt;
+  &lt;li&gt;上饶东大肛肠专科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-160&quot;&gt;江苏盛世同进集团&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;南京曙光医院&lt;/li&gt;
+  &lt;li&gt;南京江宁博爱医院&lt;/li&gt;
+  &lt;li&gt;南京市江宁区众彩门诊部&lt;/li&gt;
+  &lt;li&gt;南京世纪现代妇产医院（南院、东院）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-161&quot;&gt;上海远大医疗集团&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;上海远大心胸医院&lt;/li&gt;
+  &lt;li&gt;上海仁爱医院&lt;/li&gt;
+  &lt;li&gt;上海天大医疗美容医院&lt;/li&gt;
+  &lt;li&gt;上海沪申五官科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-162&quot;&gt;林宗金&lt;/h1&gt;
+
+&lt;h2 id=&quot;section-163&quot;&gt;1959年出生秀屿区东庄镇,林宗金的华世伟业集团旗下独资二十多家大型医疗机构旗下主要医院有:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;南京华世佳宝妇产医院&lt;/li&gt;
+  &lt;li&gt;宿迁市妇产医院&lt;/li&gt;
+  &lt;li&gt;珠海惠爱医院&lt;/li&gt;
+  &lt;li&gt;温州长征医院&lt;/li&gt;
+  &lt;li&gt;江苏施尔美整形美容医院&lt;/li&gt;
+  &lt;li&gt;南京建国男科医院&lt;/li&gt;
+  &lt;li&gt;深圳仁爱医院&lt;/li&gt;
+  &lt;li&gt;云南玛莉亚医院&lt;/li&gt;
+  &lt;li&gt;杭州玛莉亚妇女医院&lt;/li&gt;
+  &lt;li&gt;上海真爱女子医院&lt;/li&gt;
+  &lt;li&gt;天津怡泰生殖专科医院&lt;/li&gt;
+  &lt;li&gt;无锡嘉仕恒信医院&lt;/li&gt;
+  &lt;li&gt;上海博爱医院&lt;/li&gt;
+  &lt;li&gt;福州鼓楼医院&lt;/li&gt;
+  &lt;li&gt;温州协和医院&lt;/li&gt;
+  &lt;li&gt;宁波博爱医院&lt;/li&gt;
+  &lt;li&gt;昆明西昌路医院&lt;/li&gt;
+  &lt;li&gt;无锡南站医院&lt;/li&gt;
+  &lt;li&gt;泉州南亚华侨医院&lt;/li&gt;
+  &lt;li&gt;湖南二院前列腺专科&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-164&quot;&gt;林玉明&lt;/h1&gt;
+
+&lt;h2 id=&quot;cbd8000&quot;&gt;原籍：秀屿区东庄镇后江村,林玉明先生创办博生医疗投资股份有限公司由，总部位于北京CBD商务中心区的金地中心。目前在全国范围拥有员工8000余名,旗下医院有：&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;天津现代女子医院&lt;/li&gt;
+  &lt;li&gt;威海现代女子医院&lt;/li&gt;
+  &lt;li&gt;山西现代女子医院&lt;/li&gt;
+  &lt;li&gt;临汾现代女子医院&lt;/li&gt;
+  &lt;li&gt;晋城现代女子医院&lt;/li&gt;
+  &lt;li&gt;西安俪人医院&lt;/li&gt;
+  &lt;li&gt;黑龙江和美妇产医院&lt;/li&gt;
+  &lt;li&gt;延吉博生现代妇科医院&lt;/li&gt;
+  &lt;li&gt;包头现代女子妇产医院&lt;/li&gt;
+  &lt;li&gt;广州女子医院&lt;/li&gt;
+  &lt;li&gt;中山现代妇科医院&lt;/li&gt;
+  &lt;li&gt;东莞现代妇科医院&lt;/li&gt;
+  &lt;li&gt;深圳和美妇儿科医院&lt;/li&gt;
+  &lt;li&gt;福州现代妇产医院&lt;/li&gt;
+  &lt;li&gt;舟山现代妇科医院&lt;/li&gt;
+  &lt;li&gt;武汉现代女子妇科医院&lt;/li&gt;
+  &lt;li&gt;长沙现代女子医院&lt;/li&gt;
+  &lt;li&gt;长沙丽人妇产医院&lt;/li&gt;
+  &lt;li&gt;成都丽人女子医院&lt;/li&gt;
+  &lt;li&gt;重庆现代女子医院&lt;/li&gt;
+  &lt;li&gt;重庆都市丽人医院&lt;/li&gt;
+  &lt;li&gt;重庆万州博生医院&lt;/li&gt;
+  &lt;li&gt;重庆万州美妇产医院&lt;/li&gt;
+  &lt;li&gt;涪陵博生和美妇产医院&lt;/li&gt;
+  &lt;li&gt;贵阳现代女子医院&lt;/li&gt;
+  &lt;li&gt;贵阳和美妇产医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-165&quot;&gt;李金圆&lt;/h1&gt;
+
+&lt;h2 id=&quot;section-166&quot;&gt;国丹集团旗下机构有：海南永金制药股份有限公司 海南国丹药业有限公司 海南港澳医药有限公司 海南阳康生物工程有限公司 上海阳康生物工程有限公司 海南鑫得医药研究所 香港国丹医院投资管理有限公司 深圳市国丹实业有限公司&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;深圳仁康医院&lt;/li&gt;
+  &lt;li&gt;深圳罗岗医院&lt;/li&gt;
+  &lt;li&gt;深圳雪象医院&lt;/li&gt;
+  &lt;li&gt;深圳健安医院&lt;/li&gt;
+  &lt;li&gt;上海新虹桥医院&lt;/li&gt;
+  &lt;li&gt;江苏泰州红房子医院&lt;/li&gt;
+  &lt;li&gt;江苏海安华山医院&lt;/li&gt;
+  &lt;li&gt;中山市国丹中医院&lt;/li&gt;
+  &lt;li&gt;顺德阳新侠义道光康复医院&lt;/li&gt;
+  &lt;li&gt;深圳市国丹广告有限公司&lt;/li&gt;
+  &lt;li&gt;深圳华南妇科医院&lt;/li&gt;
+  &lt;li&gt;深圳国瑞泌尿外科医院&lt;/li&gt;
+  &lt;li&gt;深圳韩美医疗美容医院&lt;/li&gt;
+  &lt;li&gt;深圳市国丹网络科技公司深圳国丹医疗器械有限公司&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-167&quot;&gt;翁国亮&lt;/h1&gt;
+
+&lt;h2 id=&quot;http8143hk-&quot;&gt;1964年出生莆田荔城区黄石镇清中村,翁国亮旗下有惠好医药200个连锁店和华夏医疗集团，华夏医疗集团有限公司（ &lt;a href=&quot;http://8143.HK&quot;&gt;http://8143.HK&lt;/a&gt; ）为香港上市投资控股集团公司，主要医院有：&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;嘉兴曙光中西医结合医院&lt;/li&gt;
+  &lt;li&gt;上饶协和医院&lt;/li&gt;
+  &lt;li&gt;重庆市爱德华医院&lt;/li&gt;
+  &lt;li&gt;珠海九龙医院&lt;/li&gt;
+  &lt;li&gt;澳美佳女子医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-168&quot;&gt;郑建发&lt;/h1&gt;
+
+&lt;h2 id=&quot;emba3056&quot;&gt;郑建发先生1976年出生，毕业于北京大学，获得EMBA硕士学位他带领下实现了集团直属精品医院30多家，托管经营及合作经营医院5家，公司管理的资产总额达6亿元&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;龙岩女子医院&lt;/li&gt;
+  &lt;li&gt;安阳协和医院&lt;/li&gt;
+  &lt;li&gt;哈尔滨市生殖保健中心院&lt;/li&gt;
+  &lt;li&gt;北京市慧慈医院&lt;/li&gt;
+  &lt;li&gt;大连长城妇科医院&lt;/li&gt;
+  &lt;li&gt;惠阳女子医院&lt;/li&gt;
+  &lt;li&gt;哈尔滨欧亚男科医院&lt;/li&gt;
+  &lt;li&gt;廊坊万福医院&lt;/li&gt;
+  &lt;li&gt;廊坊世纪协和医院&lt;/li&gt;
+  &lt;li&gt;保定京津医院&lt;/li&gt;
+  &lt;li&gt;保定世纪协和医院&lt;/li&gt;
+  &lt;li&gt;保定长安医院&lt;/li&gt;
+  &lt;li&gt;洛阳牡丹女子医院&lt;/li&gt;
+  &lt;li&gt;平顶山市武警医院&lt;/li&gt;
+  &lt;li&gt;福州左海医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-169&quot;&gt;黄德锋、黄开飞&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;北京五洲投资集团&lt;/li&gt;
+  &lt;li&gt;北京五洲女子医院&lt;/li&gt;
+  &lt;li&gt;呼和浩特五洲女子医院&lt;/li&gt;
+  &lt;li&gt;重庆五洲女子医院&lt;/li&gt;
+  &lt;li&gt;北京圣保罗男子医院&lt;/li&gt;
+  &lt;li&gt;北京东方伟业医院管理有限公司&lt;/li&gt;
+  &lt;li&gt;河北东方中西医结合医院&lt;/li&gt;
+  &lt;li&gt;江苏淮安中山医院&lt;/li&gt;
+  &lt;li&gt;天津怡泰医院&lt;/li&gt;
+  &lt;li&gt;天津乐园医院&lt;/li&gt;
+  &lt;li&gt;北京慧中医院&lt;/li&gt;
+  &lt;li&gt;北京恒安中医院&lt;/li&gt;
+  &lt;li&gt;北京建国医院&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;北京国际医疗中心等十几家医院。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;上海邦泰医院投资管理公司&lt;/li&gt;
+  &lt;li&gt;上海九龙男子医院&lt;/li&gt;
+  &lt;li&gt;上海城市女子医院&lt;/li&gt;
+  &lt;li&gt;上海西郊骨科医院&lt;/li&gt;
+  &lt;li&gt;上海真美妇科医院&lt;/li&gt;
+  &lt;li&gt;上海南浦妇科医院等&lt;/li&gt;
+  &lt;li&gt;北京天伦不孕不育医院&lt;/li&gt;
+  &lt;li&gt;北京玛丽妇婴医院&lt;/li&gt;
+  &lt;li&gt;青岛曙光男科医院&lt;/li&gt;
+  &lt;li&gt;石家庄美联臣医疗美容医院&lt;/li&gt;
+  &lt;li&gt;北京美联臣医疗美容医院&lt;/li&gt;
+  &lt;li&gt;山东青岛曙光医院&lt;/li&gt;
+  &lt;li&gt;山东淄博金盾医院&lt;/li&gt;
+  &lt;li&gt;广州市江南医院&lt;/li&gt;
+  &lt;li&gt;北京慧中医院&lt;/li&gt;
+  &lt;li&gt;北京阳光丽人妇科医院&lt;/li&gt;
+  &lt;li&gt;北京恒安中医院&lt;/li&gt;
+  &lt;li&gt;北京国际医疗中心&lt;/li&gt;
+  &lt;li&gt;河北东方中西医结合医院&lt;/li&gt;
+  &lt;li&gt;山西阳泉东方生殖医院&lt;/li&gt;
+  &lt;li&gt;江苏淮安中山医院-&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-170&quot;&gt;苏其远 苏其林&lt;/h1&gt;
+
+&lt;h2 id=&quot;section-171&quot;&gt;秀屿区东庄镇苏厝村,广东三奇医疗集团是长期立足于珠三角，主要经营医疗，旅游，汽车。旗下拥有综合性医院10多家，8个专科高科技医疗中心，60多家医疗门诊部。集团旗下机构有：&lt;/h2&gt;
+
+&lt;h2 id=&quot;section-172&quot;&gt;苏其林香港苏氏国际医院管理集团,最主要的医院是东莞港湾医院是一所综合性二甲级医院。医院一期投资2亿多元人民币，总占地面积30多亩，建筑面积5万多平方米，标准床位300余张&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;江门玛丽妇科医院&lt;/li&gt;
+  &lt;li&gt;佛山三水女子医院&lt;/li&gt;
+  &lt;li&gt;深圳健丰医院&lt;/li&gt;
+  &lt;li&gt;广州济慈医院&lt;/li&gt;
+  &lt;li&gt;广东民安医院&lt;/li&gt;
+  &lt;li&gt;广州长泰医院&lt;/li&gt;
+  &lt;li&gt;顺德广济中医院&lt;/li&gt;
+  &lt;li&gt;广州健安医院&lt;/li&gt;
+  &lt;li&gt;塘厦康桥医院&lt;/li&gt;
+  &lt;li&gt;东莞常平医院&lt;/li&gt;
+  &lt;li&gt;中山和平中医院&lt;/li&gt;
+  &lt;li&gt;东莞康桥妇科医院&lt;/li&gt;
+  &lt;li&gt;惠州东江泌尿专科医院&lt;/li&gt;
+  &lt;li&gt;深圳龙济医院&lt;/li&gt;
+  &lt;li&gt;东莞乌沙医院&lt;/li&gt;
+  &lt;li&gt;顺德新世纪泌尿医院&lt;/li&gt;
+  &lt;li&gt;东莞万福妇产医院&lt;/li&gt;
+  &lt;li&gt;顺德庄头医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-173&quot;&gt;卓朝阳&lt;/h1&gt;
+
+&lt;h2 id=&quot;edwardceo&quot;&gt;英国EDWARD国际投资管理有限公司CEO，成都博爱医疗投资管理有限公司董事长，四川省福建商会常务副会长&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;成都博爱医院&lt;/li&gt;
+  &lt;li&gt;西藏博爱医院&lt;/li&gt;
+  &lt;li&gt;成都安琪儿妇产医院&lt;/li&gt;
+  &lt;li&gt;宁夏妇产医院&lt;/li&gt;
+  &lt;li&gt;成都蜀都乳腺医院&lt;/li&gt;
+  &lt;li&gt;舟山市千岛医院&lt;/li&gt;
+  &lt;li&gt;舟山市千岛医院妇产科&lt;/li&gt;
+  &lt;li&gt;福州总医院第二附属医院&lt;/li&gt;
+  &lt;li&gt;蚌埠解放军一二三中心医院&lt;/li&gt;
+  &lt;li&gt;解放军第三七一中心医院&lt;/li&gt;
+  &lt;li&gt;乌海现代医院&lt;/li&gt;
+  &lt;li&gt;拉萨北大泌尿生殖医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-174&quot;&gt;陈金章、陈国兴&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;上海美迪亚医院集团旗下医院：&lt;/li&gt;
+  &lt;li&gt;上海虹桥医院&lt;/li&gt;
+  &lt;li&gt;上海健桥医院&lt;/li&gt;
+  &lt;li&gt;上海博爱医院&lt;/li&gt;
+  &lt;li&gt;上海长江医院&lt;/li&gt;
+  &lt;li&gt;杭州虹桥医院&lt;/li&gt;
+  &lt;li&gt;杭州建国医院&lt;/li&gt;
+  &lt;li&gt;杭州天目山医院&lt;/li&gt;
+  &lt;li&gt;宁波虹桥医院&lt;/li&gt;
+  &lt;li&gt;温州建国医院&lt;/li&gt;
+  &lt;li&gt;温州红旗医院&lt;/li&gt;
+  &lt;li&gt;无锡虹桥医院&lt;/li&gt;
+  &lt;li&gt;昆山虹桥医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-175&quot;&gt;吴美先&lt;/h1&gt;
+
+&lt;h2 id=&quot;section-176&quot;&gt;北京祥云医疗集团现有下属医院和医疗机构10多家，遍布北京、河北、河南、安徽等地。公司核心业务是医院管理和医疗服务，资产规模达1亿多元，年营业额2亿多元，现有员工一千多名。北京祥云医院管理有限公司旗下医院：&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;北京京城皮肤病医院&lt;/li&gt;
+  &lt;li&gt;河南中都皮肤病医院&lt;/li&gt;
+  &lt;li&gt;唐山京城皮肤病医院&lt;/li&gt;
+  &lt;li&gt;北京京北医院&lt;/li&gt;
+  &lt;li&gt;唐山女子医院&lt;/li&gt;
+  &lt;li&gt;唐山红十字医院&lt;/li&gt;
+  &lt;li&gt;巢湖康平妇产医院&lt;/li&gt;
+  &lt;li&gt;淮北女子医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-177&quot;&gt;卓国金&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;香港瑞恩集团旗下医院:&lt;/li&gt;
+  &lt;li&gt;山西民生医院&lt;/li&gt;
+  &lt;li&gt;太原糖尿病专科医院&lt;/li&gt;
+  &lt;li&gt;成都糖尿病专科医院&lt;/li&gt;
+  &lt;li&gt;北京瑞京糖尿病医院&lt;/li&gt;
+  &lt;li&gt;运城禹都人民医院&lt;/li&gt;
+  &lt;li&gt;太原新医医院&lt;/li&gt;
+  &lt;li&gt;太原益民中医院&lt;/li&gt;
+  &lt;li&gt;兰州仁和医院&lt;/li&gt;
+  &lt;li&gt;浙江金华博康生殖医院&lt;/li&gt;
+  &lt;li&gt;成都曙光男科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-178&quot;&gt;刘亚勇&lt;/h1&gt;
+
+&lt;h2 id=&quot;section-179&quot;&gt;上海永宏投资有限公司注册资金叁仟万元，有员工2千多名。公司管理医院有：&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;武汉当代佳丽医院&lt;/li&gt;
+  &lt;li&gt;沈阳曙光男科医院&lt;/li&gt;
+  &lt;li&gt;泰州市海陵医院&lt;/li&gt;
+  &lt;li&gt;江西吉安市第二人民医院&lt;/li&gt;
+  &lt;li&gt;武警陕西总队医院&lt;/li&gt;
+  &lt;li&gt;吉林总队医院&lt;/li&gt;
+  &lt;li&gt;解放军411医院&lt;/li&gt;
+  &lt;li&gt;解放军534医院&lt;/li&gt;
+  &lt;li&gt;解放军422医院(武警辽宁总队医院)&lt;/li&gt;
+  &lt;li&gt;广州458医院&lt;/li&gt;
+  &lt;li&gt;武警山西总队医院&lt;/li&gt;
+  &lt;li&gt;河南省军区医院&lt;/li&gt;
+  &lt;li&gt;湖北荣军医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-180&quot;&gt;上海中硕医疗集团&lt;/h1&gt;
+
+&lt;h2 id=&quot;section-181&quot;&gt;中硕集团多在上海、无锡、苏州、昆山、杭州、常熟等长三角经济发达县市拥有数十家现代化精品综合医院和女子专科医院。上海中硕医疗集团旗下医院：&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;江阴东方女子医院&lt;/li&gt;
+  &lt;li&gt;泰州海陵女子医院&lt;/li&gt;
+  &lt;li&gt;常熟东方妇科医院&lt;/li&gt;
+  &lt;li&gt;宜兴武警医院&lt;/li&gt;
+  &lt;li&gt;杭州萧山九龙男科医院&lt;/li&gt;
+  &lt;li&gt;江阴九龙泌尿外科医院&lt;/li&gt;
+  &lt;li&gt;黑龙江长庚耳鼻喉医院&lt;/li&gt;
+  &lt;li&gt;长春长庚耳鼻喉医院&lt;/li&gt;
+  &lt;li&gt;天津长庚耳鼻喉医院&lt;/li&gt;
+  &lt;li&gt;山西长庚耳鼻喉医院&lt;/li&gt;
+  &lt;li&gt;温州爱尔五官科医院&lt;/li&gt;
+  &lt;li&gt;张家港朝阳五官科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-182&quot;&gt;詹国太&lt;/h1&gt;
+
+&lt;h2 id=&quot;section-183&quot;&gt;1968年出生秀屿区东庄镇马厂村，詹国太成功地托管、参股、独资、合资经营21家医院，其中有：&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;北京众安康中医骨科&lt;/li&gt;
+  &lt;li&gt;厦门友好妇科&lt;/li&gt;
+  &lt;li&gt;南京康豪妇科&lt;/li&gt;
+  &lt;li&gt;厦门湖里康乐门诊部&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-184&quot;&gt;吴鸣&lt;/h1&gt;
+
+&lt;h2 id=&quot;section-185&quot;&gt;1974年出生集美整形集团董事长兼首席执行官，吴鸣旗下拥有2家公司、3家整形美容医院和15家整形医院的股权。&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;郑州集美整形美容医院&lt;/li&gt;
+  &lt;li&gt;青岛集美整形美容医院&lt;/li&gt;
+  &lt;li&gt;济南整形美容医院&lt;/li&gt;
+  &lt;li&gt;三家全资机构.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-186&quot;&gt;卓国华 卓国华独资参投机构：&lt;/h1&gt;
+
+&lt;h2 id=&quot;section-187&quot;&gt;另外卓氏还在宁波和嘉兴两地参投承包了数多门诊、科室，嫡系机构卓国良、卓国善、卓国俊投资有 北京龙中龙医疗器械有限公司，北京军都医院等。&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;成都玛利亚妇产医院&lt;/li&gt;
+  &lt;li&gt;宁波欧亚男科医院&lt;/li&gt;
+  &lt;li&gt;成都欧亚男科医院&lt;/li&gt;
+  &lt;li&gt;宁波甬城医院&lt;/li&gt;
+  &lt;li&gt;嘉兴博爱医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-188&quot;&gt;友康集团&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;信阳泌尿外科医院&lt;/li&gt;
+  &lt;li&gt;郑州华夏白癜风医院&lt;/li&gt;
+  &lt;li&gt;许昌新时代妇科医院&lt;/li&gt;
+  &lt;li&gt;九江玛丽亚医院&lt;/li&gt;
+  &lt;li&gt;九江新世纪医院&lt;/li&gt;
+  &lt;li&gt;赣州现代泌尿专科医院&lt;/li&gt;
+  &lt;li&gt;漯河东方医院&lt;/li&gt;
+  &lt;li&gt;黄冈泌尿专科医院&lt;/li&gt;
+  &lt;li&gt;萍乡市新世纪泌尿专科医院&lt;/li&gt;
+  &lt;li&gt;莆田丽人妇科医院&lt;/li&gt;
+  &lt;li&gt;萍乡妇科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-189&quot;&gt;中健公司&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;北京玛丽妇婴医院&lt;/li&gt;
+  &lt;li&gt;济南妇科医院&lt;/li&gt;
+  &lt;li&gt;山东红十字会医院&lt;/li&gt;
+  &lt;li&gt;合肥市中山医院&lt;/li&gt;
+  &lt;li&gt;北京麦瑞骨科医院&lt;/li&gt;
+  &lt;li&gt;济南骨科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-190&quot;&gt;深圳中豪医院集团&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;深圳同仁妇科医院&lt;/li&gt;
+  &lt;li&gt;东莞南华妇科医院&lt;/li&gt;
+  &lt;li&gt;广州花都人爱医院&lt;/li&gt;
+  &lt;li&gt;东莞东方泌尿专科医院&lt;/li&gt;
+  &lt;li&gt;汕头妇产医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-191&quot;&gt;三角洲集团(医院投资管理)有限公司&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;深圳凤凰医院&lt;/li&gt;
+  &lt;li&gt;常熟仁爱医院&lt;/li&gt;
+  &lt;li&gt;杭州广仁医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-192&quot;&gt;香港济丰集团&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;洛阳牡丹女子医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-193&quot;&gt;香港凤凰国际医疗投资集团&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;邯郸仁爱妇科医院&lt;/li&gt;
+  &lt;li&gt;许昌凤凰医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-194&quot;&gt;香港康联医疗（国际）投资集团&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;博爱泌尿专科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-195&quot;&gt;香港慈济医疗（国际）投资集团&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;南昌仁爱女子医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-196&quot;&gt;加拿大凤凰医院管理公司&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;北京健宫医院&lt;/li&gt;
+  &lt;li&gt;大连新世纪医院&lt;/li&gt;
+  &lt;li&gt;吉林创作医院&lt;/li&gt;
+  &lt;li&gt;无锡新区医院&lt;/li&gt;
+  &lt;li&gt;深圳凤凰医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-197&quot;&gt;阳光医院连锁集团&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;深圳阳光医院&lt;/li&gt;
+  &lt;li&gt;黑龙江阳光女子医院&lt;/li&gt;
+  &lt;li&gt;重庆阳光医院&lt;/li&gt;
+  &lt;li&gt;上海阳光中医医院&lt;/li&gt;
+  &lt;li&gt;广西阳光医院&lt;/li&gt;
+  &lt;li&gt;四川阳光妇科医院&lt;/li&gt;
+  &lt;li&gt;北京阳光丽人妇科医院&lt;/li&gt;
+  &lt;li&gt;山西新阳光妇科医院&lt;/li&gt;
+  &lt;li&gt;上海阳光中医医院&lt;/li&gt;
+  &lt;li&gt;长春阳光女子医院&lt;/li&gt;
+  &lt;li&gt;长春阳光口腔医院&lt;/li&gt;
+  &lt;li&gt;涡阳阳光医院&lt;/li&gt;
+  &lt;li&gt;芜湖阳光眼科医院&lt;/li&gt;
+  &lt;li&gt;巢湖阳光妇幼医院&lt;/li&gt;
+  &lt;li&gt;淮北阳光心理院&lt;/li&gt;
+  &lt;li&gt;泉州新阳光女子医院&lt;/li&gt;
+  &lt;li&gt;龙岩阳光医院&lt;/li&gt;
+  &lt;li&gt;福清阳光女子医院&lt;/li&gt;
+  &lt;li&gt;四平阳光医院&lt;/li&gt;
+  &lt;li&gt;济南阳光女子医院&lt;/li&gt;
+  &lt;li&gt;青岛新阳光医院&lt;/li&gt;
+  &lt;li&gt;齐河阳光医院&lt;/li&gt;
+  &lt;li&gt;南京阳光肿瘤医院&lt;/li&gt;
+  &lt;li&gt;泗洪阳光儿童医院&lt;/li&gt;
+  &lt;li&gt;昆山阳光医院&lt;/li&gt;
+  &lt;li&gt;顺德阳光康复医院&lt;/li&gt;
+  &lt;li&gt;中山阳光医院&lt;/li&gt;
+  &lt;li&gt;珠海阳光医院&lt;/li&gt;
+  &lt;li&gt;长沙阳光医院&lt;/li&gt;
+  &lt;li&gt;湘潭阳光眼科中心&lt;/li&gt;
+  &lt;li&gt;昆明阳光医院&lt;/li&gt;
+  &lt;li&gt;富源阳光医院&lt;/li&gt;
+  &lt;li&gt;巩义阳光医院&lt;/li&gt;
+  &lt;li&gt;娄底阳光医院&lt;/li&gt;
+  &lt;li&gt;伊犁阳光女子医院&lt;/li&gt;
+  &lt;li&gt;伊宁阳光女子医院&lt;/li&gt;
+  &lt;li&gt;湖州阳光女子医院&lt;/li&gt;
+  &lt;li&gt;桂林阳光医院&lt;/li&gt;
+  &lt;li&gt;武汉阳光女子医院&lt;/li&gt;
+  &lt;li&gt;九江阳光女子医院&lt;/li&gt;
+  &lt;li&gt;万州阳光眼科医院&lt;/li&gt;
+  &lt;li&gt;西安阳光医院&lt;/li&gt;
+  &lt;li&gt;大连阳光医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-198&quot;&gt;上海盛康医院投资管理有限公司&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;淮安中山医院&lt;/li&gt;
+  &lt;li&gt;嘉兴曙光中西医结合医院&lt;/li&gt;
+  &lt;li&gt;重庆爱德华医院&lt;/li&gt;
+  &lt;li&gt;上海英港泌尿外科医院&lt;/li&gt;
+  &lt;li&gt;上海阿波罗男子医院&lt;/li&gt;
+  &lt;li&gt;上海玫瑰女子医院&lt;/li&gt;
+  &lt;li&gt;郑州华山医院&lt;/li&gt;
+  &lt;li&gt;盐城协和康复医院&lt;/li&gt;
+  &lt;li&gt;杭州阿波罗男子医院&lt;/li&gt;
+  &lt;li&gt;许昌中山医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-199&quot;&gt;新加坡华康医疗投资集团&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;成都康新妇科医院&lt;/li&gt;
+  &lt;li&gt;杭州和睦医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-200&quot;&gt;新加坡华康集团&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;上海康新医院&lt;/li&gt;
+  &lt;li&gt;成都康新妇科医院&lt;/li&gt;
+  &lt;li&gt;解放军妇产科中心&lt;/li&gt;
+  &lt;li&gt;武警四川总队医院(原解放军372医院)&lt;/li&gt;
+  &lt;li&gt;武警海南总队医院妇科中心&lt;/li&gt;
+  &lt;li&gt;新彊维吾尔自治区人民医院肿瘤中心&lt;/li&gt;
+  &lt;li&gt;黑龙江省武警黄金医院妇科&lt;/li&gt;
+  &lt;li&gt;解放军沈阳463医院希美整形美容&lt;/li&gt;
+  &lt;li&gt;杭州和睦医院杭州真爱医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-201&quot;&gt;上海杰韦克医疗投资公司&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;潍坊博爱医院&lt;/li&gt;
+  &lt;li&gt;潍坊长安医院潍坊和平医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-202&quot;&gt;鸿业医疗投资集团&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;成都济民女子医院&lt;/li&gt;
+  &lt;li&gt;新疆爱德华医院院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-203&quot;&gt;远东国际医疗投资集团&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;广州远东美容医院&lt;/li&gt;
+  &lt;li&gt;郑州丽天整形医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-204&quot;&gt;上海常庚医院管理有限公司&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;上海圣爱医院&lt;/li&gt;
+  &lt;li&gt;苏州圣爱医院&lt;/li&gt;
+  &lt;li&gt;慈溪圣爱医院&lt;/li&gt;
+  &lt;li&gt;上海同德医院&lt;/li&gt;
+  &lt;li&gt;昆明仁爱医院&lt;/li&gt;
+  &lt;li&gt;上海安平医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-205&quot;&gt;上海满红红医院投资管理公司&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;合肥九龙男科医院&lt;/li&gt;
+  &lt;li&gt;合肥丹凤朝阳妇科医院&lt;/li&gt;
+  &lt;li&gt;芜湖丹凤朝阳妇科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-206&quot;&gt;九州医院投资管理公司&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;昆明九州医院&lt;/li&gt;
+  &lt;li&gt;玉溪九州医院&lt;/li&gt;
+  &lt;li&gt;曲靖九州医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-207&quot;&gt;上海恒达医疗投资公司&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;重庆生殖健康医院&lt;/li&gt;
+  &lt;li&gt;重庆红楼医院雅安解放军第三十七医院&lt;/li&gt;
+  &lt;li&gt;武警湖南省总队医院&lt;/li&gt;
+  &lt;li&gt;南充解放军51医院&lt;/li&gt;
+  &lt;li&gt;解放军第324医院&lt;/li&gt;
+  &lt;li&gt;解放军478医院妇产中心&lt;/li&gt;
+  &lt;li&gt;涪陵三峡医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-208&quot;&gt;京洲集团医院投资有限公司&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;昆明九州泌尿医院&lt;/li&gt;
+  &lt;li&gt;江东泌尿外科医院&lt;/li&gt;
+  &lt;li&gt;上海九州泌尿医院&lt;/li&gt;
+  &lt;li&gt;上海青城医院&lt;/li&gt;
+  &lt;li&gt;上海博大医院&lt;/li&gt;
+  &lt;li&gt;上海中亚医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-209&quot;&gt;香港瑞恩集团董事长卓国金&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;山西民生医院&lt;/li&gt;
+  &lt;li&gt;太原糖尿病专科医院&lt;/li&gt;
+  &lt;li&gt;成都糖尿病专科医院&lt;/li&gt;
+  &lt;li&gt;北京瑞京糖尿病医院&lt;/li&gt;
+  &lt;li&gt;运城禹都人民医院&lt;/li&gt;
+  &lt;li&gt;太原新医医院&lt;/li&gt;
+  &lt;li&gt;太原益民中医院&lt;/li&gt;
+  &lt;li&gt;兰州仁和医院&lt;/li&gt;
+  &lt;li&gt;浙江金华博康生殖医院&lt;/li&gt;
+  &lt;li&gt;成都曙光男科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-210&quot;&gt;香港亚洲医疗投资集团&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;遵义女子医院&lt;/li&gt;
+  &lt;li&gt;苏州新医科&lt;/li&gt;
+  &lt;li&gt;淮安生殖医院&lt;/li&gt;
+  &lt;li&gt;重庆红十字会医院&lt;/li&gt;
+  &lt;li&gt;福州东南女子医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-211&quot;&gt;北京中豪基业医疗投资管理有限公司&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;保定现代女子医院&lt;/li&gt;
+  &lt;li&gt;长治女子医院&lt;/li&gt;
+  &lt;li&gt;淄博女子医院&lt;/li&gt;
+  &lt;li&gt;大同新时代妇科医院&lt;/li&gt;
+  &lt;li&gt;晋城生殖医院&lt;/li&gt;
+  &lt;li&gt;原白癜风医院&lt;/li&gt;
+  &lt;li&gt;保定白癜风医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-212&quot;&gt;福建誉盛投资(集团)公司&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;莆田盛兴医院&lt;/li&gt;
+  &lt;li&gt;福州福兴妇产医院&lt;/li&gt;
+  &lt;li&gt;福州誉盛医院&lt;/li&gt;
+  &lt;li&gt;南通和美家妇产科医院&lt;/li&gt;
+  &lt;li&gt;南通长城医院&lt;/li&gt;
+  &lt;li&gt;凉山妇产医院&lt;/li&gt;
+  &lt;li&gt;凉山男科医院&lt;/li&gt;
+  &lt;li&gt;莆田中西医肛肠医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;httpwwwjsdytzcom&quot;&gt;江苏大友投资集团(&lt;a href=&quot;http://www.jsdytz.com/&quot;&gt;http://www.jsdytz.com/&lt;/a&gt;)&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;上海嘉华医院&lt;/li&gt;
+  &lt;li&gt;江阴红房子医院&lt;/li&gt;
+  &lt;li&gt;武进红房子医院&lt;/li&gt;
+  &lt;li&gt;烟台丽华妇科医院&lt;/li&gt;
+  &lt;li&gt;扬州仁爱医院&lt;/li&gt;
+  &lt;li&gt;江阴朝阳男科医院&lt;/li&gt;
+  &lt;li&gt;青岛开发区友爱医院&lt;/li&gt;
+  &lt;li&gt;胶南丽华医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-213&quot;&gt;最新补充&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;北京福来康投资管理有限公司&lt;/li&gt;
+  &lt;li&gt;广东福康医院&lt;/li&gt;
+  &lt;li&gt;柳州福康医院&lt;/li&gt;
+  &lt;li&gt;湖北黄石福康医院&lt;/li&gt;
+  &lt;li&gt;襄樊市第五人民医院&lt;/li&gt;
+  &lt;li&gt;武汉华仁医院&lt;/li&gt;
+  &lt;li&gt;北京京城皮肤病医院&lt;/li&gt;
+  &lt;li&gt;江门福康医院&lt;/li&gt;
+  &lt;li&gt;肇庆福康医院&lt;/li&gt;
+  &lt;li&gt;湖南郴州福康医院&lt;/li&gt;
+  &lt;li&gt;全国所有的爱尔眼科医院&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section-214&quot;&gt;西宁&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;[青海西宁莆田友谊医院][id2]&lt;/li&gt;
+  &lt;li&gt;[西宁现代妇产医院][id1]&lt;br /&gt;
+&lt;img src=&quot;img/xininngxiandai_001.png&quot; alt=&quot;西宁现代妇产医院&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-215&quot;&gt;有问题反馈&lt;/h3&gt;
+&lt;p&gt;在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
+</description>
+        <pubDate>Wed, 04 May 2016 02:43:21 +0800</pubDate>
+        <link>/life/2016/05/04/%E8%8E%86%E7%94%B0%E7%B3%BB%E5%8C%BB%E9%99%A2%E5%90%8D%E5%8D%95.html</link>
+        <guid isPermaLink="true">/life/2016/05/04/%E8%8E%86%E7%94%B0%E7%B3%BB%E5%8C%BB%E9%99%A2%E5%90%8D%E5%8D%95.html</guid>
+        
+        
+        <category>life</category>
+        
+      </item>
+    
+      <item>
         <title>Jekyll学习</title>
-        <description>&lt;p&gt;这是个人在github上建站的基本教程！&lt;/p&gt;
+        <description>&lt;p&gt;这是个人在github上建站的基本教程！&lt;br /&gt;
+&lt;a href=&quot;/index.html&quot;&gt;回到主页&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;jekyll&quot;&gt;Jekyll的文件架构&lt;/h3&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;  
 &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_includes&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_includes&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;作为公共的内容被其他文章引用&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;footer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;
@@ -25,12 +2474,12 @@
 &lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;icon&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;svg&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;我暂时没有！&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;icon&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;twitter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;我暂时没有！&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;└&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;icon&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;twitter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;svg&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;我暂时没有！&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_layouts&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_layouts&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;默认的公共页面，主要的模板文件&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;模板暂时没有！&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;└&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_posts&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;撰写的博文都放在这里&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_posts&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;撰写的博文都放在这里&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;文件名必须是&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;YYYY&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;MM&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DD&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;└&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2016&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;03&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;04&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;welcome&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;markdown&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_sass&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;├&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_base&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;scss&lt;/span&gt;  
@@ -41,13 +2490,13 @@
 &lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;└&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;css&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;└&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;scss&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;gitignore&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;yml&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;gitignore&lt;/span&gt;  
+&lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;yml&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;关于&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;模板引擎的配置文件&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;404&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;模板暂时没有！&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;about&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;md&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;feed&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;xml&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ie&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;xml&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;模板暂时没有！&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;默认的主页&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;├&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;LICENSE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;txt&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;模板暂时没有！&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;└&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rss&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;xml&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;模板暂时没有！&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
@@ -70,9 +2519,9 @@
 &lt;h3 id=&quot;section-1&quot;&gt;有问题反馈&lt;/h3&gt;
 &lt;p&gt;在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
 </description>
-        <pubDate>Thu, 28 Apr 2016 08:32:34 +0800</pubDate>
-        <link>/linux/2016/04/28/Jekyll%E5%AD%A6%E4%B9%A0.html</link>
-        <guid isPermaLink="true">/linux/2016/04/28/Jekyll%E5%AD%A6%E4%B9%A0.html</guid>
+        <pubDate>Fri, 29 Apr 2016 06:00:58 +0800</pubDate>
+        <link>/linux/2016/04/29/Jekyll%E5%AD%A6%E4%B9%A0.html</link>
+        <guid isPermaLink="true">/linux/2016/04/29/Jekyll%E5%AD%A6%E4%B9%A0.html</guid>
         
         
         <category>linux</category>
@@ -138,9 +2587,9 @@
 &lt;p&gt;如果您在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 31 Mar 2016 08:32:34 +0800</pubDate>
-        <link>/linux/2016/03/31/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html</link>
-        <guid isPermaLink="true">/linux/2016/03/31/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html</guid>
+        <pubDate>Fri, 01 Apr 2016 06:11:30 +0800</pubDate>
+        <link>/linux/2016/04/01/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html</link>
+        <guid isPermaLink="true">/linux/2016/04/01/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html</guid>
         
         
         <category>linux</category>
@@ -185,7 +2634,7 @@
 &lt;h3 id=&quot;section-2&quot;&gt;有问题反馈&lt;/h3&gt;
 &lt;p&gt;在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
 </description>
-        <pubDate>Sun, 28 Feb 2016 08:32:34 +0800</pubDate>
+        <pubDate>Sun, 28 Feb 2016 21:28:43 +0800</pubDate>
         <link>/knack/2016/02/28/%E8%A7%A3%E5%86%B3%E5%8F%8C%E7%B3%BB%E7%BB%9Funknown-filesystem-grub-rescue.html</link>
         <guid isPermaLink="true">/knack/2016/02/28/%E8%A7%A3%E5%86%B3%E5%8F%8C%E7%B3%BB%E7%BB%9Funknown-filesystem-grub-rescue.html</guid>
         
@@ -206,7 +2655,7 @@
 &lt;h3 id=&quot;section&quot;&gt;有问题反馈&lt;/h3&gt;
 &lt;p&gt;在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
 </description>
-        <pubDate>Tue, 23 Feb 2016 08:32:34 +0800</pubDate>
+        <pubDate>Tue, 23 Feb 2016 17:52:50 +0800</pubDate>
         <link>/knack/2016/02/23/%E9%98%BB%E6%AD%A2%E5%8D%87%E7%BA%A7%E4%B8%BAWin10.html</link>
         <guid isPermaLink="true">/knack/2016/02/23/%E9%98%BB%E6%AD%A2%E5%8D%87%E7%BA%A7%E4%B8%BAWin10.html</guid>
         
@@ -244,9 +2693,9 @@
 &lt;h3 id=&quot;section-1&quot;&gt;有问题反馈&lt;/h3&gt;
 &lt;p&gt;在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
 </description>
-        <pubDate>Tue, 19 Jan 2016 08:32:34 +0800</pubDate>
-        <link>/knack/2016/01/19/%E6%9F%A5%E7%9C%8BAndroid-Wifi%E5%AF%86%E7%A0%81.html</link>
-        <guid isPermaLink="true">/knack/2016/01/19/%E6%9F%A5%E7%9C%8BAndroid-Wifi%E5%AF%86%E7%A0%81.html</guid>
+        <pubDate>Wed, 20 Jan 2016 06:22:17 +0800</pubDate>
+        <link>/knack/2016/01/20/%E6%9F%A5%E7%9C%8BAndroid-Wifi%E5%AF%86%E7%A0%81.html</link>
+        <guid isPermaLink="true">/knack/2016/01/20/%E6%9F%A5%E7%9C%8BAndroid-Wifi%E5%AF%86%E7%A0%81.html</guid>
         
         
         <category>knack</category>
@@ -273,11 +2722,11 @@ AB对称，无先后顺序！运算时要将一个矩阵旋转180度！大小默
 题，欢迎反馈给我！&lt;/p&gt;
 </description>
         <pubDate>Tue, 05 Jan 2016 08:32:34 +0800</pubDate>
-        <link>/knack/2016/01/05/%E5%AF%B9%E6%AF%94Matlab%E7%9A%84%E5%87%A0%E4%B8%AA%E5%8D%B7%E7%A7%AF%E5%87%BD%E6%95%B0.html</link>
-        <guid isPermaLink="true">/knack/2016/01/05/%E5%AF%B9%E6%AF%94Matlab%E7%9A%84%E5%87%A0%E4%B8%AA%E5%8D%B7%E7%A7%AF%E5%87%BD%E6%95%B0.html</guid>
+        <link>/matlab/2016/01/05/%E5%AF%B9%E6%AF%94Matlab%E7%9A%84%E5%87%A0%E4%B8%AA%E5%8D%B7%E7%A7%AF%E5%87%BD%E6%95%B0.html</link>
+        <guid isPermaLink="true">/matlab/2016/01/05/%E5%AF%B9%E6%AF%94Matlab%E7%9A%84%E5%87%A0%E4%B8%AA%E5%8D%B7%E7%A7%AF%E5%87%BD%E6%95%B0.html</guid>
         
         
-        <category>knack</category>
+        <category>matlab</category>
         
       </item>
     
