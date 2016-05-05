@@ -6,8 +6,8 @@
     <atom:link href="eiot.github.io/rss.xml" rel="self" type="application/rss+xml" />
     <description>Computer can change your life for the better.</description>
     <language>zh-cn</language>
-    <pubDate>Wed, 04 May 2016 22:50:00 +0800</pubDate>
-    <lastBuildDate>Wed, 04 May 2016 22:50:00 +0800</lastBuildDate>
+    <pubDate>Thu, 05 May 2016 09:06:49 +0800</pubDate>
+    <lastBuildDate>Thu, 05 May 2016 09:06:49 +0800</lastBuildDate>
 
     
     <item>
@@ -16,23 +16,21 @@
       <pubDate>04 May 2016</pubDate>
       <author>Huangxu</author>
       <guid>eiot.github.io/life/2016/05/04/莆田系医院名单</guid>
-      <description>&lt;p&gt;将github用到了极致！
+      <description>&lt;p&gt;将GitHub用到了极致！
 IT的业界良心！&lt;/p&gt;
 
 &lt;h3 id=&quot;section&quot;&gt;莆田系医院名单&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://fuchenxuan.cn/GetHosp/&quot;&gt;推荐本站外的查询方式&lt;/a&gt;
-&lt;a href=&quot;https://github.com/langhua9527/BlackheartedHospital&quot;&gt;本页参考来源&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;http://fuchenxuan.cn/GetHosp/&quot;&gt;推荐本站外的查询方式&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/langhua9527/BlackheartedHospital&quot;&gt;本页参考来源&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;[http://news.ifeng.com/mainland/special/ptxyy/](http://news.ifeng.com/mainland/special/ptxyy/)&quot;&gt;凤凰网医院名单（较少）&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;blackheartedhospital&quot;&gt;BlackheartedHospital&lt;/h1&gt;
+&lt;h1 id=&quot;beta&quot;&gt;莆田系医院1.2beta&lt;/h1&gt;
 
 &lt;p&gt;网传附莆田系医院名单！&lt;br /&gt;
 本文信息来自于互联网，内容与本人无关！本人仅仅转发了相关内容！  &lt;br /&gt;
 wandergis 已经根据凤凰网的数据做了一个地图出来 https://github.com/wandergis/hospital-viz&lt;br /&gt;
 fushenghua 也开源了一个查询的 https://github.com/fushenghua/GetHosp/ 的项目&lt;/p&gt;
-
-&lt;h1 id=&quot;beta&quot;&gt;版本1.2beta&lt;/h1&gt;
 
 &lt;h2 id=&quot;section-1&quot;&gt;武汉&lt;/h2&gt;
 
@@ -2463,6 +2461,10 @@ fushenghua 也开源了一个查询的 https://github.com/fushenghua/GetHosp/ �
       <guid>eiot.github.io/linux/2016/04/29/Jekyll学习</guid>
       <description>&lt;p&gt;这是个人在github上建站的基本教程！&lt;br /&gt;
 &lt;a href=&quot;/index.html&quot;&gt;回到主页&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Jekyll是款简单的静态博客生成工具，通过markdown编写静态文件，生成Html页面。 它的优点是提升了页面的响应速度，并且让博主可以只专注于写文章，不用再去考虑如何排版！
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;jekyll&quot;&gt;Jekyll的文件架构&lt;/h3&gt;
 
