@@ -45,7 +45,7 @@
     <aside id="sidebar">
       <nav id="tags">
         <a href="/index.html" id="avatar"></a>
-
+		<!--控制图像，不能直接修改，有其他依赖，否则不显示-->
         <ul id="tags__ul" >
           <li id="js-label1" class="tags__li tags-btn active">All Posts</li>
           <li id="js-label2" class="tags__li tags-btn">Linux</li>
@@ -57,21 +57,24 @@
           <li id="js-label8" class="tags__li tags-btn">Knack</li>
           <li id="js-label9" class="tags__li tags-btn">Other</li>
         </ul>
-		<!--assets/js/script.js里面也有相应的tag-->
+		<!-- assets/js/script.js里面也有相应的tag-->
 
         <div id="tags__bottom">
           <a href="mailto:huangxu@hust.edu.cn" id="icon-email" class="tags-btn fontello"></a>
-          <a href="/rss.xml" id="icon-feed" class="tags-btn fontello"></a>
+          <!--<a href="/rss.xml" id="icon-feed" class="tags-btn fontello"></a>-->
 		  <!--上面的RSS不太可靠！-->
+		  <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=775401754&site=qq&menu=yes"><img border="8" src="http://wpa.qq.com/pa?p=2:775401754:52" alt="QQ" title="QQ"/></a>
+
         </div>
       </nav> <!-- end #tags -->
 
       <div id="posts-list">
         <form action="" id="search-form">
           <a href="/index.html" id="mobile-avatar"></a>
-          <!-- NOTE: input field is disabled by default 
-          <input id="search-input" type="text" placeholder="Search..." disabled >-->
+          <!-- <p>NOTE: input field is disabled by default </p>-->
+          <!--<input id="search-input" type="text" placeholder="Search..." disabled >-->
 		  <!--Search功能不太可靠！-->
+
         </form>
 
         <nav id="pl__container">
@@ -79,51 +82,44 @@
 		 <!--<a class="pl__time_total">
 		 <strong >May 2016</strong>
 		 <strong >temp</strong>-->
-		 </a>
-		 <!--附近有删改！-->
-          <a class="life pl__all" href="/life/2016/05/04/%E8%8E%86%E7%94%B0%E7%B3%BB%E5%8C%BB%E9%99%A2%E5%90%8D%E5%8D%95.html"><span class="pl__circle"></span><span class="pl__title">莆田系医院名单</span><strong class="pl__date">life</strong></a>
+		 <!--在链接上方添加更新时间的年月-->
+         <a class="life pl__all" href="/life/2016/05/04/%E8%8E%86%E7%94%B0%E7%B3%BB%E5%8C%BB%E9%99%A2%E5%90%8D%E5%8D%95.html"><span class="pl__circle"></span><span class="pl__title">莆田系医院名单</span><strong class="pl__date">life</strong></a>
 		
 		 <!--<a class="pl__time_total">
 		 <strong >Apr 2016</strong>
 		 <strong >temp</strong>-->
-		 </a>
-		 <!--附近有删改！-->
-          <a class="linux pl__all" href="/linux/2016/04/29/Jekyll%E5%AD%A6%E4%B9%A0.html"><span class="pl__circle"></span><span class="pl__title">Jekyll学习</span><strong class="pl__date">linux</strong></a>
+		 <!--在链接上方添加更新时间的年月-->
+         <a class="linux pl__all" href="/linux/2016/04/29/Jekyll%E5%AD%A6%E4%B9%A0.html"><span class="pl__circle"></span><span class="pl__title">Jekyll学习</span><strong class="pl__date">linux</strong></a>
 		
 		 <!--<a class="pl__time_total">
 		 <strong >Apr 2016</strong>
 		 <strong >temp</strong>-->
-		 </a>
-		 <!--附近有删改！-->
-          <a class="linux pl__all" href="/linux/2016/04/01/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html"><span class="pl__circle"></span><span class="pl__title">Git学习笔记</span><strong class="pl__date">linux</strong></a>
+		 <!--在链接上方添加更新时间的年月-->
+         <a class="linux pl__all" href="/linux/2016/04/01/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html"><span class="pl__circle"></span><span class="pl__title">Git学习笔记</span><strong class="pl__date">linux</strong></a>
 		
 		 <!--<a class="pl__time_total">
 		 <strong >Feb 2016</strong>
 		 <strong >temp</strong>-->
-		 </a>
-		 <!--附近有删改！-->
-          <a class="knack pl__all" href="/knack/2016/02/28/%E8%A7%A3%E5%86%B3%E5%8F%8C%E7%B3%BB%E7%BB%9Funknown-filesystem-grub-rescue.html"><span class="pl__circle"></span><span class="pl__title">解决双系统unknown filesystem grub rescue</span><strong class="pl__date">knack</strong></a>
+		 <!--在链接上方添加更新时间的年月-->
+         <a class="knack pl__all" href="/knack/2016/02/28/%E8%A7%A3%E5%86%B3%E5%8F%8C%E7%B3%BB%E7%BB%9Funknown-filesystem-grub-rescue.html"><span class="pl__circle"></span><span class="pl__title">解决双系统unknown filesystem grub rescue</span><strong class="pl__date">knack</strong></a>
 		
 		 <!--<a class="pl__time_total">
 		 <strong >Feb 2016</strong>
 		 <strong >temp</strong>-->
-		 </a>
-		 <!--附近有删改！-->
-          <a class="knack pl__all" href="/knack/2016/02/23/%E9%98%BB%E6%AD%A2%E5%8D%87%E7%BA%A7%E4%B8%BAWin10.html"><span class="pl__circle"></span><span class="pl__title">阻止升级为Win10</span><strong class="pl__date">knack</strong></a>
+		 <!--在链接上方添加更新时间的年月-->
+         <a class="knack pl__all" href="/knack/2016/02/23/%E9%98%BB%E6%AD%A2%E5%8D%87%E7%BA%A7%E4%B8%BAWin10.html"><span class="pl__circle"></span><span class="pl__title">阻止升级为Win10</span><strong class="pl__date">knack</strong></a>
 		
 		 <!--<a class="pl__time_total">
 		 <strong >Jan 2016</strong>
 		 <strong >temp</strong>-->
-		 </a>
-		 <!--附近有删改！-->
-          <a class="knack pl__all" href="/knack/2016/01/20/%E6%9F%A5%E7%9C%8BAndroid-Wifi%E5%AF%86%E7%A0%81.html"><span class="pl__circle"></span><span class="pl__title">查看Android Wifi密码</span><strong class="pl__date">knack</strong></a>
+		 <!--在链接上方添加更新时间的年月-->
+         <a class="knack pl__all" href="/knack/2016/01/20/%E6%9F%A5%E7%9C%8BAndroid-Wifi%E5%AF%86%E7%A0%81.html"><span class="pl__circle"></span><span class="pl__title">查看Android Wifi密码</span><strong class="pl__date">knack</strong></a>
 		
 		 <!--<a class="pl__time_total">
 		 <strong >Jan 2016</strong>
 		 <strong >temp</strong>-->
-		 </a>
-		 <!--附近有删改！-->
-          <a class="matlab pl__all" href="/matlab/2016/01/05/%E5%AF%B9%E6%AF%94Matlab%E7%9A%84%E5%87%A0%E4%B8%AA%E5%8D%B7%E7%A7%AF%E5%87%BD%E6%95%B0.html"><span class="pl__circle"></span><span class="pl__title">对比Matlab的几个卷积函数</span><strong class="pl__date">matlab</strong></a>
+		 <!--在链接上方添加更新时间的年月-->
+         <a class="matlab pl__all" href="/matlab/2016/01/05/%E5%AF%B9%E6%AF%94Matlab%E7%9A%84%E5%87%A0%E4%B8%AA%E5%8D%B7%E7%A7%AF%E5%87%BD%E6%95%B0.html"><span class="pl__circle"></span><span class="pl__title">对比Matlab的几个卷积函数</span><strong class="pl__date">matlab</strong></a>
 		
         </nav>
       </div> <!-- end #posts-list -->
@@ -147,7 +143,7 @@
     <gcse:search></gcse:search>
   </div><!-- google提供的搜索引擎https://cse.google.com/cse/ -->
   
-  <h1 id="post__title">欢迎大家来看我！--EIOT</h1>
+  <h1 id="post__title">欢迎前往我的博客小站！O(∩_∩)O~</h1>
   <h2>About me</h2>
   <ul>
     <li>口号：今天学习不用功，明天努力找工作！</li>
@@ -161,11 +157,10 @@
     <li>Github：<a href="https://github.com/eiot">eiot</a></li>
     <li>Mail: <a href="mailto:huangxu@hust.edu.cn">huangxu@hust.edu.cn</a></li>
   </ul>
-  <p>ppp</p>
-  <p>普通正文</p>
-  <p>测试最后一行</p>
+  <p>学而不思则罔，思而不学则殆</p>
 </article> <!-- end #post__content -->
 
+		<!-- 这里添加了index.html中的article内容-->
       </div> <!-- end #pjax -->
 
       <div id="post__toc-trigger">
@@ -180,18 +175,12 @@
     </div> <!-- end #post -->
 
 
-	<button id="js-fullscreen"><span id="icon-arrow" class="fontello"></span></button>
+	<!--<button id="js-fullscreen"><span id="icon-arrow" class="fontello"></span></button>
     <script src="/assets/js/jquery-2.0.3.min.js"></script>
     <script src="/assets/js/jquery.pjax.js"></script>
     <script src="/assets/js/nprogress.js"></script>
-    <script src="/assets/js/script.js"></script>
-	
-
-   <!--<script type="text/javascript">
-var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fd0bee4b588a6732505f743a27e4cb5e3' type='text/javascript'%3E%3C/script%3E"));
-	</script>-->
-	<!-以上是作者通过百度统计的代码-->
+    <script src="/assets/js/script.js"></script>-->
+	<!-- 上方几行貌似没有用 -->
 
   </body>
 </html>

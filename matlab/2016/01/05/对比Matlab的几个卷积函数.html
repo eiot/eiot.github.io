@@ -45,7 +45,7 @@
     <aside id="sidebar">
       <nav id="tags">
         <a href="/index.html" id="avatar"></a>
-
+		<!--控制图像，不能直接修改，有其他依赖，否则不显示-->
         <ul id="tags__ul" >
           <li id="js-label1" class="tags__li tags-btn active">All Posts</li>
           <li id="js-label2" class="tags__li tags-btn">Linux</li>
@@ -57,21 +57,24 @@
           <li id="js-label8" class="tags__li tags-btn">Knack</li>
           <li id="js-label9" class="tags__li tags-btn">Other</li>
         </ul>
-		<!--assets/js/script.js里面也有相应的tag-->
+		<!-- assets/js/script.js里面也有相应的tag-->
 
         <div id="tags__bottom">
           <a href="mailto:huangxu@hust.edu.cn" id="icon-email" class="tags-btn fontello"></a>
-          <a href="/rss.xml" id="icon-feed" class="tags-btn fontello"></a>
+          <!--<a href="/rss.xml" id="icon-feed" class="tags-btn fontello"></a>-->
 		  <!--上面的RSS不太可靠！-->
+		  <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=775401754&site=qq&menu=yes"><img border="8" src="http://wpa.qq.com/pa?p=2:775401754:52" alt="QQ" title="QQ"/></a>
+
         </div>
       </nav> <!-- end #tags -->
 
       <div id="posts-list">
         <form action="" id="search-form">
           <a href="/index.html" id="mobile-avatar"></a>
-          <!-- NOTE: input field is disabled by default 
-          <input id="search-input" type="text" placeholder="Search..." disabled >-->
+          <!-- <p>NOTE: input field is disabled by default </p>-->
+          <!--<input id="search-input" type="text" placeholder="Search..." disabled >-->
 		  <!--Search功能不太可靠！-->
+
         </form>
 
         <nav id="pl__container">
@@ -79,51 +82,44 @@
 		 <!--<a class="pl__time_total">
 		 <strong >May 2016</strong>
 		 <strong >temp</strong>-->
-		 </a>
-		 <!--附近有删改！-->
-          <a class="life pl__all" href="/life/2016/05/04/%E8%8E%86%E7%94%B0%E7%B3%BB%E5%8C%BB%E9%99%A2%E5%90%8D%E5%8D%95.html"><span class="pl__circle"></span><span class="pl__title">莆田系医院名单</span><strong class="pl__date">life</strong></a>
+		 <!--在链接上方添加更新时间的年月-->
+         <a class="life pl__all" href="/life/2016/05/04/%E8%8E%86%E7%94%B0%E7%B3%BB%E5%8C%BB%E9%99%A2%E5%90%8D%E5%8D%95.html"><span class="pl__circle"></span><span class="pl__title">莆田系医院名单</span><strong class="pl__date">life</strong></a>
 		
 		 <!--<a class="pl__time_total">
 		 <strong >Apr 2016</strong>
 		 <strong >temp</strong>-->
-		 </a>
-		 <!--附近有删改！-->
-          <a class="linux pl__all" href="/linux/2016/04/29/Jekyll%E5%AD%A6%E4%B9%A0.html"><span class="pl__circle"></span><span class="pl__title">Jekyll学习</span><strong class="pl__date">linux</strong></a>
+		 <!--在链接上方添加更新时间的年月-->
+         <a class="linux pl__all" href="/linux/2016/04/29/Jekyll%E5%AD%A6%E4%B9%A0.html"><span class="pl__circle"></span><span class="pl__title">Jekyll学习</span><strong class="pl__date">linux</strong></a>
 		
 		 <!--<a class="pl__time_total">
 		 <strong >Apr 2016</strong>
 		 <strong >temp</strong>-->
-		 </a>
-		 <!--附近有删改！-->
-          <a class="linux pl__all" href="/linux/2016/04/01/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html"><span class="pl__circle"></span><span class="pl__title">Git学习笔记</span><strong class="pl__date">linux</strong></a>
+		 <!--在链接上方添加更新时间的年月-->
+         <a class="linux pl__all" href="/linux/2016/04/01/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html"><span class="pl__circle"></span><span class="pl__title">Git学习笔记</span><strong class="pl__date">linux</strong></a>
 		
 		 <!--<a class="pl__time_total">
 		 <strong >Feb 2016</strong>
 		 <strong >temp</strong>-->
-		 </a>
-		 <!--附近有删改！-->
-          <a class="knack pl__all" href="/knack/2016/02/28/%E8%A7%A3%E5%86%B3%E5%8F%8C%E7%B3%BB%E7%BB%9Funknown-filesystem-grub-rescue.html"><span class="pl__circle"></span><span class="pl__title">解决双系统unknown filesystem grub rescue</span><strong class="pl__date">knack</strong></a>
+		 <!--在链接上方添加更新时间的年月-->
+         <a class="knack pl__all" href="/knack/2016/02/28/%E8%A7%A3%E5%86%B3%E5%8F%8C%E7%B3%BB%E7%BB%9Funknown-filesystem-grub-rescue.html"><span class="pl__circle"></span><span class="pl__title">解决双系统unknown filesystem grub rescue</span><strong class="pl__date">knack</strong></a>
 		
 		 <!--<a class="pl__time_total">
 		 <strong >Feb 2016</strong>
 		 <strong >temp</strong>-->
-		 </a>
-		 <!--附近有删改！-->
-          <a class="knack pl__all" href="/knack/2016/02/23/%E9%98%BB%E6%AD%A2%E5%8D%87%E7%BA%A7%E4%B8%BAWin10.html"><span class="pl__circle"></span><span class="pl__title">阻止升级为Win10</span><strong class="pl__date">knack</strong></a>
+		 <!--在链接上方添加更新时间的年月-->
+         <a class="knack pl__all" href="/knack/2016/02/23/%E9%98%BB%E6%AD%A2%E5%8D%87%E7%BA%A7%E4%B8%BAWin10.html"><span class="pl__circle"></span><span class="pl__title">阻止升级为Win10</span><strong class="pl__date">knack</strong></a>
 		
 		 <!--<a class="pl__time_total">
 		 <strong >Jan 2016</strong>
 		 <strong >temp</strong>-->
-		 </a>
-		 <!--附近有删改！-->
-          <a class="knack pl__all" href="/knack/2016/01/20/%E6%9F%A5%E7%9C%8BAndroid-Wifi%E5%AF%86%E7%A0%81.html"><span class="pl__circle"></span><span class="pl__title">查看Android Wifi密码</span><strong class="pl__date">knack</strong></a>
+		 <!--在链接上方添加更新时间的年月-->
+         <a class="knack pl__all" href="/knack/2016/01/20/%E6%9F%A5%E7%9C%8BAndroid-Wifi%E5%AF%86%E7%A0%81.html"><span class="pl__circle"></span><span class="pl__title">查看Android Wifi密码</span><strong class="pl__date">knack</strong></a>
 		
 		 <!--<a class="pl__time_total">
 		 <strong >Jan 2016</strong>
 		 <strong >temp</strong>-->
-		 </a>
-		 <!--附近有删改！-->
-          <a class="matlab pl__all" href="/matlab/2016/01/05/%E5%AF%B9%E6%AF%94Matlab%E7%9A%84%E5%87%A0%E4%B8%AA%E5%8D%B7%E7%A7%AF%E5%87%BD%E6%95%B0.html"><span class="pl__circle"></span><span class="pl__title">对比Matlab的几个卷积函数</span><strong class="pl__date">matlab</strong></a>
+		 <!--在链接上方添加更新时间的年月-->
+         <a class="matlab pl__all" href="/matlab/2016/01/05/%E5%AF%B9%E6%AF%94Matlab%E7%9A%84%E5%87%A0%E4%B8%AA%E5%8D%B7%E7%A7%AF%E5%87%BD%E6%95%B0.html"><span class="pl__circle"></span><span class="pl__title">对比Matlab的几个卷积函数</span><strong class="pl__date">matlab</strong></a>
 		
         </nav>
       </div> <!-- end #posts-list -->
@@ -150,31 +146,36 @@ AB对称，无先后顺序！运算时要将一个矩阵旋转180度！大小默
 <p>在使用中有任何问
 题，欢迎反馈给我！</p>
 
+  <!-- 博客正文内容！ -->
 </article> <!-- end #post__content -->
 
-<div id="post__share">
+
+<!--<div id="post__share">
   <a id="icon-weibo" class="fontello" href="http://v.t.sina.com.cn/share/share.php?url=eiot.github.io/matlab/2016/01/05/%E5%AF%B9%E6%AF%94Matlab%E7%9A%84%E5%87%A0%E4%B8%AA%E5%8D%B7%E7%A7%AF%E5%87%BD%E6%95%B0.html&title=对比Matlab的几个卷积函数" target="_blank"></a>
   <a id="icon-twitter" class="fontello" href="https://twitter.com/intent/tweet?url=eiot.github.io/matlab/2016/01/05/%E5%AF%B9%E6%AF%94Matlab%E7%9A%84%E5%87%A0%E4%B8%AA%E5%8D%B7%E7%A7%AF%E5%87%BD%E6%95%B0.html&text=对比Matlab的几个卷积函数" target="_blank"></a>
   <!--<a id="icon-cc" class="fontello" href="http://creativecommons.org/licenses/by-nc-sa/3.0" target="_blank"></a>-->
-</div> <!-- end #post__share -->
+ <!--</div> <!-- end #post__share -->
+<!-- Twitter和新浪微博分享时链接有问题 -->
 
-
- <script  type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1995082"></script>
+ <!--<script  type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1995082"></script>-->
+ <!-- 冰冰的友言 -->
  
- <!-- UY BEGIN -->
-<div id="uyan_frame"></div>
-<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
-<!-- UY END -->
- <!--友言http://www.uyan.cc/getcode-->
+  <!-- UY BEGIN -->
   <div id="uyan_frame"></div>
+  <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2098614"></script>
+  <!-- UY END -->
+  <!--友言http://www.uyan.cc/getcode-->
+ 
+
   
   <div id="disqus_thread">
   <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
   <a href="http://disqus.com" class="dsq-brlink" target="_blank">Loading Disqus comments...</a>
-</div> <!-- end #disqus_thread -->
+  </div> <!-- end #disqus_thread -->
 
-<p id="copyright">Powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a>&nbsp;&nbsp;|&nbsp;&nbsp;Theme <a href="https://github.com/P233/3-Jekyll" target="_blank">3-Jekyll</a></p>
+<p id="copyright">Powered by <a href="http://github.com/" target="_blank">GitHub</a>&nbsp;&nbsp;|&nbsp;&nbsp;Theme <a href="https://github.com/P233/3-Jekyll" target="_blank">3-Jekyll</a></p>
 
+		<!-- 这里添加了index.html中的article内容-->
       </div> <!-- end #pjax -->
 
       <div id="post__toc-trigger">
@@ -189,18 +190,12 @@ AB对称，无先后顺序！运算时要将一个矩阵旋转180度！大小默
     </div> <!-- end #post -->
 
 
-	<button id="js-fullscreen"><span id="icon-arrow" class="fontello"></span></button>
+	<!--<button id="js-fullscreen"><span id="icon-arrow" class="fontello"></span></button>
     <script src="/assets/js/jquery-2.0.3.min.js"></script>
     <script src="/assets/js/jquery.pjax.js"></script>
     <script src="/assets/js/nprogress.js"></script>
-    <script src="/assets/js/script.js"></script>
-	
-
-   <!--<script type="text/javascript">
-var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fd0bee4b588a6732505f743a27e4cb5e3' type='text/javascript'%3E%3C/script%3E"));
-	</script>-->
-	<!-以上是作者通过百度统计的代码-->
+    <script src="/assets/js/script.js"></script>-->
+	<!-- 上方几行貌似没有用 -->
 
   </body>
 </html>
