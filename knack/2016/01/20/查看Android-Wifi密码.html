@@ -65,9 +65,11 @@
 		  <!--上面的RSS不太可靠！-->
 		  <!-- 上行为原始-->
 		  <!--<a href="https://github.com/eiot" class="sidebar-social-icon github" target="_blank"></a> -->
+		  <!--
 		  <a href="https://github.com/eiot" id="icon-github " class="tags-btn fontello" target="_blank"></a>
-		  
+		  -->
 		  <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=775401754&site=qq&menu=yes"><img border="8" src="http://wpa.qq.com/pa?p=2:775401754:52" alt="QQ" title="QQ"/></a>
+		  
 		  <!--QQ聊天插件-->
         </div>
       </nav> <!-- end #tags -->
@@ -140,13 +142,15 @@
         <article id="post__content">
   <h1 id="post__title" data-identifier="20160120">查看Android Wifi密码</h1>
   <h3 id="section">方法</h3>
-<p>要想查看Android手机的Wifi密码，必须先获取手机的<strong>root权限</strong>！！！</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>要想查看Android手机的Wifi密码，必须先获取手机的**root权限**！！！  
+</code></pre>
+</div>
 
 <p>1.下载并安装好 <strong>RE管理器</strong>
 2.进入data/misc/wifi（RE管理器可以显示<strong>隐藏的文件</strong>，手机自带的文件系统不行）
 3.使用文本查看器打开bcm_supp.conf或wpa_supplicant.conf</p>
 
-<p>以下内容：</p>
+<p>打开后将是类似于以下的内容：</p>
 
 <figure class="highlight"><pre><code class="language-java" data-lang="java">  
 <span class="n">network</span><span class="o">={</span>  
@@ -161,7 +165,9 @@
 <code class="highlighter-rouge">key_mgmt=</code>后面内容为加密类型。<br />
 <code class="highlighter-rouge">priority=</code>越小优先级越高</p>
 
-<p>还能同时修改一下自动连接wifi的<strong>优先级</strong>顺序 O(∩_∩)O~</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>还能同时修改一下自动连接wifi的**优先级**顺序哦！ O(∩_∩)O~
+</code></pre>
+</div>
 
 <h3 id="section-1">有问题反馈</h3>
 <p>在使用中有任何问题，欢迎反馈给我！</p>

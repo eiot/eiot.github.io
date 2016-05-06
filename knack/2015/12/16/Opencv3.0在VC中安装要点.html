@@ -65,9 +65,11 @@
 		  <!--上面的RSS不太可靠！-->
 		  <!-- 上行为原始-->
 		  <!--<a href="https://github.com/eiot" class="sidebar-social-icon github" target="_blank"></a> -->
+		  <!--
 		  <a href="https://github.com/eiot" id="icon-github " class="tags-btn fontello" target="_blank"></a>
-		  
+		  -->
 		  <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=775401754&site=qq&menu=yes"><img border="8" src="http://wpa.qq.com/pa?p=2:775401754:52" alt="QQ" title="QQ"/></a>
+		  
 		  <!--QQ聊天插件-->
         </div>
       </nav> <!-- end #tags -->
@@ -140,26 +142,30 @@
         <article id="post__content">
   <h1 id="post__title" data-identifier="20151216">Opencv3.0在VC中安装要点</h1>
   <h3 id="opencv30">Opencv3.0</h3>
-<p>Opencv3.0是当时最新的版本，这个版本与目前常用的v2.x版本存在较大的差异！<br />
-目前最新的版本是v3.1（2016.5.6修正），可从<a href="http://opencv.org/">官网</a>下载！</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>Opencv3.0是当时最新的版本，这个版本与目前常用的v2.x版本存在较大的差异！  
+目前最新的版本是v3.1（2016.5.6修正），可从[官网](http://opencv.org/)下载！  
+</code></pre>
+</div>
 
 <h3 id="opencv30-1">Opencv3.0的安装要点</h3>
-<p>本人计算机安装的是VS2013，可能不同VC版本之间在安装和使用时存在一定的差异！</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>本人计算机安装的是VS2013，可能不同VC版本之间在安装和使用时存在一定的差异！  
 
-<p>当时网上现有的资料很难找到Opencv3.0在VC中正确安装的方法，本人就按照网上各种v2.x的教程就行摸索，还是没有成功。<br />
-查询了一些资料后，摸索出了一种简便的安装方法。</p>
+当时网上现有的资料很难找到Opencv3.0在VC中正确安装的方法，本人就按照网上各种v2.x的教程就行摸索，还是没有成功。  
+查询了一些资料后，摸索出了一种简便的安装方法。  
+</code></pre>
+</div>
 
-<p>1.首先还是得按照网上的传统方法修改计算机的环境变量，还是在这里啰嗦下子：<br />
-创建“系统变量”<code class="highlighter-rouge">opencv</code>为<code class="highlighter-rouge">%Opencv安装路径%\opencv\build</code>，<br />
-在“系统变量”<code class="highlighter-rouge">Path</code>中添加记录<code class="highlighter-rouge">%Opencv安装路径%\opencv\build\x64\vc12\bin; %Opencv安装路径%\opencv\build\x86\vc12\bin</code>，<br />
-由于本人的VS2013就是<code class="highlighter-rouge">vc12</code>，请根据不同版本编译器选择相应路径！<br />
-同时将x86和x64的路径都纳入吧，免得以后有什么事麻烦。</p>
+<p><em>1.</em>首先还是得按照网上的传统方法修改计算机的环境变量，还是在这里啰嗦下子：<br />
+	创建“系统变量”<code class="highlighter-rouge">opencv</code>为<code class="highlighter-rouge">%Opencv安装路径%\opencv\build</code>，<br />
+	<code class="highlighter-rouge">Path</code>中添加记录<code class="highlighter-rouge">%Opencv安装路径%\opencv\build\x64\vc12\bin; %Opencv安装路径%\opencv\build\x86\vc12\bin</code>，<br />
+	由于本人的VS2013就是<code class="highlighter-rouge">vc12</code>，请根据不同版本编译器选择相应路径！<br />
+	同时将x86和x64的路径都纳入吧，免得以后有什么事麻烦。</p>
 
-<p>2.然后修改相应属性：<br />
-在“属性管理器”中右击工程文件下<code class="highlighter-rouge">Debug|Win32</code>选择“属性”，依次选择“通用属性”-“链接器”-“输入”，修改右侧的“附加依赖项”为<code class="highlighter-rouge">opencv_ts300d.lib; opencv_world300d.lib; opencv_ts300.lib; opencv_world300.lib; %(AdditionalDependencies)</code>；
-由于v3.0的内部命令等发生了变化，要注意这里的一些附加依赖项与v2.x都不同！</p>
+<p><em>2.</em>然后修改相应属性：<br />
+	在“属性管理器”中右击工程文件下<code class="highlighter-rouge">Debug|Win32</code>选择“属性”，依次选择“通用属性”-“链接器”-“输入”，修改右侧的“附加依赖项”为<code class="highlighter-rouge">opencv_ts300d.lib; opencv_world300d.lib; opencv_ts300.lib; opencv_world300.lib; %(AdditionalDependencies)</code>；
+	由于v3.0的内部命令等发生了变化，要注意这里的一些附加依赖项与v2.x都不同！</p>
 
-<p>3.最后用(2)中相同的方法修改<code class="highlighter-rouge">Release|Win32</code>。</p>
+<p><em>3</em>最后用(2)中相同的方法修改<code class="highlighter-rouge">Release|Win32</code>。</p>
 
 <h3 id="section">有问题反馈</h3>
 <p>如果您在使用中有任何问题，欢迎反馈给我！</p>

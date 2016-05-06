@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 06 May 2016 23:05:29 +0800</pubDate>
-    <lastBuildDate>Fri, 06 May 2016 23:05:29 +0800</lastBuildDate>
+    <pubDate>Fri, 06 May 2016 23:22:27 +0800</pubDate>
+    <lastBuildDate>Fri, 06 May 2016 23:22:27 +0800</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
     
       <item>
@@ -2457,10 +2457,13 @@ fushenghua 也开源了一个查询的 https://github.com/fushenghua/GetHosp/ �
     
       <item>
         <title>Jekyll学习</title>
-        <description>&lt;p&gt;这是个人在github上建站的基本教程！&lt;br /&gt;
-&lt;a href=&quot;/index.html&quot;&gt;回到主页&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;这是个人在github上建站的基本教程！ 
+test in Jekyll!!!***—+++…///\```~~~’’’”””;;;:::???»&amp;gt;«&amp;lt;,,,___===|||&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Jekyll是款简单的静态博客生成工具，通过markdown编写静态文件，生成Html页面。   它的优点是提升了页面的响应速度，并且让博主可以只专注于写文章，不用再去考虑如何排版！
+&lt;p&gt;&lt;a href=&quot;/index.html&quot;&gt;回到主页&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Jekyll是款简单的静态博客生成工具，通过markdown编写静态文件，生成Html页面。  
+它的优点是提升了页面的响应速度，并且让博主可以只专注于写文章，不用再去考虑如何排版！
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
@@ -2530,8 +2533,10 @@ fushenghua 也开源了一个查询的 https://github.com/fushenghua/GetHosp/ �
 &lt;span class=&quot;nl&quot;&gt;categories:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;linux&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;layout&lt;/code&gt;表示使用的是post布局，&lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt;是文章标题，&lt;code class=&quot;highlighter-rouge&quot;&gt;date&lt;/code&gt;是自动生成的日期，&lt;code class=&quot;highlighter-rouge&quot;&gt;categories&lt;/code&gt;是该文章生成html文件后存放的目录，可以去_site下找到对应日期下面的html文档。
-当然也可以只设置jekyll单一的目录，甚至是更多级别的目录，用空格分开即可。头信息设置完成后就可以书写正文了。&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;`layout`表示使用的是post布局，`title`是文章标题，`date`是自动生成的日期，`categories`是该文章生成html文件后存放的目录，可以去_site下找到对应日期下面的html文档。
+当然也可以只设置jekyll单一的目录，甚至是更多级别的目录，用空格分开即可。头信息设置完成后就可以书写正文了。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;next&quot;&gt;NEXT&lt;/h3&gt;
 &lt;p&gt;摸索中！！！过几天再来写吧！&lt;/p&gt;
@@ -2551,20 +2556,24 @@ fushenghua 也开源了一个查询的 https://github.com/fushenghua/GetHosp/ �
       <item>
         <title>Git学习笔记</title>
         <description>&lt;h3 id=&quot;git&quot;&gt;Git简介&lt;/h3&gt;
-&lt;p&gt;Git是目前世界上最先进的分布式版本控制系统，没有之一！它能够方便地保存所有的版本。&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Git是目前世界上最先进的分布式版本控制系统，没有之一！它能够方便地保存所有的版本。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;git-1&quot;&gt;Git的安装与配置&lt;/h3&gt;
-&lt;p&gt;Windows下有较为方便的客户端，便不再详述了，只介绍Linux命令行中的使用方法。&lt;br /&gt;
-尝试输入&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git&lt;/code&gt;，就能检查系统有没有安装Git。&lt;br /&gt;
-如果系统正好是Debian或Ubuntu，&lt;code class=&quot;highlighter-rouge&quot;&gt;$ sudo apt-get install git&lt;/code&gt;这一句命令就能够方便地完成Git的安装！&lt;br /&gt;
-安装完成后，还需要一步设置来自报家门（你的名字和Email地址）：&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git config --global user.name &quot;Your Name&quot;&lt;/code&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git config --global user.email &quot;email@example.com&quot;&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Windows下有较为方便的客户端，便不再详述了，只介绍Linux命令行中的使用方法。  
+尝试输入`$ git`，就能检查系统有没有安装Git。  
+如果系统正好是Debian或Ubuntu，`$ sudo apt-get install git`这一句命令就能够方便地完成Git的安装！  
+安装完成后，还需要一步设置来自报家门（你的名字和Email地址）：  
+`$ git config --global user.name &quot;Your Name&quot;`
+`$ git config --global user.email &quot;email@example.com&quot;`
 
-&lt;p&gt;Git中的术语&lt;strong&gt;repository&lt;/strong&gt;就是版本库，又名仓库，可以简单理解成Git管理的一个目录。每个文件的修改、删除，Git都能跟踪，以便任何时刻都可以追踪历史，或者在将来某个时刻可以“还原”。为了避免遇到各种莫名其妙的问题，请确保目录名（包括父目录）中&lt;strong&gt;不包含中文&lt;/strong&gt;！&lt;/p&gt;
+Git中的术语**repository**就是版本库，又名仓库，可以简单理解成Git管理的一个目录。每个文件的修改、删除，Git都能跟踪，以便任何时刻都可以追踪历史，或者在将来某个时刻可以“还原”。为了避免遇到各种莫名其妙的问题，请确保目录名（包括父目录）中**不包含中文**！
 
-&lt;p&gt;通过&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git init&lt;/code&gt;可将这个目录初始化为Git可以管理的仓库。
-这时当前目录下会多出一个.git的目录，这个目录是Git来跟踪管理版本库的，千万不要手动修改这个目录里面的文件，不然就把Git仓库给破坏了。&lt;/p&gt;
+通过`$ git init`可将这个目录初始化为Git可以管理的仓库。
+这时当前目录下会多出一个.git的目录，这个目录是Git来跟踪管理版本库的，千万不要手动修改这个目录里面的文件，不然就把Git仓库给破坏了。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;git-2&quot;&gt;Git的常用方法&lt;/h3&gt;
 &lt;p&gt;(1)&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git status&lt;/code&gt;可以让我们时刻掌握仓库当前的状态。&lt;br /&gt;
@@ -2593,17 +2602,23 @@ fushenghua 也开源了一个查询的 https://github.com/fushenghua/GetHosp/ �
 (21)&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git merge dev &lt;/code&gt; 把dev分支的工作成果合并到master分支&lt;br /&gt;
 (22)&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git branch -d dev &lt;/code&gt; 删除dev分支&lt;/p&gt;
 
-&lt;p&gt;个人觉得&lt;a href=&quot;http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000&quot;&gt;廖雪峰&lt;/a&gt;是个蛮不错的Git入门级教程！大家有时间最好多看看！&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;个人觉得[廖雪峰](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)是个蛮不错的Git入门级教程！大家有时间最好多看看！
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;readmemd&quot;&gt;关于README.md文件&lt;/h3&gt;
 
-&lt;p&gt;github上的&lt;strong&gt;README.md&lt;/strong&gt;文件就是使用的Markdown语言编写的，是一种可实现易读易写的轻量级标记语言。&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;github上的**README.md**文件就是使用的Markdown语言编写的，是一种可实现易读易写的轻量级标记语言。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
-&lt;p&gt;快速编辑时可参考以下网页：&lt;br /&gt;
-* &lt;a href=&quot;https://maxiang.io/&quot;&gt;马克飞象&lt;/a&gt;&lt;br /&gt;
-* &lt;a href=&quot;http://mahua.jser.me/&quot;&gt;mou&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;section&quot;&gt;快速编辑时可参考以下网页：&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://maxiang.io/&quot;&gt;马克飞象&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mahua.jser.me/&quot;&gt;mou&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h3 id=&quot;section&quot;&gt;有问题反馈&lt;/h3&gt;
+&lt;h3 id=&quot;section-1&quot;&gt;有问题反馈&lt;/h3&gt;
 &lt;p&gt;如果您在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
 
 </description>
@@ -2619,35 +2634,36 @@ fushenghua 也开源了一个查询的 https://github.com/fushenghua/GetHosp/ �
       <item>
         <title>解决双系统unknown filesystem grub rescue</title>
         <description>&lt;h3 id=&quot;section&quot;&gt;症状&lt;/h3&gt;
-&lt;p&gt;双系统电脑出现了故障方法，显示&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;error：unknown filesystem grub rescue&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;双系统电脑出现了故障方法，显示   `error：unknown filesystem grub rescue`
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;section-1&quot;&gt;解决方案&lt;/h3&gt;
 
 &lt;p&gt;1.找出你的Linux盘在那个分区以及grub目录在什么位置&lt;br /&gt;
-如果你还记得最好，忘了也无所谓，使用下面命令逐个试探即可。&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;grub rescue&amp;gt;ls&lt;/code&gt;  //列出本机所有磁盘及分区，比如:hd0,(hd0,1) ,(hd0,4),(hd0,7),(hd0,8),(hd0,9)等 &lt;br /&gt;
-循环使用下面的命令，直至显示该分区所包含内容而不是&lt;code class=&quot;highlighter-rouge&quot;&gt;unknown filesystem&lt;/code&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;grub rescue&amp;gt;ls (hd0,0)/grub&lt;/code&gt; &lt;br /&gt;
-假设我们试到(hd0,8)时，成功显示了内容。&lt;/p&gt;
+	如果你还记得最好，忘了也无所谓，使用下面命令逐个试探即可。&lt;br /&gt;
+	&lt;code class=&quot;highlighter-rouge&quot;&gt;grub rescue&amp;gt;ls&lt;/code&gt;  //列出本机所有磁盘及分区，比如:hd0,(hd0,1) ,(hd0,4),(hd0,7),(hd0,8),(hd0,9)等 &lt;br /&gt;
+	循环使用下面的命令，直至显示该分区所包含内容而不是&lt;code class=&quot;highlighter-rouge&quot;&gt;unknown filesystem&lt;/code&gt;
+	&lt;code class=&quot;highlighter-rouge&quot;&gt;grub rescue&amp;gt;ls (hd0,0)/grub&lt;/code&gt; &lt;br /&gt;
+	假设我们试到(hd0,8)时，成功显示了内容。&lt;/p&gt;
 
 &lt;p&gt;2.设置路径&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;grub rescue&amp;gt;set  root=(hd0,8) &lt;/code&gt;  //括号里为上一步尝试成功的分区&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;grub rescue&amp;gt;set  prefix=(hd0,8)/grub&lt;/code&gt;&lt;/p&gt;
+	&lt;code class=&quot;highlighter-rouge&quot;&gt;grub rescue&amp;gt;set  root=(hd0,8) &lt;/code&gt;  //括号里为上一步尝试成功的分区&lt;br /&gt;
+	&lt;code class=&quot;highlighter-rouge&quot;&gt;grub rescue&amp;gt;set  prefix=(hd0,8)/grub&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;3.退出grub rescue模式&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;grub rescue&amp;gt;insmod  /grub/normal.mod&lt;/code&gt;&lt;br /&gt;
-退出了grub rescue模式，进入了熟悉的grub模式。&lt;/p&gt;
+	&lt;code class=&quot;highlighter-rouge&quot;&gt;grub rescue&amp;gt;insmod  /grub/normal.mod&lt;/code&gt;&lt;br /&gt;
+	退出了grub rescue模式，进入了熟悉的grub模式。&lt;/p&gt;
 
 &lt;p&gt;4.确定设置&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;grub&amp;gt;normal&lt;/code&gt;&lt;/p&gt;
+	&lt;code class=&quot;highlighter-rouge&quot;&gt;grub&amp;gt;normal&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;5.修复grub&lt;br /&gt;
-进入Linux系统后，执行&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo  update-grub&lt;/code&gt;&lt;/p&gt;
+	进入Linux系统后，执行&lt;br /&gt;
+	&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo  update-grub&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;6.安装grub&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo grub-install /dev/sda&lt;/code&gt;              //sda是你的启动磁盘&lt;/p&gt;
+	&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo grub-install /dev/sda&lt;/code&gt;              //sda是你的启动磁盘&lt;/p&gt;
 
 &lt;p&gt;可参考&lt;a href=&quot;http://jingyan.baidu.com/article/c85b7a640cd7d6003bac95f8.html&quot;&gt;百度经验&lt;/a&gt;&lt;/p&gt;
 
@@ -2666,11 +2682,11 @@ fushenghua 也开源了一个查询的 https://github.com/fushenghua/GetHosp/ �
       <item>
         <title>阻止升级为Win10</title>
         <description>&lt;h3 id=&quot;win10&quot;&gt;系统提示升级到Win10&lt;/h3&gt;
-&lt;p&gt;下面老是跳出提示要求升级到Win10&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;下面老是跳出提示要求升级到Win10
 
-&lt;p&gt;可进入控制面板，卸载以下这两个更新即可
-&lt;code class=&quot;highlighter-rouge&quot;&gt;KB3035583&lt;/code&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;KB2952664&lt;/code&gt;&lt;/p&gt;
+可进入控制面板，卸载以下这两个更新即可 `KB3035583` `KB2952664`
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;section&quot;&gt;有问题反馈&lt;/h3&gt;
 &lt;p&gt;在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
@@ -2687,13 +2703,15 @@ fushenghua 也开源了一个查询的 https://github.com/fushenghua/GetHosp/ �
       <item>
         <title>查看Android Wifi密码</title>
         <description>&lt;h3 id=&quot;section&quot;&gt;方法&lt;/h3&gt;
-&lt;p&gt;要想查看Android手机的Wifi密码，必须先获取手机的&lt;strong&gt;root权限&lt;/strong&gt;！！！&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;要想查看Android手机的Wifi密码，必须先获取手机的**root权限**！！！  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;1.下载并安装好 &lt;strong&gt;RE管理器&lt;/strong&gt;
 2.进入data/misc/wifi（RE管理器可以显示&lt;strong&gt;隐藏的文件&lt;/strong&gt;，手机自带的文件系统不行）
 3.使用文本查看器打开bcm_supp.conf或wpa_supplicant.conf&lt;/p&gt;
 
-&lt;p&gt;以下内容：&lt;/p&gt;
+&lt;p&gt;打开后将是类似于以下的内容：&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;  
 &lt;span class=&quot;n&quot;&gt;network&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;={&lt;/span&gt;  
@@ -2708,7 +2726,9 @@ fushenghua 也开源了一个查询的 https://github.com/fushenghua/GetHosp/ �
 &lt;code class=&quot;highlighter-rouge&quot;&gt;key_mgmt=&lt;/code&gt;后面内容为加密类型。&lt;br /&gt;
 &lt;code class=&quot;highlighter-rouge&quot;&gt;priority=&lt;/code&gt;越小优先级越高&lt;/p&gt;
 
-&lt;p&gt;还能同时修改一下自动连接wifi的&lt;strong&gt;优先级&lt;/strong&gt;顺序 O(∩_∩)O~&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;还能同时修改一下自动连接wifi的**优先级**顺序哦！ O(∩_∩)O~
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;section-1&quot;&gt;有问题反馈&lt;/h3&gt;
 &lt;p&gt;在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
@@ -2727,13 +2747,13 @@ fushenghua 也开源了一个查询的 https://github.com/fushenghua/GetHosp/ �
         <description>&lt;h3 id=&quot;matlab&quot;&gt;Matlab有几个关于卷积的函数，但是用法不同！&lt;/h3&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;B=imfilter(A,H)&lt;/code&gt;   &lt;br /&gt;
-被操作的对象A在前面！卷积模板H在后面！运算时不用旋转！大小默认为&lt;code class=&quot;highlighter-rouge&quot;&gt;same&lt;/code&gt;&lt;/p&gt;
+	被操作的对象A在前面！卷积模板H在后面！运算时不用旋转！大小默认为&lt;code class=&quot;highlighter-rouge&quot;&gt;same&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Y=filter2(B,X)&lt;/code&gt;  &lt;br /&gt;
-被操作的对象X在后面！卷积模板B模板在前面！运算时不用旋转！大小默认为&lt;code class=&quot;highlighter-rouge&quot;&gt;same&lt;/code&gt;&lt;/p&gt;
+	被操作的对象X在后面！卷积模板B模板在前面！运算时不用旋转！大小默认为&lt;code class=&quot;highlighter-rouge&quot;&gt;same&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;C=conv2(A,B)&lt;/code&gt;    &lt;br /&gt;
-AB对称，无先后顺序！运算时要将一个矩阵旋转180度！大小默认为&lt;code class=&quot;highlighter-rouge&quot;&gt;full&lt;/code&gt;&lt;/p&gt;
+	AB对称，无先后顺序！运算时要将一个矩阵旋转180度！大小默认为&lt;code class=&quot;highlighter-rouge&quot;&gt;full&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;过几天上图！！！&lt;/p&gt;
 
@@ -2753,26 +2773,30 @@ AB对称，无先后顺序！运算时要将一个矩阵旋转180度！大小默
       <item>
         <title>Opencv3.0在VC中安装要点</title>
         <description>&lt;h3 id=&quot;opencv30&quot;&gt;Opencv3.0&lt;/h3&gt;
-&lt;p&gt;Opencv3.0是当时最新的版本，这个版本与目前常用的v2.x版本存在较大的差异！&lt;br /&gt;
-目前最新的版本是v3.1（2016.5.6修正），可从&lt;a href=&quot;http://opencv.org/&quot;&gt;官网&lt;/a&gt;下载！&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Opencv3.0是当时最新的版本，这个版本与目前常用的v2.x版本存在较大的差异！  
+目前最新的版本是v3.1（2016.5.6修正），可从[官网](http://opencv.org/)下载！  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;opencv30-1&quot;&gt;Opencv3.0的安装要点&lt;/h3&gt;
-&lt;p&gt;本人计算机安装的是VS2013，可能不同VC版本之间在安装和使用时存在一定的差异！&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;本人计算机安装的是VS2013，可能不同VC版本之间在安装和使用时存在一定的差异！  
 
-&lt;p&gt;当时网上现有的资料很难找到Opencv3.0在VC中正确安装的方法，本人就按照网上各种v2.x的教程就行摸索，还是没有成功。&lt;br /&gt;
-查询了一些资料后，摸索出了一种简便的安装方法。&lt;/p&gt;
+当时网上现有的资料很难找到Opencv3.0在VC中正确安装的方法，本人就按照网上各种v2.x的教程就行摸索，还是没有成功。  
+查询了一些资料后，摸索出了一种简便的安装方法。  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
-&lt;p&gt;1.首先还是得按照网上的传统方法修改计算机的环境变量，还是在这里啰嗦下子：&lt;br /&gt;
-创建“系统变量”&lt;code class=&quot;highlighter-rouge&quot;&gt;opencv&lt;/code&gt;为&lt;code class=&quot;highlighter-rouge&quot;&gt;%Opencv安装路径%\opencv\build&lt;/code&gt;，&lt;br /&gt;
-在“系统变量”&lt;code class=&quot;highlighter-rouge&quot;&gt;Path&lt;/code&gt;中添加记录&lt;code class=&quot;highlighter-rouge&quot;&gt;%Opencv安装路径%\opencv\build\x64\vc12\bin; %Opencv安装路径%\opencv\build\x86\vc12\bin&lt;/code&gt;，&lt;br /&gt;
-由于本人的VS2013就是&lt;code class=&quot;highlighter-rouge&quot;&gt;vc12&lt;/code&gt;，请根据不同版本编译器选择相应路径！&lt;br /&gt;
-同时将x86和x64的路径都纳入吧，免得以后有什么事麻烦。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;1.&lt;/em&gt;首先还是得按照网上的传统方法修改计算机的环境变量，还是在这里啰嗦下子：&lt;br /&gt;
+	创建“系统变量”&lt;code class=&quot;highlighter-rouge&quot;&gt;opencv&lt;/code&gt;为&lt;code class=&quot;highlighter-rouge&quot;&gt;%Opencv安装路径%\opencv\build&lt;/code&gt;，&lt;br /&gt;
+	&lt;code class=&quot;highlighter-rouge&quot;&gt;Path&lt;/code&gt;中添加记录&lt;code class=&quot;highlighter-rouge&quot;&gt;%Opencv安装路径%\opencv\build\x64\vc12\bin; %Opencv安装路径%\opencv\build\x86\vc12\bin&lt;/code&gt;，&lt;br /&gt;
+	由于本人的VS2013就是&lt;code class=&quot;highlighter-rouge&quot;&gt;vc12&lt;/code&gt;，请根据不同版本编译器选择相应路径！&lt;br /&gt;
+	同时将x86和x64的路径都纳入吧，免得以后有什么事麻烦。&lt;/p&gt;
 
-&lt;p&gt;2.然后修改相应属性：&lt;br /&gt;
-在“属性管理器”中右击工程文件下&lt;code class=&quot;highlighter-rouge&quot;&gt;Debug|Win32&lt;/code&gt;选择“属性”，依次选择“通用属性”-“链接器”-“输入”，修改右侧的“附加依赖项”为&lt;code class=&quot;highlighter-rouge&quot;&gt;opencv_ts300d.lib; opencv_world300d.lib; opencv_ts300.lib; opencv_world300.lib; %(AdditionalDependencies)&lt;/code&gt;；
-由于v3.0的内部命令等发生了变化，要注意这里的一些附加依赖项与v2.x都不同！&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;2.&lt;/em&gt;然后修改相应属性：&lt;br /&gt;
+	在“属性管理器”中右击工程文件下&lt;code class=&quot;highlighter-rouge&quot;&gt;Debug|Win32&lt;/code&gt;选择“属性”，依次选择“通用属性”-“链接器”-“输入”，修改右侧的“附加依赖项”为&lt;code class=&quot;highlighter-rouge&quot;&gt;opencv_ts300d.lib; opencv_world300d.lib; opencv_ts300.lib; opencv_world300.lib; %(AdditionalDependencies)&lt;/code&gt;；
+	由于v3.0的内部命令等发生了变化，要注意这里的一些附加依赖项与v2.x都不同！&lt;/p&gt;
 
-&lt;p&gt;3.最后用(2)中相同的方法修改&lt;code class=&quot;highlighter-rouge&quot;&gt;Release|Win32&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;3&lt;/em&gt;最后用(2)中相同的方法修改&lt;code class=&quot;highlighter-rouge&quot;&gt;Release|Win32&lt;/code&gt;。&lt;/p&gt;
 
 &lt;h3 id=&quot;section&quot;&gt;有问题反馈&lt;/h3&gt;
 &lt;p&gt;如果您在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
