@@ -63,10 +63,12 @@
           <a href="mailto:huangxu@hust.edu.cn" id="icon-email" class="tags-btn fontello"></a>
           <!--<a href="/rss.xml" id="icon-feed" class="tags-btn fontello"></a>-->
 		  <!--上面的RSS不太可靠！-->
-		  <a href="https://github.com/eiot" class="sidebar-social-icon github" target="_blank"></a> 
-		  <!--
+		  <!--<a href="https://github.com/eiot" class="sidebar-social-icon github" target="_blank"></a> -->
+		  <!-- 上行为原始-->
+		  <a href="https://github.com/eiot" id="icon-github " class="tags-btn fontello" target="_blank"></a>
+		  
 		  <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=775401754&site=qq&menu=yes"><img border="8" src="http://wpa.qq.com/pa?p=2:775401754:52" alt="QQ" title="QQ"/></a>
-		  -->
+		  <!--QQ聊天插件-->
         </div>
       </nav> <!-- end #tags -->
 
@@ -134,7 +136,7 @@
   <p>这是个人在github上建站的基本教程！<br />
 <a href="/index.html">回到主页</a></p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>Jekyll是款简单的静态博客生成工具，通过markdown编写静态文件，生成Html页面。 它的优点是提升了页面的响应速度，并且让博主可以只专注于写文章，不用再去考虑如何排版！
+<div class="highlighter-rouge"><pre class="highlight"><code>Jekyll是款简单的静态博客生成工具，通过markdown编写静态文件，生成Html页面。   它的优点是提升了页面的响应速度，并且让博主可以只专注于写文章，不用再去考虑如何排版！
 </code></pre>
 </div>
 
@@ -151,19 +153,37 @@
 <span class="err">│</span>   <span class="err">├</span> <span class="n">icon</span><span class="o">-</span><span class="n">twitter</span><span class="o">.</span><span class="na">html</span>   <span class="err">我暂时没有！</span>
 <span class="err">│</span>   <span class="err">└</span> <span class="n">icon</span><span class="o">-</span><span class="n">twitter</span><span class="o">.</span><span class="na">svg</span>   <span class="err">我暂时没有！</span>
 <span class="err">├</span> <span class="n">_layouts</span>   <span class="err">默认的公共页面，主要的模板文件</span>
-<span class="err">│</span>   <span class="err">├</span> <span class="k">default</span><span class="o">.</span><span class="na">html</span>
+<span class="err">│</span>   <span class="err">├</span> <span class="k">default</span><span class="o">.</span><span class="na">html</span>  <span class="err">简要的主框架</span><span class="o">{</span><span class="n">head</span><span class="o">.</span><span class="na">html</span><span class="o">,</span> <span class="n">header</span><span class="o">.</span><span class="na">html</span><span class="o">,</span> <span class="n">content</span><span class="o">,</span> <span class="n">footer</span><span class="o">.</span><span class="na">html</span> <span class="o">}</span>
 <span class="err">│</span>   <span class="err">├</span> <span class="n">index</span><span class="o">.</span><span class="na">html</span>   <span class="err">模板暂时没有！</span>
 <span class="err">│</span>   <span class="err">├</span> <span class="n">page</span><span class="o">.</span><span class="na">html</span>
-<span class="err">│</span>   <span class="err">└</span> <span class="n">post</span><span class="o">.</span><span class="na">html</span>
+<span class="err">│</span>   <span class="err">└</span> <span class="n">post</span><span class="o">.</span><span class="na">html</span>  <span class="err">博客的正文（含评论）</span>
 <span class="err">├</span> <span class="n">_posts</span>  <span class="err">撰写的博文都放在这里</span><span class="o">!</span><span class="err">文件名必须是</span><span class="n">YYYY</span><span class="o">-</span><span class="n">MM</span><span class="o">-</span><span class="n">DD</span><span class="o">-</span><span class="n">title</span>
 <span class="err">│</span>   <span class="err">└</span> <span class="mi">2016</span><span class="o">-</span><span class="mi">03</span><span class="o">-</span><span class="mi">04</span><span class="o">-</span><span class="n">welcome</span><span class="o">-</span><span class="n">to</span><span class="o">-</span><span class="n">jekyll</span><span class="o">.</span><span class="na">markdown</span>
 <span class="err">├</span> <span class="n">_sass</span>
-<span class="err">│</span>   <span class="err">├</span><span class="n">_base</span><span class="o">.</span><span class="na">scss</span>  
+<span class="err">│</span>   <span class="err">├</span> <span class="n">_base</span><span class="o">.</span><span class="na">scss</span>  
 <span class="err">│</span>   <span class="err">├</span> <span class="n">_layout</span><span class="o">.</span><span class="na">scss</span>
 <span class="err">│</span>   <span class="err">└</span> <span class="n">_syntax</span><span class="o">-</span><span class="n">highlighting</span><span class="o">.</span><span class="na">scss</span>
 <span class="err">├</span> <span class="n">assets</span>   <span class="err">模板暂时没有！</span>
-<span class="err">│</span>   <span class="err">├</span>
-<span class="err">│</span>   <span class="err">└</span>
+<span class="err">│</span>   <span class="err">├</span> <span class="n">_sass</span>
+<span class="err">│</span>   <span class="err">│</span>   <span class="err">├</span> <span class="n">_animation</span><span class="o">.</span><span class="na">scss</span>
+<span class="err">│</span>   <span class="err">│</span>   <span class="err">├</span> <span class="n">_nprogress</span><span class="o">.</span><span class="na">scss</span>
+<span class="err">│</span>   <span class="err">│</span>   <span class="err">├</span> <span class="n">_pygments</span><span class="o">.</span><span class="na">scss</span>
+<span class="err">│</span>   <span class="err">│</span>   <span class="err">└</span> <span class="n">style</span><span class="o">.</span><span class="na">scss</span>
+<span class="err">│</span>   <span class="err">├</span> <span class="n">css</span>
+<span class="err">│</span>   <span class="err">│</span>   <span class="err">└</span> <span class="n">style</span><span class="o">.</span><span class="na">css</span>  <span class="err">存放图标类的模板</span>
+<span class="err">│</span>   <span class="err">├</span> <span class="n">font</span>
+<span class="err">│</span>   <span class="err">│</span>   <span class="err">├</span> <span class="n">config</span><span class="o">.</span><span class="na">json</span>
+<span class="err">│</span>   <span class="err">│</span>   <span class="err">├</span> <span class="n">fontello</span><span class="o">.</span><span class="na">eot</span>
+<span class="err">│</span>   <span class="err">│</span>   <span class="err">├</span> <span class="n">fontello</span><span class="o">.</span><span class="na">svg</span>
+<span class="err">│</span>   <span class="err">│</span>   <span class="err">├</span> <span class="n">fontello</span><span class="o">.</span><span class="na">ttf</span>
+<span class="err">│</span>   <span class="err">│</span>   <span class="err">└</span> <span class="n">fontello</span><span class="o">.</span><span class="na">woff</span>
+<span class="err">│</span>   <span class="err">├</span> <span class="n">img</span>
+<span class="err">│</span>   <span class="err">│</span>   <span class="err">└</span> <span class="o">*.</span><span class="na">png</span>
+<span class="err">│</span>   <span class="err">└</span> <span class="n">js</span>
+<span class="err">│</span>       <span class="err">├</span> <span class="n">jquery</span><span class="o">.</span><span class="na">pjax</span><span class="o">.</span><span class="na">js</span>
+<span class="err">│</span>       <span class="err">├</span> <span class="n">jquery</span><span class="o">-</span><span class="mf">2.0</span><span class="o">.</span><span class="mi">3</span><span class="o">.</span><span class="na">min</span><span class="o">.</span><span class="na">js</span>
+<span class="err">│</span>       <span class="err">├</span> <span class="n">nprogress</span><span class="o">.</span><span class="na">js</span>
+<span class="err">│</span>       <span class="err">└</span> <span class="n">script</span><span class="o">.</span><span class="na">js</span>
 <span class="err">├</span> <span class="n">css</span>
 <span class="err">│</span>   <span class="err">└</span> <span class="n">main</span><span class="o">.</span><span class="na">scss</span>
 <span class="err">├</span> <span class="o">.</span><span class="na">gitignore</span>  
@@ -172,7 +192,7 @@
 <span class="err">├</span> <span class="n">about</span><span class="o">.</span><span class="na">md</span>
 <span class="err">├</span> <span class="n">feed</span><span class="o">.</span><span class="na">xml</span>
 <span class="err">├</span> <span class="n">ie</span><span class="o">.</span><span class="na">xml</span>   <span class="err">模板暂时没有！</span>
-<span class="err">├</span> <span class="n">index</span><span class="o">.</span><span class="na">html</span>  <span class="err">默认的主页</span>
+<span class="err">├</span> <span class="n">index</span><span class="o">.</span><span class="na">html</span>  <span class="err">默认的主页</span>  <span class="err">仅有主页右边正文内容！</span>
 <span class="err">├</span> <span class="n">LICENSE</span><span class="o">.</span><span class="na">txt</span>   <span class="err">模板暂时没有！</span>
 <span class="err">└</span> <span class="n">rss</span><span class="o">.</span><span class="na">xml</span>   <span class="err">模板暂时没有！</span></code></pre></figure>
 

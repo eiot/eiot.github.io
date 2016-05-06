@@ -88,9 +88,10 @@ a {
       width: 100%; } }
 
 /*---------------------------------*\
-   Tags
+   Tags 
 \*---------------------------------*/
-#tags {
+
+#tags {/*左栏标签*/
   width: 120px;
   height: 100%;
   background: #474d57;
@@ -107,10 +108,10 @@ a {
     #tags {
       display: none; } }
 
-#avatar {
+#avatar {/*图像*/
   width: 80px;
   height: 80px;
-  margin: 25px auto 15px;
+  margin: 25px auto 15px;/*边框*/
   background: url(/assets/img/avatar.png);
   border-radius: 20%;
   box-shadow: 0 0 0px 4px white, 0 0 4px 4px #eee;
@@ -195,25 +196,13 @@ a {
   border-right: 1px solid #3c4149; }
   #icon-email:before {
     content: "\e800"; }
-
-#icon-feed {
-  border-left: 1px solid #525965; }
-  #icon-feed:before {
-    content: "\e802"; }
-
-.tags-btn {
-  color: #a6a6a7;
-  -webkit-transition: color .3s, background .3s;
-  -moz-transition: color .3s, background .3s;
-  -ms-transition: color .3s, background .3s;
-  -o-transition: color .3s, background .3s;
-  transition: color .3s, background .3s; }
-  .tags-btn:hover {
-    color: #f7f7f7;
-    background: #40464f; }
-
+	
+#icon-github {
+  border-right: 1px solid #3c4149; }
+  #icon-github:before {
+    content: "\e800"; }
 /*---------------------------------*\
-   Posts List
+	上面的图标还没有修改！
 \*---------------------------------*/
 #posts-list {
   width: 420px;
