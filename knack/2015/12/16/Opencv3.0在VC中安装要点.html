@@ -45,7 +45,7 @@
     <aside id="sidebar">
       <nav id="tags">
         <a href="/index.html" id="avatar"></a>
-		<!--控制图像，不能直接修改，有其他依赖，否则不显示-->
+		<!--控制图像，不能直接修改，在/assets/css/style.css中有avatar的依赖，否则不显示-->
         <ul id="tags__ul" >
           <li id="js-label1" class="tags__li tags-btn active">All Posts</li>
           <li id="js-label2" class="tags__li tags-btn">Linux</li>
@@ -57,14 +57,14 @@
           <li id="js-label8" class="tags__li tags-btn">Knack</li>
           <li id="js-label9" class="tags__li tags-btn">Other</li>
         </ul>
-		<!-- assets/js/script.js里面也有相应的tag-->
+		<!-- 在assets/js/script.js里面也有相应的tag-->
 
         <div id="tags__bottom">
           <a href="mailto:huangxu@hust.edu.cn" id="icon-email" class="tags-btn fontello"></a>
           <!--<a href="/rss.xml" id="icon-feed" class="tags-btn fontello"></a>-->
 		  <!--上面的RSS不太可靠！-->
-		  <!--<a href="https://github.com/eiot" class="sidebar-social-icon github" target="_blank"></a> -->
 		  <!-- 上行为原始-->
+		  <!--<a href="https://github.com/eiot" class="sidebar-social-icon github" target="_blank"></a> -->
 		  <a href="https://github.com/eiot" id="icon-github " class="tags-btn fontello" target="_blank"></a>
 		  
 		  <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=775401754&site=qq&menu=yes"><img border="8" src="http://wpa.qq.com/pa?p=2:775401754:52" alt="QQ" title="QQ"/></a>
@@ -150,15 +150,16 @@
 查询了一些资料后，摸索出了一种简便的安装方法。</p>
 
 <p>1.首先还是得按照网上的传统方法修改计算机的环境变量，还是在这里啰嗦下子：<br />
-创建“系统变量”<code class="highlighter-rouge">opencv</code>为<code class="highlighter-rouge">%Opencv安装路径%\opencv\build</code><br />
-在“系统变量”<code class="highlighter-rouge">Path</code>中添加记录<code class="highlighter-rouge">%Opencv安装路径%\opencv\build\x64\vc12\bin;%Opencv安装路径%\opencv\build\x86\vc12\bin</code><br />
+创建“系统变量”<code class="highlighter-rouge">opencv</code>为<code class="highlighter-rouge">%Opencv安装路径%\opencv\build</code>，<br />
+在“系统变量”<code class="highlighter-rouge">Path</code>中添加记录<code class="highlighter-rouge">%Opencv安装路径%\opencv\build\x64\vc12\bin; %Opencv安装路径%\opencv\build\x86\vc12\bin</code>，<br />
 由于本人的VS2013就是<code class="highlighter-rouge">vc12</code>，请根据不同版本编译器选择相应路径！<br />
 同时将x86和x64的路径都纳入吧，免得以后有什么事麻烦。</p>
 
 <p>2.然后修改相应属性：<br />
-在“属性管理器”中右击工程文件下<code class="highlighter-rouge">Debug|Win32</code>选择“属性”，依次选择“通用属性”-“链接器”-“输入”，修改右侧的“附加依赖项”为<code class="highlighter-rouge">opencv_ts300d.lib;opencv_world300d.lib;opencv_ts300.lib;opencv_world300.lib;%(AdditionalDependencies)</code>；</p>
+在“属性管理器”中右击工程文件下<code class="highlighter-rouge">Debug|Win32</code>选择“属性”，依次选择“通用属性”-“链接器”-“输入”，修改右侧的“附加依赖项”为<code class="highlighter-rouge">opencv_ts300d.lib; opencv_world300d.lib; opencv_ts300.lib; opencv_world300.lib; %(AdditionalDependencies)</code>；
+由于v3.0的内部命令等发生了变化，要注意这里的一些附加依赖项与v2.x都不同！</p>
 
-<p>3.最后用(2)中相同的方法修改<code class="highlighter-rouge">Release|Win32</code></p>
+<p>3.最后用(2)中相同的方法修改<code class="highlighter-rouge">Release|Win32</code>。</p>
 
 <h3 id="section">有问题反馈</h3>
 <p>如果您在使用中有任何问题，欢迎反馈给我！</p>
