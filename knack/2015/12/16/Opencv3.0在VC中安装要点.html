@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <!--[if lte IE 9]><meta http-equiv="refresh" content="0;url=/ie.html"><![endif]-->
 
-    <title>对比Matlab的几个卷积函数</title>
+    <title>Opencv3.0在VC中安装要点</title>
     <meta name="description" content="">
 
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
@@ -138,31 +138,38 @@
     <div id="post">
       <div id="pjax">
         <article id="post__content">
-  <h1 id="post__title" data-identifier="20160105">对比Matlab的几个卷积函数</h1>
-  <h3 id="matlab">Matlab有几个关于卷积的函数，但是用法不同！</h3>
+  <h1 id="post__title" data-identifier="20151216">Opencv3.0在VC中安装要点</h1>
+  <h3 id="opencv30">Opencv3.0</h3>
+<p>Opencv3.0是当时最新的版本，这个版本与目前常用的v2.x版本存在较大的差异！<br />
+目前最新的版本是v3.1（2016.5.6修正），可从<a href="http://opencv.org/">官网</a>下载！</p>
 
-<p><code class="highlighter-rouge">B=imfilter(A,H)</code>   <br />
-被操作的对象A在前面！卷积模板H在后面！运算时不用旋转！大小默认为<code class="highlighter-rouge">same</code></p>
+<h3 id="opencv30-1">Opencv3.0的安装要点</h3>
+<p>本人计算机安装的是VS2013，可能不同VC版本之间在安装和使用时存在一定的差异！</p>
 
-<p><code class="highlighter-rouge">Y=filter2(B,X)</code>  <br />
-被操作的对象X在后面！卷积模板B模板在前面！运算时不用旋转！大小默认为<code class="highlighter-rouge">same</code></p>
+<p>当时网上现有的资料很难找到Opencv3.0在VC中正确安装的方法，本人就按照网上各种v2.x的教程就行摸索，还是没有成功。<br />
+查询了一些资料后，摸索出了一种简便的安装方法。</p>
 
-<p><code class="highlighter-rouge">C=conv2(A,B)</code>    <br />
-AB对称，无先后顺序！运算时要将一个矩阵旋转180度！大小默认为<code class="highlighter-rouge">full</code></p>
+<p>1.首先还是得按照网上的传统方法修改计算机的环境变量，还是在这里啰嗦下子：<br />
+创建“系统变量”<code class="highlighter-rouge">opencv</code>为<code class="highlighter-rouge">%Opencv安装路径%\opencv\build</code><br />
+在“系统变量”<code class="highlighter-rouge">Path</code>中添加记录<code class="highlighter-rouge">%Opencv安装路径%\opencv\build\x64\vc12\bin;%Opencv安装路径%\opencv\build\x86\vc12\bin</code><br />
+由于本人的VS2013就是<code class="highlighter-rouge">vc12</code>，请根据不同版本编译器选择相应路径！<br />
+同时将x86和x64的路径都纳入吧，免得以后有什么事麻烦。</p>
 
-<p>过几天上图！！！</p>
+<p>2.然后修改相应属性：<br />
+在“属性管理器”中右击工程文件下<code class="highlighter-rouge">Debug|Win32</code>选择“属性”，依次选择“通用属性”-“链接器”-“输入”，修改右侧的“附加依赖项”为<code class="highlighter-rouge">opencv_ts300d.lib;opencv_world300d.lib;opencv_ts300.lib;opencv_world300.lib;%(AdditionalDependencies)</code>；</p>
+
+<p>3.最后用(2)中相同的方法修改<code class="highlighter-rouge">Release|Win32</code></p>
 
 <h3 id="section">有问题反馈</h3>
-<p>在使用中有任何问
-题，欢迎反馈给我！</p>
+<p>如果您在使用中有任何问题，欢迎反馈给我！</p>
 
   <!-- 博客正文内容！ -->
 </article> <!-- end #post__content -->
 
 
 <!--<div id="post__share">
-  <a id="icon-weibo" class="fontello" href="http://v.t.sina.com.cn/share/share.php?url=eiot.github.io/matlab/2016/01/05/%E5%AF%B9%E6%AF%94Matlab%E7%9A%84%E5%87%A0%E4%B8%AA%E5%8D%B7%E7%A7%AF%E5%87%BD%E6%95%B0.html&title=对比Matlab的几个卷积函数" target="_blank"></a>
-  <a id="icon-twitter" class="fontello" href="https://twitter.com/intent/tweet?url=eiot.github.io/matlab/2016/01/05/%E5%AF%B9%E6%AF%94Matlab%E7%9A%84%E5%87%A0%E4%B8%AA%E5%8D%B7%E7%A7%AF%E5%87%BD%E6%95%B0.html&text=对比Matlab的几个卷积函数" target="_blank"></a>
+  <a id="icon-weibo" class="fontello" href="http://v.t.sina.com.cn/share/share.php?url=eiot.github.io/knack/2015/12/16/Opencv3.0%E5%9C%A8VC%E4%B8%AD%E5%AE%89%E8%A3%85%E8%A6%81%E7%82%B9.html&title=Opencv3.0在VC中安装要点" target="_blank"></a>
+  <a id="icon-twitter" class="fontello" href="https://twitter.com/intent/tweet?url=eiot.github.io/knack/2015/12/16/Opencv3.0%E5%9C%A8VC%E4%B8%AD%E5%AE%89%E8%A3%85%E8%A6%81%E7%82%B9.html&text=Opencv3.0在VC中安装要点" target="_blank"></a>
   <!--<a id="icon-cc" class="fontello" href="http://creativecommons.org/licenses/by-nc-sa/3.0" target="_blank"></a>-->
  <!--</div> <!-- end #post__share -->
 <!-- Twitter和新浪微博分享时链接有问题 -->

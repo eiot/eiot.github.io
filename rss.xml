@@ -6,8 +6,8 @@
     <atom:link href="eiot.github.io/rss.xml" rel="self" type="application/rss+xml" />
     <description>Computer can change your life for the better.</description>
     <language>zh-cn</language>
-    <pubDate>Fri, 06 May 2016 16:00:17 +0800</pubDate>
-    <lastBuildDate>Fri, 06 May 2016 16:00:17 +0800</lastBuildDate>
+    <pubDate>Fri, 06 May 2016 22:47:35 +0800</pubDate>
+    <lastBuildDate>Fri, 06 May 2016 22:47:35 +0800</lastBuildDate>
 
     
     <item>
@@ -2727,6 +2727,38 @@ AB对称，无先后顺序！运算时要将一个矩阵旋转180度！大小默
 &lt;h3 id=&quot;section&quot;&gt;有问题反馈&lt;/h3&gt;
 &lt;p&gt;在使用中有任何问
 题，欢迎反馈给我！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Opencv3.0在VC中安装要点</title>
+      <link>eiot.github.io/knack/2015/12/16/Opencv3.0%E5%9C%A8VC%E4%B8%AD%E5%AE%89%E8%A3%85%E8%A6%81%E7%82%B9.html</link>
+      <pubDate>16 Dec 2015</pubDate>
+      <author>Huangxu</author>
+      <guid>eiot.github.io/knack/2015/12/16/Opencv3.0在VC中安装要点</guid>
+      <description>&lt;h3 id=&quot;opencv30&quot;&gt;Opencv3.0&lt;/h3&gt;
+&lt;p&gt;Opencv3.0是当时最新的版本，这个版本与目前常用的v2.x版本存在较大的差异！&lt;br /&gt;
+目前最新的版本是v3.1（2016.5.6修正），可从&lt;a href=&quot;http://opencv.org/&quot;&gt;官网&lt;/a&gt;下载！&lt;/p&gt;
+
+&lt;h3 id=&quot;opencv30-1&quot;&gt;Opencv3.0的安装要点&lt;/h3&gt;
+&lt;p&gt;本人计算机安装的是VS2013，可能不同VC版本之间在安装和使用时存在一定的差异！&lt;/p&gt;
+
+&lt;p&gt;当时网上现有的资料很难找到Opencv3.0在VC中正确安装的方法，本人就按照网上各种v2.x的教程就行摸索，还是没有成功。&lt;br /&gt;
+查询了一些资料后，摸索出了一种简便的安装方法。&lt;/p&gt;
+
+&lt;p&gt;1.首先还是得按照网上的传统方法修改计算机的环境变量，还是在这里啰嗦下子：&lt;br /&gt;
+创建“系统变量”&lt;code class=&quot;highlighter-rouge&quot;&gt;opencv&lt;/code&gt;为&lt;code class=&quot;highlighter-rouge&quot;&gt;%Opencv安装路径%\opencv\build&lt;/code&gt;&lt;br /&gt;
+在“系统变量”&lt;code class=&quot;highlighter-rouge&quot;&gt;Path&lt;/code&gt;中添加记录&lt;code class=&quot;highlighter-rouge&quot;&gt;%Opencv安装路径%\opencv\build\x64\vc12\bin;%Opencv安装路径%\opencv\build\x86\vc12\bin&lt;/code&gt;&lt;br /&gt;
+由于本人的VS2013就是&lt;code class=&quot;highlighter-rouge&quot;&gt;vc12&lt;/code&gt;，请根据不同版本编译器选择相应路径！&lt;br /&gt;
+同时将x86和x64的路径都纳入吧，免得以后有什么事麻烦。&lt;/p&gt;
+
+&lt;p&gt;2.然后修改相应属性：&lt;br /&gt;
+在“属性管理器”中右击工程文件下&lt;code class=&quot;highlighter-rouge&quot;&gt;Debug|Win32&lt;/code&gt;选择“属性”，依次选择“通用属性”-“链接器”-“输入”，修改右侧的“附加依赖项”为&lt;code class=&quot;highlighter-rouge&quot;&gt;opencv_ts300d.lib;opencv_world300d.lib;opencv_ts300.lib;opencv_world300.lib;%(AdditionalDependencies)&lt;/code&gt;；&lt;/p&gt;
+
+&lt;p&gt;3.最后用(2)中相同的方法修改&lt;code class=&quot;highlighter-rouge&quot;&gt;Release|Win32&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;有问题反馈&lt;/h3&gt;
+&lt;p&gt;如果您在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
 </description>
     </item>
     
