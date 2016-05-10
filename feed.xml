@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 06 May 2016 23:22:27 +0800</pubDate>
-    <lastBuildDate>Fri, 06 May 2016 23:22:27 +0800</lastBuildDate>
+    <pubDate>Tue, 10 May 2016 15:07:00 +0800</pubDate>
+    <lastBuildDate>Tue, 10 May 2016 15:07:00 +0800</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
     
       <item>
@@ -24,8 +24,8 @@ IT业界良心！&lt;/p&gt;
 
 &lt;p&gt;网传附莆田系医院名单！&lt;br /&gt;
 本文信息来自于互联网，内容与本人无关！本人仅仅转发了相关内容！  &lt;br /&gt;
-wandergis 已经根据凤凰网的数据做了一个地图出来 https://github.com/wandergis/hospital-viz&lt;br /&gt;
-fushenghua 也开源了一个查询的 https://github.com/fushenghua/GetHosp/ 的项目&lt;/p&gt;
+wandergis 已经根据凤凰网的数据做了一个&lt;a href=&quot;https://github.com/wandergis/hospital-viz&quot;&gt;地图&lt;/a&gt;出来。 &lt;br /&gt;
+fushenghua 也开源了一个&lt;a href=&quot;https://github.com/fushenghua/GetHosp/&quot;&gt;查询&lt;/a&gt;的项目。&lt;/p&gt;
 
 &lt;h2 id=&quot;section-1&quot;&gt;武汉&lt;/h2&gt;
 
@@ -2807,6 +2807,22 @@ Git中的术语**repository**就是版本库，又名仓库，可以简单理解
         
         
         <category>knack</category>
+        
+      </item>
+    
+      <item>
+        <title>Matlab的并行parfor循环</title>
+        <description>&lt;h3 id=&quot;parfor&quot;&gt;关键词parfor&lt;/h3&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;有问题反馈&lt;/h3&gt;
+&lt;p&gt;在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
+</description>
+        <pubDate>Sat, 25 Apr 2015 01:04:17 +0800</pubDate>
+        <link>/matlab/2015/04/25/Matlab%E7%9A%84%E5%B9%B6%E8%A1%8Cparfor%E5%BE%AA%E7%8E%AF.html</link>
+        <guid isPermaLink="true">/matlab/2015/04/25/Matlab%E7%9A%84%E5%B9%B6%E8%A1%8Cparfor%E5%BE%AA%E7%8E%AF.html</guid>
+        
+        
+        <category>matlab</category>
         
       </item>
     

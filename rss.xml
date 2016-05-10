@@ -6,8 +6,8 @@
     <atom:link href="eiot.github.io/rss.xml" rel="self" type="application/rss+xml" />
     <description>Computer can change your life for the better.</description>
     <language>zh-cn</language>
-    <pubDate>Fri, 06 May 2016 23:22:27 +0800</pubDate>
-    <lastBuildDate>Fri, 06 May 2016 23:22:27 +0800</lastBuildDate>
+    <pubDate>Tue, 10 May 2016 15:07:00 +0800</pubDate>
+    <lastBuildDate>Tue, 10 May 2016 15:07:00 +0800</lastBuildDate>
 
     
     <item>
@@ -29,8 +29,8 @@ IT业界良心！&lt;/p&gt;
 
 &lt;p&gt;网传附莆田系医院名单！&lt;br /&gt;
 本文信息来自于互联网，内容与本人无关！本人仅仅转发了相关内容！  &lt;br /&gt;
-wandergis 已经根据凤凰网的数据做了一个地图出来 https://github.com/wandergis/hospital-viz&lt;br /&gt;
-fushenghua 也开源了一个查询的 https://github.com/fushenghua/GetHosp/ 的项目&lt;/p&gt;
+wandergis 已经根据凤凰网的数据做了一个&lt;a href=&quot;https://github.com/wandergis/hospital-viz&quot;&gt;地图&lt;/a&gt;出来。 &lt;br /&gt;
+fushenghua 也开源了一个&lt;a href=&quot;https://github.com/fushenghua/GetHosp/&quot;&gt;查询&lt;/a&gt;的项目。&lt;/p&gt;
 
 &lt;h2 id=&quot;section-1&quot;&gt;武汉&lt;/h2&gt;
 
@@ -2784,6 +2784,19 @@ Git中的术语**repository**就是版本库，又名仓库，可以简单理解
 
 &lt;h3 id=&quot;section&quot;&gt;有问题反馈&lt;/h3&gt;
 &lt;p&gt;如果您在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Matlab的并行parfor循环</title>
+      <link>eiot.github.io/matlab/2015/04/25/Matlab%E7%9A%84%E5%B9%B6%E8%A1%8Cparfor%E5%BE%AA%E7%8E%AF.html</link>
+      <pubDate>25 Apr 2015</pubDate>
+      <author>Huangxu</author>
+      <guid>eiot.github.io/matlab/2015/04/25/Matlab的并行parfor循环</guid>
+      <description>&lt;h3 id=&quot;parfor&quot;&gt;关键词parfor&lt;/h3&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;有问题反馈&lt;/h3&gt;
+&lt;p&gt;在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
 </description>
     </item>
     
