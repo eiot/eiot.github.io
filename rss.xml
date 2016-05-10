@@ -1,22 +1,23 @@
+<!-- ***/rss.xtml*** --->
 <?xml version="1.0"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Huangxu's blog</title>
-    <link>eiot.github.io</link>
-    <atom:link href="eiot.github.io/rss.xml" rel="self" type="application/rss+xml" />
-    <description>Computer can change your life for the better.</description>
-    <language>zh-cn</language>
-    <pubDate>Tue, 10 May 2016 15:07:00 +0800</pubDate>
-    <lastBuildDate>Tue, 10 May 2016 15:07:00 +0800</lastBuildDate>
+	<channel>
+		<title>Huangxu's blog</title>
+		<link>eiot.github.io</link>
+		<atom:link href="eiot.github.io/rss.xml" rel="self" type="application/rss+xml" />
+		<description>Computer can change your life for the better.</description>
+		<language>zh-cn</language>
+		<pubDate>Tue, 10 May 2016 16:31:38 +0800</pubDate>
+		<lastBuildDate>Tue, 10 May 2016 16:31:38 +0800</lastBuildDate>
 
-    
-    <item>
-      <title>莆田系医院名单</title>
-      <link>eiot.github.io/life/2016/05/04/%E8%8E%86%E7%94%B0%E7%B3%BB%E5%8C%BB%E9%99%A2%E5%90%8D%E5%8D%95.html</link>
-      <pubDate>04 May 2016</pubDate>
-      <author>Huangxu</author>
-      <guid>eiot.github.io/life/2016/05/04/莆田系医院名单</guid>
-      <description>&lt;p&gt;将GitHub用到了极致！&lt;br /&gt;
+			
+		<item>
+			<title>莆田系医院名单</title>
+			<link>eiot.github.io/life/2016/05/04/%E8%8E%86%E7%94%B0%E7%B3%BB%E5%8C%BB%E9%99%A2%E5%90%8D%E5%8D%95.html</link>
+			<pubDate>04 May 2016</pubDate>
+			<author>Huangxu</author>
+			<guid>eiot.github.io/life/2016/05/04/莆田系医院名单</guid>
+			<description>&lt;p&gt;将GitHub用到了极致！&lt;br /&gt;
 IT业界良心！&lt;/p&gt;
 
 &lt;h3 id=&quot;section&quot;&gt;莆田系医院名单&lt;/h3&gt;
@@ -2451,15 +2452,15 @@ fushenghua 也开源了一个&lt;a href=&quot;https://github.com/fushenghua/GetH
 &lt;h3 id=&quot;section-215&quot;&gt;有问题反馈&lt;/h3&gt;
 &lt;p&gt;在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Jekyll学习</title>
-      <link>eiot.github.io/linux/2016/04/29/Jekyll%E5%AD%A6%E4%B9%A0.html</link>
-      <pubDate>29 Apr 2016</pubDate>
-      <author>Huangxu</author>
-      <guid>eiot.github.io/linux/2016/04/29/Jekyll学习</guid>
-      <description>&lt;p&gt;这是个人在github上建站的基本教程！ 
+		</item>
+		
+		<item>
+			<title>Jekyll学习</title>
+			<link>eiot.github.io/linux/2016/04/29/Jekyll%E5%AD%A6%E4%B9%A0.html</link>
+			<pubDate>29 Apr 2016</pubDate>
+			<author>Huangxu</author>
+			<guid>eiot.github.io/linux/2016/04/29/Jekyll学习</guid>
+			<description>&lt;p&gt;这是个人在github上建站的基本教程！ 
 test in Jekyll!!!***—+++…///\```~~~’’’”””;;;:::???»&amp;gt;«&amp;lt;,,,___===|||&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/index.html&quot;&gt;回到主页&lt;/a&gt;&lt;/p&gt;
@@ -2546,15 +2547,15 @@ test in Jekyll!!!***—+++…///\```~~~’’’”””;;;:::???»&amp;gt;«&a
 &lt;h3 id=&quot;section-1&quot;&gt;有问题反馈&lt;/h3&gt;
 &lt;p&gt;在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Git学习笔记</title>
-      <link>eiot.github.io/linux/2016/04/01/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html</link>
-      <pubDate>01 Apr 2016</pubDate>
-      <author>Huangxu</author>
-      <guid>eiot.github.io/linux/2016/04/01/Git学习笔记</guid>
-      <description>&lt;h3 id=&quot;git&quot;&gt;Git简介&lt;/h3&gt;
+		</item>
+		
+		<item>
+			<title>Git学习笔记</title>
+			<link>eiot.github.io/linux/2016/04/01/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html</link>
+			<pubDate>01 Apr 2016</pubDate>
+			<author>Huangxu</author>
+			<guid>eiot.github.io/linux/2016/04/01/Git学习笔记</guid>
+			<description>&lt;h3 id=&quot;git&quot;&gt;Git简介&lt;/h3&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Git是目前世界上最先进的分布式版本控制系统，没有之一！它能够方便地保存所有的版本。
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
@@ -2621,15 +2622,15 @@ Git中的术语**repository**就是版本库，又名仓库，可以简单理解
 &lt;p&gt;如果您在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
 
 </description>
-    </item>
-    
-    <item>
-      <title>解决双系统unknown filesystem grub rescue</title>
-      <link>eiot.github.io/knack/2016/02/28/%E8%A7%A3%E5%86%B3%E5%8F%8C%E7%B3%BB%E7%BB%9Funknown-filesystem-grub-rescue.html</link>
-      <pubDate>28 Feb 2016</pubDate>
-      <author>Huangxu</author>
-      <guid>eiot.github.io/knack/2016/02/28/解决双系统unknown filesystem grub rescue</guid>
-      <description>&lt;h3 id=&quot;section&quot;&gt;症状&lt;/h3&gt;
+		</item>
+		
+		<item>
+			<title>解决双系统unknown filesystem grub rescue</title>
+			<link>eiot.github.io/knack/2016/02/28/%E8%A7%A3%E5%86%B3%E5%8F%8C%E7%B3%BB%E7%BB%9Funknown-filesystem-grub-rescue.html</link>
+			<pubDate>28 Feb 2016</pubDate>
+			<author>Huangxu</author>
+			<guid>eiot.github.io/knack/2016/02/28/解决双系统unknown filesystem grub rescue</guid>
+			<description>&lt;h3 id=&quot;section&quot;&gt;症状&lt;/h3&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;双系统电脑出现了故障方法，显示   `error：unknown filesystem grub rescue`
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
@@ -2666,15 +2667,15 @@ Git中的术语**repository**就是版本库，又名仓库，可以简单理解
 &lt;h3 id=&quot;section-2&quot;&gt;有问题反馈&lt;/h3&gt;
 &lt;p&gt;在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>阻止升级为Win10</title>
-      <link>eiot.github.io/knack/2016/02/23/%E9%98%BB%E6%AD%A2%E5%8D%87%E7%BA%A7%E4%B8%BAWin10.html</link>
-      <pubDate>23 Feb 2016</pubDate>
-      <author>Huangxu</author>
-      <guid>eiot.github.io/knack/2016/02/23/阻止升级为Win10</guid>
-      <description>&lt;h3 id=&quot;win10&quot;&gt;系统提示升级到Win10&lt;/h3&gt;
+		</item>
+		
+		<item>
+			<title>阻止升级为Win10</title>
+			<link>eiot.github.io/knack/2016/02/23/%E9%98%BB%E6%AD%A2%E5%8D%87%E7%BA%A7%E4%B8%BAWin10.html</link>
+			<pubDate>23 Feb 2016</pubDate>
+			<author>Huangxu</author>
+			<guid>eiot.github.io/knack/2016/02/23/阻止升级为Win10</guid>
+			<description>&lt;h3 id=&quot;win10&quot;&gt;系统提示升级到Win10&lt;/h3&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;下面老是跳出提示要求升级到Win10
 
 可进入控制面板，卸载以下这两个更新即可 `KB3035583` `KB2952664`
@@ -2684,15 +2685,15 @@ Git中的术语**repository**就是版本库，又名仓库，可以简单理解
 &lt;h3 id=&quot;section&quot;&gt;有问题反馈&lt;/h3&gt;
 &lt;p&gt;在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>查看Android Wifi密码</title>
-      <link>eiot.github.io/knack/2016/01/20/%E6%9F%A5%E7%9C%8BAndroid-Wifi%E5%AF%86%E7%A0%81.html</link>
-      <pubDate>20 Jan 2016</pubDate>
-      <author>Huangxu</author>
-      <guid>eiot.github.io/knack/2016/01/20/查看Android Wifi密码</guid>
-      <description>&lt;h3 id=&quot;section&quot;&gt;方法&lt;/h3&gt;
+		</item>
+		
+		<item>
+			<title>查看Android Wifi密码</title>
+			<link>eiot.github.io/knack/2016/01/20/%E6%9F%A5%E7%9C%8BAndroid-Wifi%E5%AF%86%E7%A0%81.html</link>
+			<pubDate>20 Jan 2016</pubDate>
+			<author>Huangxu</author>
+			<guid>eiot.github.io/knack/2016/01/20/查看Android Wifi密码</guid>
+			<description>&lt;h3 id=&quot;section&quot;&gt;方法&lt;/h3&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;要想查看Android手机的Wifi密码，必须先获取手机的**root权限**！！！  
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
@@ -2723,15 +2724,15 @@ Git中的术语**repository**就是版本库，又名仓库，可以简单理解
 &lt;h3 id=&quot;section-1&quot;&gt;有问题反馈&lt;/h3&gt;
 &lt;p&gt;在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>对比Matlab的几个卷积函数</title>
-      <link>eiot.github.io/matlab/2016/01/05/%E5%AF%B9%E6%AF%94Matlab%E7%9A%84%E5%87%A0%E4%B8%AA%E5%8D%B7%E7%A7%AF%E5%87%BD%E6%95%B0.html</link>
-      <pubDate>05 Jan 2016</pubDate>
-      <author>Huangxu</author>
-      <guid>eiot.github.io/matlab/2016/01/05/对比Matlab的几个卷积函数</guid>
-      <description>&lt;h3 id=&quot;matlab&quot;&gt;Matlab有几个关于卷积的函数，但是用法不同！&lt;/h3&gt;
+		</item>
+		
+		<item>
+			<title>对比Matlab的几个卷积函数</title>
+			<link>eiot.github.io/matlab/2016/01/05/%E5%AF%B9%E6%AF%94Matlab%E7%9A%84%E5%87%A0%E4%B8%AA%E5%8D%B7%E7%A7%AF%E5%87%BD%E6%95%B0.html</link>
+			<pubDate>05 Jan 2016</pubDate>
+			<author>Huangxu</author>
+			<guid>eiot.github.io/matlab/2016/01/05/对比Matlab的几个卷积函数</guid>
+			<description>&lt;h3 id=&quot;matlab&quot;&gt;Matlab有几个关于卷积的函数，但是用法不同！&lt;/h3&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;B=imfilter(A,H)&lt;/code&gt;   &lt;br /&gt;
 	被操作的对象A在前面！卷积模板H在后面！运算时不用旋转！大小默认为&lt;code class=&quot;highlighter-rouge&quot;&gt;same&lt;/code&gt;&lt;/p&gt;
@@ -2748,15 +2749,15 @@ Git中的术语**repository**就是版本库，又名仓库，可以简单理解
 &lt;p&gt;在使用中有任何问
 题，欢迎反馈给我！&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Opencv3.0在VC中安装要点</title>
-      <link>eiot.github.io/knack/2015/12/16/Opencv3.0%E5%9C%A8VC%E4%B8%AD%E5%AE%89%E8%A3%85%E8%A6%81%E7%82%B9.html</link>
-      <pubDate>16 Dec 2015</pubDate>
-      <author>Huangxu</author>
-      <guid>eiot.github.io/knack/2015/12/16/Opencv3.0在VC中安装要点</guid>
-      <description>&lt;h3 id=&quot;opencv30&quot;&gt;Opencv3.0&lt;/h3&gt;
+		</item>
+		
+		<item>
+			<title>Opencv3.0在VC中安装要点</title>
+			<link>eiot.github.io/knack/2015/12/16/Opencv3.0%E5%9C%A8VC%E4%B8%AD%E5%AE%89%E8%A3%85%E8%A6%81%E7%82%B9.html</link>
+			<pubDate>16 Dec 2015</pubDate>
+			<author>Huangxu</author>
+			<guid>eiot.github.io/knack/2015/12/16/Opencv3.0在VC中安装要点</guid>
+			<description>&lt;h3 id=&quot;opencv30&quot;&gt;Opencv3.0&lt;/h3&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Opencv3.0是当时最新的版本，这个版本与目前常用的v2.x版本存在较大的差异！  
 目前最新的版本是v3.1（2016.5.6修正），可从[官网](http://opencv.org/)下载！  
 &lt;/code&gt;&lt;/pre&gt;
@@ -2780,25 +2781,28 @@ Git中的术语**repository**就是版本库，又名仓库，可以简单理解
 	在“属性管理器”中右击工程文件下&lt;code class=&quot;highlighter-rouge&quot;&gt;Debug|Win32&lt;/code&gt;选择“属性”，依次选择“通用属性”-“链接器”-“输入”，修改右侧的“附加依赖项”为&lt;code class=&quot;highlighter-rouge&quot;&gt;opencv_ts300d.lib; opencv_world300d.lib; opencv_ts300.lib; opencv_world300.lib; %(AdditionalDependencies)&lt;/code&gt;；
 	由于v3.0的内部命令等发生了变化，要注意这里的一些附加依赖项与v2.x都不同！&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;3&lt;/em&gt;最后用(2)中相同的方法修改&lt;code class=&quot;highlighter-rouge&quot;&gt;Release|Win32&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;3.&lt;/em&gt;最后用(2)中相同的方法修改&lt;code class=&quot;highlighter-rouge&quot;&gt;Release|Win32&lt;/code&gt;。&lt;/p&gt;
 
 &lt;h3 id=&quot;section&quot;&gt;有问题反馈&lt;/h3&gt;
 &lt;p&gt;如果您在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Matlab的并行parfor循环</title>
-      <link>eiot.github.io/matlab/2015/04/25/Matlab%E7%9A%84%E5%B9%B6%E8%A1%8Cparfor%E5%BE%AA%E7%8E%AF.html</link>
-      <pubDate>25 Apr 2015</pubDate>
-      <author>Huangxu</author>
-      <guid>eiot.github.io/matlab/2015/04/25/Matlab的并行parfor循环</guid>
-      <description>&lt;h3 id=&quot;parfor&quot;&gt;关键词parfor&lt;/h3&gt;
+		</item>
+		
+		<item>
+			<title>Matlab的并行parfor循环</title>
+			<link>eiot.github.io/matlab/2015/04/25/Matlab%E7%9A%84%E5%B9%B6%E8%A1%8Cparfor%E5%BE%AA%E7%8E%AF.html</link>
+			<pubDate>25 Apr 2015</pubDate>
+			<author>Huangxu</author>
+			<guid>eiot.github.io/matlab/2015/04/25/Matlab的并行parfor循环</guid>
+			<description>&lt;h3 id=&quot;parfor&quot;&gt;关键词parfor&lt;/h3&gt;
+
+&lt;p&gt;该部分内容维护中！
+过几天再来吧！^_^&lt;/p&gt;
 
 &lt;h3 id=&quot;section&quot;&gt;有问题反馈&lt;/h3&gt;
 &lt;p&gt;在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
 </description>
-    </item>
-    
-  </channel>
+		</item>
+		
+	</channel>
 </rss>

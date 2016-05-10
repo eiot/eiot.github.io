@@ -1,0 +1,136 @@
+<!--***/_layouts/index.html***-->
+<!--***这里面标签可能还有点问题！***-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<!--[if lte IE 9]><meta http-equiv="refresh" content="0;url=/ie.html"><![endif]-->
+
+		<title>{{ page.title }}</title>
+		<meta name="description" content="">
+
+		<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+		<script type="text/javascript">
+			function  Trim(strValue)     
+            {     
+                 return   strValue.replace(/^s*|s*$/g,"");     
+            }
+                 
+            function SetCookie(sName,sValue)     
+            {     
+                 document.cookie = sName + "=" + escape(sValue);     
+           }   
+           
+           function GetCookie(sName)     
+           {     
+                 var aCookie = document.cookie.split(";");     
+               for(var　i=0;　i　< aCookie.length;　i++)     
+               {     
+                     var aCrumb = aCookie[i].split("=");     
+                   if(sName　== Trim(aCrumb[0]))     
+                   {     
+                       return unescape(aCrumb[1]);     
+                   }     
+                  }     
+     
+               　　return null;     
+             } 
+                 
+           function scrollback()     
+           {     
+                 if(GetCookie("scroll")!=null){document.body.scrollTop=GetCookie("scroll")}     
+           }     
+		</script>
+	</head>
+	
+	<body id=body  onscroll=SetCookie("scroll",body.scrollTop);onload="scrollback();">
+		<aside id="sidebar">
+			<nav id="tags">
+				<a href="/index.html" id="avatar"></a>
+				<!--控制图像，不能直接修改，在/assets/css/style.css中有avatar的依赖，否则不显示-->
+				<ul id="tags__ul" >
+					<li id="js-label1" class="tags__li tags-btn active">All Posts</li>
+					<li id="js-label2" class="tags__li tags-btn">Linux</li>
+					<li id="js-label3" class="tags__li tags-btn">Matlab</li>
+					<li id="js-label4" class="tags__li tags-btn">Network</li>
+					<li id="js-label5" class="tags__li tags-btn">Algorithm</li>
+					<li id="js-label6" class="tags__li tags-btn">Life</li>
+					<li id="js-label7" class="tags__li tags-btn">Math</li>
+					<li id="js-label8" class="tags__li tags-btn">Knack</li>
+					<li id="js-label9" class="tags__li tags-btn">Other</li>
+				</ul>
+					<!-- 在assets/js/script.js里面也有相应的tag-->
+
+				<div id="tags__bottom">
+					<a href="mailto:huangxu@hust.edu.cn" id="icon-email" class="tags-btn fontello"></a>
+		  
+					<!--<a href="/rss.xml" id="icon-feed" class="tags-btn fontello"></a>-->
+					<!--上面的RSS不太可靠！-->
+					<!-- 上行为原始-->
+		  
+					<!--<a href="https://github.com/eiot" class="sidebar-social-icon github" target="_blank"></a> -->
+					<!--
+					<a href="https://github.com/eiot" id="icon-github " class="tags-btn fontello" target="_blank"></a>
+					-->
+					<!--模仿别人的GitHub图标-->
+		  
+					<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=775401754&site=qq&menu=yes"><img border="8" src="http://wpa.qq.com/pa?p=2:775401754:52" alt="QQ" title="QQ"/></a>
+					<!--QQ聊天插件-->
+					
+				</div>
+			</nav> <!-- end #tags -->
+
+			<div id="posts-list">
+				<form action="" id="search-form">
+					<a href="/index.html" id="mobile-avatar"></a>
+						<!-- <p>NOTE: input field is disabled by default </p>-->
+						<!--<input id="search-input" type="text" placeholder="Search..." disabled >-->
+						<!--Search功能不太可靠！-->
+
+
+				</form>
+
+				<nav id="pl__container">
+					{% for post in site.posts %}
+					<!--<a class="pl__time_total">
+					<strong >{{ post.date | date: "%b %Y" }}</strong>
+					<strong >temp</strong>-->
+					
+					<!--在链接上方添加更新时间的年月-->
+		
+					</a><!--这个标签本来就是在这里的！-->
+					<a class="{{ post.categories }} pl__all" href="{{ post.url }}"><span class="pl__circle"></span><span class="pl__title">{{ post.title }}</span><strong class="pl__date">{{ post.categories }}</strong></a>
+					{% endfor %}
+				</nav>
+			</div> <!-- end #posts-list -->
+		</aside> <!-- end #sidebar -->
+
+		<div id="post">
+			<div id="pjax">
+				{{ content }}
+				<!-- 这里添加了index.html中的article内容-->
+			</div> <!-- end #pjax -->
+
+			<div id="post__toc-trigger">
+				<div id="post__toc">
+					<span id="post__toc-title">Table of Contents</span>
+					<ul id="post__toc-ul"></ul>
+				</div>
+			</div>
+			<div style="text-align:center;"><a href="#" onclick="window.location.reload()" vertical-align:middle; >-----------请您赐教！-----------</a></div>
+			<div style="text-align:center;"><br><br></div>
+		</div>
+	</div> <!-- end #post -->
+
+
+	<!--<button id="js-fullscreen"><span id="icon-arrow" class="fontello"></span></button>
+    <script src="/assets/js/jquery-2.0.3.min.js"></script>
+    <script src="/assets/js/jquery.pjax.js"></script>
+    <script src="/assets/js/nprogress.js"></script>
+    <script src="/assets/js/script.js"></script>-->
+	<!-- 上方几行貌似没有用 -->
+
+
+	</body>
+</html>
