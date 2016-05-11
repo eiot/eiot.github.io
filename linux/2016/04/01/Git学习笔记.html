@@ -192,24 +192,20 @@
 <article id="post__content">
 	<h1 id="post__title" data-identifier="20160401">Git学习笔记</h1>
 	<h3 id="git">Git简介</h3>
-<div class="highlighter-rouge"><pre class="highlight"><code>Git是目前世界上最先进的分布式版本控制系统，没有之一！它能够方便地保存所有的版本。
-</code></pre>
-</div>
+<p>Git是目前世界上最先进的分布式版本控制系统，没有之一！它能够方便地保存所有的版本。</p>
 
 <h3 id="git-1">Git的安装与配置</h3>
-<div class="highlighter-rouge"><pre class="highlight"><code>Windows下有较为方便的客户端，便不再详述了，只介绍Linux命令行中的使用方法。  
-尝试输入`$ git`，就能检查系统有没有安装Git。  
-如果系统正好是Debian或Ubuntu，`$ sudo apt-get install git`这一句命令就能够方便地完成Git的安装！  
-安装完成后，还需要一步设置来自报家门（你的名字和Email地址）：  
-`$ git config --global user.name "Your Name"`
-`$ git config --global user.email "email@example.com"`
+<p>Windows下有较为方便的客户端，便不再详述了，只介绍Linux命令行中的使用方法。<br />
+尝试输入<code class="highlighter-rouge">$ git</code>，就能检查系统有没有安装Git。<br />
+如果系统正好是Debian或Ubuntu，<code class="highlighter-rouge">$ sudo apt-get install git</code>这一句命令就能够方便地完成Git的安装！<br />
+安装完成后，还需要一步设置来自报家门（你的名字和Email地址）：<br />
+<code class="highlighter-rouge">$ git config --global user.name "Your Name"</code><br />
+<code class="highlighter-rouge">$ git config --global user.email "email@example.com"</code></p>
 
-Git中的术语**repository**就是版本库，又名仓库，可以简单理解成Git管理的一个目录。每个文件的修改、删除，Git都能跟踪，以便任何时刻都可以追踪历史，或者在将来某个时刻可以“还原”。为了避免遇到各种莫名其妙的问题，请确保目录名（包括父目录）中**不包含中文**！
+<p>Git中的术语<strong>repository</strong>就是版本库，又名仓库，可以简单理解成Git管理的一个目录。每个文件的修改、删除，Git都能跟踪，以便任何时刻都可以追踪历史，或者在将来某个时刻可以“还原”。为了避免遇到各种莫名其妙的问题，请确保目录名（包括父目录）中<strong>不包含中文</strong>！</p>
 
-通过`$ git init`可将这个目录初始化为Git可以管理的仓库。
-这时当前目录下会多出一个.git的目录，这个目录是Git来跟踪管理版本库的，千万不要手动修改这个目录里面的文件，不然就把Git仓库给破坏了。
-</code></pre>
-</div>
+<p>通过<code class="highlighter-rouge">$ git init</code>可将这个目录初始化为Git可以管理的仓库。
+这时当前目录下会多出一个.git的目录，这个目录是Git来跟踪管理版本库的，千万不要手动修改这个目录里面的文件，不然就把Git仓库给破坏了。</p>
 
 <h3 id="git-2">Git的常用方法</h3>
 <p>(1)<code class="highlighter-rouge">$ git status</code>可以让我们时刻掌握仓库当前的状态。<br />

@@ -7,8 +7,8 @@
 		<atom:link href="eiot.github.io/rss.xml" rel="self" type="application/rss+xml" />
 		<description>Computer can change your life for the better.</description>
 		<language>zh-cn</language>
-		<pubDate>Wed, 11 May 2016 19:36:30 +0800</pubDate>
-		<lastBuildDate>Wed, 11 May 2016 19:36:30 +0800</lastBuildDate>
+		<pubDate>Wed, 11 May 2016 21:07:13 +0800</pubDate>
+		<lastBuildDate>Wed, 11 May 2016 21:07:13 +0800</lastBuildDate>
 
 			
 		<item>
@@ -23,13 +23,13 @@
 &lt;p&gt;一说起检索论文，大家一定首先想到的就是&lt;a href=&quot;https://scholar.google.com/&quot;&gt;谷歌学术&lt;/a&gt;吧！但是由于众所周知的原因，有时不能够正常访问，得通过修改hosts或者FQ等方式，稍有麻烦。&lt;/p&gt;
 
 &lt;h2 id=&quot;section-1&quot;&gt;百度学术&lt;/h2&gt;
-&lt;p&gt;百度和谷歌的关系大家应该懂的撒！这一年来，&lt;a href=&quot;http://xueshu.baidu.com/&quot;&gt;百度学术&lt;/a&gt;也是发展迅猛。
+&lt;p&gt;百度和谷歌的关系大家应该懂的撒！近一年来，&lt;a href=&quot;http://xueshu.baidu.com/&quot;&gt;百度学术&lt;/a&gt;也是发展迅猛。&lt;br /&gt;
 百度学术以前主要是查&lt;a href=&quot;http://www.cnki.net/&quot;&gt;知网&lt;/a&gt;、&lt;a href=&quot;http://www.wanfangdata.com.cn/&quot;&gt;万方&lt;/a&gt;、&lt;a href=&quot;http://www.cqvip.com/&quot;&gt;维普&lt;/a&gt;等中文的，现在也支持&lt;a href=&quot;http://link.springer.com/&quot;&gt;Springer&lt;/a&gt;、&lt;a href=&quot;www.webofknowledge.com/&quot;&gt;Web of Science&lt;/a&gt;等外文数据库！&lt;/p&gt;
 
 &lt;h2 id=&quot;section-2&quot;&gt;国内大牛建的谷歌学术镜像网站&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;http://scholar.glgoo.com/&quot;&gt;scholar&lt;/a&gt;或&lt;a href=&quot;https://xueshu.glgoo.com/&quot;&gt;xueshu&lt;/a&gt;
-&lt;a href=&quot;http://g.linkscholar.org/&quot;&gt;果谷&lt;/a&gt;
-&lt;a href=&quot;http://g.linkscholar.org/&quot;&gt;Linkscholar&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;https://xueshu.glgoo.com/&quot;&gt;xueshu&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://g.linkscholar.org/&quot;&gt;果谷&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://g.linkscholar.org/&quot;&gt;Linkscholar&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;http://dir.scmor.com/google/&quot;&gt;google多镜像选择&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;section-3&quot;&gt;免费下载文章的网站！！！&lt;/h2&gt;
@@ -2571,7 +2571,7 @@ test in Jekyll!!!***—+++…///\```~~~’’’”””;;;:::???»&amp;gt;«&a
 &lt;/div&gt;
 
 &lt;h3 id=&quot;github&quot;&gt;GitHub上的发表&lt;/h3&gt;
-&lt;p&gt;GitHub默认的时间索引是UTC/GMT-07:00，如果博文内的时间没有显式地标出时区信息，那么就不会认为这是未来的博文，GitHub将不会编译、显示该博文！&lt;/p&gt;
+&lt;p&gt;GitHub默认的时间是UTC/GMT-07:00时区的。如果博文内的时间没有显式地标出时区信息（大部分情况下我们用的是北京时间比UTC/GMT快15小时），GitHub就会认为这是未来的博文，短期内将不会编译、显示该博文！&lt;/p&gt;
 
 &lt;h3 id=&quot;next&quot;&gt;NEXT&lt;/h3&gt;
 &lt;p&gt;摸索中！！！过几天再来写吧！&lt;/p&gt;
@@ -2588,24 +2588,20 @@ test in Jekyll!!!***—+++…///\```~~~’’’”””;;;:::???»&amp;gt;«&a
 			<author>Huangxu</author>
 			<guid>eiot.github.io/linux/2016/04/01/Git学习笔记</guid>
 			<description>&lt;h3 id=&quot;git&quot;&gt;Git简介&lt;/h3&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Git是目前世界上最先进的分布式版本控制系统，没有之一！它能够方便地保存所有的版本。
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;Git是目前世界上最先进的分布式版本控制系统，没有之一！它能够方便地保存所有的版本。&lt;/p&gt;
 
 &lt;h3 id=&quot;git-1&quot;&gt;Git的安装与配置&lt;/h3&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Windows下有较为方便的客户端，便不再详述了，只介绍Linux命令行中的使用方法。  
-尝试输入`$ git`，就能检查系统有没有安装Git。  
-如果系统正好是Debian或Ubuntu，`$ sudo apt-get install git`这一句命令就能够方便地完成Git的安装！  
-安装完成后，还需要一步设置来自报家门（你的名字和Email地址）：  
-`$ git config --global user.name &quot;Your Name&quot;`
-`$ git config --global user.email &quot;email@example.com&quot;`
+&lt;p&gt;Windows下有较为方便的客户端，便不再详述了，只介绍Linux命令行中的使用方法。&lt;br /&gt;
+尝试输入&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git&lt;/code&gt;，就能检查系统有没有安装Git。&lt;br /&gt;
+如果系统正好是Debian或Ubuntu，&lt;code class=&quot;highlighter-rouge&quot;&gt;$ sudo apt-get install git&lt;/code&gt;这一句命令就能够方便地完成Git的安装！&lt;br /&gt;
+安装完成后，还需要一步设置来自报家门（你的名字和Email地址）：&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git config --global user.name &quot;Your Name&quot;&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git config --global user.email &quot;email@example.com&quot;&lt;/code&gt;&lt;/p&gt;
 
-Git中的术语**repository**就是版本库，又名仓库，可以简单理解成Git管理的一个目录。每个文件的修改、删除，Git都能跟踪，以便任何时刻都可以追踪历史，或者在将来某个时刻可以“还原”。为了避免遇到各种莫名其妙的问题，请确保目录名（包括父目录）中**不包含中文**！
+&lt;p&gt;Git中的术语&lt;strong&gt;repository&lt;/strong&gt;就是版本库，又名仓库，可以简单理解成Git管理的一个目录。每个文件的修改、删除，Git都能跟踪，以便任何时刻都可以追踪历史，或者在将来某个时刻可以“还原”。为了避免遇到各种莫名其妙的问题，请确保目录名（包括父目录）中&lt;strong&gt;不包含中文&lt;/strong&gt;！&lt;/p&gt;
 
-通过`$ git init`可将这个目录初始化为Git可以管理的仓库。
-这时当前目录下会多出一个.git的目录，这个目录是Git来跟踪管理版本库的，千万不要手动修改这个目录里面的文件，不然就把Git仓库给破坏了。
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;通过&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git init&lt;/code&gt;可将这个目录初始化为Git可以管理的仓库。
+这时当前目录下会多出一个.git的目录，这个目录是Git来跟踪管理版本库的，千万不要手动修改这个目录里面的文件，不然就把Git仓库给破坏了。&lt;/p&gt;
 
 &lt;h3 id=&quot;git-2&quot;&gt;Git的常用方法&lt;/h3&gt;
 &lt;p&gt;(1)&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git status&lt;/code&gt;可以让我们时刻掌握仓库当前的状态。&lt;br /&gt;
