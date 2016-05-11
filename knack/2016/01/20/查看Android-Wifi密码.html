@@ -7,7 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 		<!--[if lte IE 9]><meta http-equiv="refresh" content="0;url=/ie.html"><![endif]-->
 		<link rel="alternate icon" type="image/png" href="/assets/img/icon.png">
-		<title>欢迎前往我的博客小站！Welcome to my portal!</title>
+		<title>查看Android Wifi密码</title>
 		<meta name="description" content="">
 
 		<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
@@ -187,40 +187,73 @@
 
 		<div id="post">
 			<div id="pjax">
-				<!-- ***/index.html+head*** --->
+				<!--***/_layouts/post.html+head***-->
+
 <article id="post__content">
-	<div>
-		<script>
-			(function() {
-				var cx = '002834760431752757995:6khrcmt9pig';
-				var gcse = document.createElement('script');
-				gcse.type = 'text/javascript';
-				gcse.async = true;
-				gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-				s = document.getElementsByTagName('script')[0];
-				s.parentNode.insertBefore(gcse, s);
-			})();
-		</script>
-		<gcse:search></gcse:search>
-	</div><!-- google提供的搜索引擎https://cse.google.com/cse/ -->
-  
-	<h1 id="post__title">欢迎您的访问！O(∩_∩)O~</h1>
-	<h2>About Me</h2>
-	<ul>
-		<li>口号：今天工作不努力，明天努力找工作！</li>
-		<li>状态：为了明天，今天得加倍努力！</li>
-		<li>爱好：信息技术，财经新闻，户外活动……</li>
-		<li>疑问：什么时候能够遇见那个她？</li>
-		<li>短期目标：完成研究生学业！</li>
-	</ul>
-	<h2>Contact Me</h2>
-	<ul>
-		<li>Github：<a href="https://github.com/eiot">eiot</a></li>
-		<li>Mail: <a href="mailto:huangxu@hust.edu.cn">huangxu@hust.edu.cn</a></li>
-	</ul>
-	<p>座右铭：学而不思则罔，思而不学则殆！</p>
+	<h1 id="post__title" data-identifier="20160120">查看Android Wifi密码</h1>
+	<h3 id="section">方法</h3>
+<div class="highlighter-rouge"><pre class="highlight"><code>要想查看Android手机的Wifi密码，必须先获取手机的**root权限**！！！  
+</code></pre>
+</div>
+
+<p>1.下载并安装好 <strong>RE管理器</strong>
+2.进入data/misc/wifi（RE管理器可以显示<strong>隐藏的文件</strong>，手机自带的文件系统不行）
+3.使用文本查看器打开bcm_supp.conf或wpa_supplicant.conf</p>
+
+<p>打开后将是类似于以下的内容：</p>
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java">  
+<span class="n">network</span><span class="o">={</span>  
+	<span class="n">ssid</span><span class="o">=</span><span class="s">"TP-LINK_92E3C2"</span>  
+	<span class="n">psk</span><span class="o">=</span><span class="s">"cheng21210882"</span>  
+	<span class="n">key_mgmt</span><span class="o">=</span><span class="n">WPA</span><span class="o">-</span><span class="n">PSK</span>  
+	<span class="n">priority</span><span class="o">=</span><span class="mi">10</span>  
+<span class="o">}</span> </code></pre></figure>
+
+<p><code class="highlighter-rouge">ssid=</code>后面的就是你连接的WIFI网络名。<br />
+<code class="highlighter-rouge">psk=</code>后面的就是此WIFI网络的<strong>密码</strong>。<br />
+<code class="highlighter-rouge">key_mgmt=</code>后面内容为加密类型。<br />
+<code class="highlighter-rouge">priority=</code>越小优先级越高</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>还能同时修改一下自动连接wifi的**优先级**顺序哦！ O(∩_∩)O~
+</code></pre>
+</div>
+
+<h3 id="section-1">有问题反馈</h3>
+<p>在使用中有任何问题，欢迎反馈给我！</p>
+
+	<!-- 博客正文内容！ -->
 </article> <!-- end #post__content -->
-<!-- ***/index.html+end*** --->
+
+
+<!--<div id="post__share">
+	<a id="icon-weibo" class="fontello" href="http://v.t.sina.com.cn/share/share.php?url=eiot.github.io/knack/2016/01/20/%E6%9F%A5%E7%9C%8BAndroid-Wifi%E5%AF%86%E7%A0%81.html&title=查看Android Wifi密码" target="_blank"></a>
+	<a id="icon-twitter" class="fontello" href="https://twitter.com/intent/tweet?url=eiot.github.io/knack/2016/01/20/%E6%9F%A5%E7%9C%8BAndroid-Wifi%E5%AF%86%E7%A0%81.html&text=查看Android Wifi密码" target="_blank"></a>
+	<a id="icon-cc" class="fontello" href="http://creativecommons.org/licenses/by-nc-sa/3.0" target="_blank"></a>-->
+<!--</div> <!-- end #post__share -->
+<!-- Twitter和新浪微博分享时链接有问题 -->
+
+
+<!--<script  type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1995082"></script>-->
+<!-- 冰冰的友言 -->
+ 
+ 
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2098614"></script>
+<!-- UY END -->
+<!--友言http://www.uyan.cc/getcode-->
+ 
+
+  
+<!--<div id="disqus_thread">
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	<a href="http://disqus.com" class="dsq-brlink" target="_blank">Loading Disqus comments...</a>
+</div>--> 
+<!-- 冰冰的disqus -->
+
+<p id="copyright">Powered by <a href="http://github.com/" target="_blank">GitHub</a>&nbsp;&nbsp;|&nbsp;&nbsp;Theme <a href="https://github.com/P233/3-Jekyll" target="_blank">3-Jekyll</a></p>
+<!--***/_layouts/post.html+end***-->
 				<!-- 这里添加了/index.html中的article内容-->
 			</div> <!-- end #pjax -->
 

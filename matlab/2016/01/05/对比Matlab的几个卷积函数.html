@@ -7,7 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 		<!--[if lte IE 9]><meta http-equiv="refresh" content="0;url=/ie.html"><![endif]-->
 		<link rel="alternate icon" type="image/png" href="/assets/img/icon.png">
-		<title>欢迎前往我的博客小站！Welcome to my portal!</title>
+		<title>对比Matlab的几个卷积函数</title>
 		<meta name="description" content="">
 
 		<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
@@ -187,40 +187,59 @@
 
 		<div id="post">
 			<div id="pjax">
-				<!-- ***/index.html+head*** --->
+				<!--***/_layouts/post.html+head***-->
+
 <article id="post__content">
-	<div>
-		<script>
-			(function() {
-				var cx = '002834760431752757995:6khrcmt9pig';
-				var gcse = document.createElement('script');
-				gcse.type = 'text/javascript';
-				gcse.async = true;
-				gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-				s = document.getElementsByTagName('script')[0];
-				s.parentNode.insertBefore(gcse, s);
-			})();
-		</script>
-		<gcse:search></gcse:search>
-	</div><!-- google提供的搜索引擎https://cse.google.com/cse/ -->
-  
-	<h1 id="post__title">欢迎您的访问！O(∩_∩)O~</h1>
-	<h2>About Me</h2>
-	<ul>
-		<li>口号：今天工作不努力，明天努力找工作！</li>
-		<li>状态：为了明天，今天得加倍努力！</li>
-		<li>爱好：信息技术，财经新闻，户外活动……</li>
-		<li>疑问：什么时候能够遇见那个她？</li>
-		<li>短期目标：完成研究生学业！</li>
-	</ul>
-	<h2>Contact Me</h2>
-	<ul>
-		<li>Github：<a href="https://github.com/eiot">eiot</a></li>
-		<li>Mail: <a href="mailto:huangxu@hust.edu.cn">huangxu@hust.edu.cn</a></li>
-	</ul>
-	<p>座右铭：学而不思则罔，思而不学则殆！</p>
+	<h1 id="post__title" data-identifier="20160105">对比Matlab的几个卷积函数</h1>
+	<h3 id="matlab">Matlab有几个关于卷积的函数，但是用法不同！</h3>
+
+<p><code class="highlighter-rouge">B=imfilter(A,H)</code>   <br />
+	被操作的对象A在前面！卷积模板H在后面！运算时不用旋转！大小默认为<code class="highlighter-rouge">same</code></p>
+
+<p><code class="highlighter-rouge">Y=filter2(B,X)</code>  <br />
+	被操作的对象X在后面！卷积模板B模板在前面！运算时不用旋转！大小默认为<code class="highlighter-rouge">same</code></p>
+
+<p><code class="highlighter-rouge">C=conv2(A,B)</code>    <br />
+	AB对称，无先后顺序！运算时要将一个矩阵旋转180度！大小默认为<code class="highlighter-rouge">full</code></p>
+
+<p>过几天上图！！！</p>
+
+<h3 id="section">有问题反馈</h3>
+<p>在使用中有任何问
+题，欢迎反馈给我！</p>
+
+	<!-- 博客正文内容！ -->
 </article> <!-- end #post__content -->
-<!-- ***/index.html+end*** --->
+
+
+<!--<div id="post__share">
+	<a id="icon-weibo" class="fontello" href="http://v.t.sina.com.cn/share/share.php?url=eiot.github.io/matlab/2016/01/05/%E5%AF%B9%E6%AF%94Matlab%E7%9A%84%E5%87%A0%E4%B8%AA%E5%8D%B7%E7%A7%AF%E5%87%BD%E6%95%B0.html&title=对比Matlab的几个卷积函数" target="_blank"></a>
+	<a id="icon-twitter" class="fontello" href="https://twitter.com/intent/tweet?url=eiot.github.io/matlab/2016/01/05/%E5%AF%B9%E6%AF%94Matlab%E7%9A%84%E5%87%A0%E4%B8%AA%E5%8D%B7%E7%A7%AF%E5%87%BD%E6%95%B0.html&text=对比Matlab的几个卷积函数" target="_blank"></a>
+	<a id="icon-cc" class="fontello" href="http://creativecommons.org/licenses/by-nc-sa/3.0" target="_blank"></a>-->
+<!--</div> <!-- end #post__share -->
+<!-- Twitter和新浪微博分享时链接有问题 -->
+
+
+<!--<script  type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1995082"></script>-->
+<!-- 冰冰的友言 -->
+ 
+ 
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2098614"></script>
+<!-- UY END -->
+<!--友言http://www.uyan.cc/getcode-->
+ 
+
+  
+<!--<div id="disqus_thread">
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	<a href="http://disqus.com" class="dsq-brlink" target="_blank">Loading Disqus comments...</a>
+</div>--> 
+<!-- 冰冰的disqus -->
+
+<p id="copyright">Powered by <a href="http://github.com/" target="_blank">GitHub</a>&nbsp;&nbsp;|&nbsp;&nbsp;Theme <a href="https://github.com/P233/3-Jekyll" target="_blank">3-Jekyll</a></p>
+<!--***/_layouts/post.html+end***-->
 				<!-- 这里添加了/index.html中的article内容-->
 			</div> <!-- end #pjax -->
 
