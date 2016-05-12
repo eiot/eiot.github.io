@@ -7,8 +7,8 @@
 		<atom:link href="eiot.github.io/rss.xml" rel="self" type="application/rss+xml" />
 		<description>Computer can change your life for the better.</description>
 		<language>zh-cn</language>
-		<pubDate>Wed, 11 May 2016 21:07:13 +0800</pubDate>
-		<lastBuildDate>Wed, 11 May 2016 21:07:13 +0800</lastBuildDate>
+		<pubDate>Thu, 12 May 2016 10:35:29 +0800</pubDate>
+		<lastBuildDate>Thu, 12 May 2016 10:35:29 +0800</lastBuildDate>
 
 			
 		<item>
@@ -27,14 +27,14 @@
 百度学术以前主要是查&lt;a href=&quot;http://www.cnki.net/&quot;&gt;知网&lt;/a&gt;、&lt;a href=&quot;http://www.wanfangdata.com.cn/&quot;&gt;万方&lt;/a&gt;、&lt;a href=&quot;http://www.cqvip.com/&quot;&gt;维普&lt;/a&gt;等中文的，现在也支持&lt;a href=&quot;http://link.springer.com/&quot;&gt;Springer&lt;/a&gt;、&lt;a href=&quot;www.webofknowledge.com/&quot;&gt;Web of Science&lt;/a&gt;等外文数据库！&lt;/p&gt;
 
 &lt;h2 id=&quot;section-2&quot;&gt;国内大牛建的谷歌学术镜像网站&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://xueshu.glgoo.com/&quot;&gt;xueshu&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://xueshu.glgoo.com/&quot;&gt;Glgoo&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;http://g.linkscholar.org/&quot;&gt;果谷&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;http://g.linkscholar.org/&quot;&gt;Linkscholar&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;http://dir.scmor.com/google/&quot;&gt;google多镜像选择&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;http://dir.scmor.com/google/&quot;&gt;Google多镜像选择&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;section-3&quot;&gt;免费下载文章的网站！！！&lt;/h2&gt;
 &lt;p&gt;一位在俄罗斯工作的哈萨克斯坦女科学家 Alexandra Elbakyan 于2011年建立了一个名为 Sci-Hub 的网站，她通过技术手段越过了出版商的付费环节，实现了各学科的学术论文的免费下载。&lt;br /&gt;
-&lt;a href=&quot;http://sci-hub.cc/&quot;&gt;sci-hub&lt;/a&gt;是学术圈的海盗湾，她把全世界的学术期刊都黑了！&lt;/p&gt;
+&lt;a href=&quot;http://sci-hub.cc/&quot;&gt;Sci-hub&lt;/a&gt;是学术圈的海盗湾，她把全世界的学术期刊都黑了！&lt;/p&gt;
 
 &lt;h3 id=&quot;section-4&quot;&gt;有问题反馈&lt;/h3&gt;
 &lt;p&gt;在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
@@ -2490,7 +2490,7 @@ fushenghua 也开源了一个&lt;a href=&quot;https://github.com/fushenghua/GetH
 			<author>Huangxu</author>
 			<guid>eiot.github.io/linux/2016/04/29/Jekyll学习</guid>
 			<description>&lt;p&gt;这是个人在github上建站的基本教程！ 
-test in Jekyll!!!***—+++…///\```~~~’’’”””;;;:::???»&amp;gt;«&amp;lt;,,,___===|||&lt;/p&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;test in Jekyll!&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/index.html&quot;&gt;回到主页&lt;/a&gt;&lt;/p&gt;
 
@@ -2565,10 +2565,8 @@ test in Jekyll!!!***—+++…///\```~~~’’’”””;;;:::???»&amp;gt;«&a
 &lt;span class=&quot;nl&quot;&gt;categories:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;linux&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;`layout`表示使用的是post布局，`title`是文章标题，`date`是自动生成的日期，`categories`是该文章生成html文件后存放的目录，可以去_site下找到对应日期下面的html文档。
-当然也可以只设置jekyll单一的目录，甚至是更多级别的目录，用空格分开即可。头信息设置完成后就可以书写正文了。
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;layout&lt;/code&gt;表示使用的是post布局，&lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt;是文章标题，&lt;code class=&quot;highlighter-rouge&quot;&gt;date&lt;/code&gt;是自动生成的日期，&lt;code class=&quot;highlighter-rouge&quot;&gt;categories&lt;/code&gt;是该文章生成html文件后存放的目录，可以去_site下找到对应日期下面的html文档。
+当然也可以只设置jekyll单一的目录，甚至是更多级别的目录，用空格分开即可。头信息设置完成后就可以书写正文了。&lt;/p&gt;
 
 &lt;h3 id=&quot;github&quot;&gt;GitHub上的发表&lt;/h3&gt;
 &lt;p&gt;GitHub默认的时间是UTC/GMT-07:00时区的。如果博文内的时间没有显式地标出时区信息（大部分情况下我们用的是北京时间比UTC/GMT快15小时），GitHub就会认为这是未来的博文，短期内将不会编译、显示该博文！&lt;/p&gt;
@@ -2630,15 +2628,11 @@ test in Jekyll!!!***—+++…///\```~~~’’’”””;;;:::???»&amp;gt;«&a
 (21)&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git merge dev &lt;/code&gt; 把dev分支的工作成果合并到master分支&lt;br /&gt;
 (22)&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git branch -d dev &lt;/code&gt; 删除dev分支&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;个人觉得[廖雪峰](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)是个蛮不错的Git入门级教程！大家有时间最好多看看！
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;个人觉得&lt;a href=&quot;http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000&quot;&gt;廖雪峰&lt;/a&gt;是个蛮不错的Git入门级教程！大家有时间最好多看看！&lt;/p&gt;
 
 &lt;h3 id=&quot;readmemd&quot;&gt;关于README.md文件&lt;/h3&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;github上的**README.md**文件就是使用的Markdown语言编写的，是一种可实现易读易写的轻量级标记语言。
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;github上的&lt;strong&gt;README.md&lt;/strong&gt;文件就是使用的Markdown语言编写的，是一种可实现易读易写的轻量级标记语言。&lt;/p&gt;
 
 &lt;h3 id=&quot;section&quot;&gt;快速编辑时可参考以下网页：&lt;/h3&gt;
 &lt;ul&gt;
@@ -2659,36 +2653,35 @@ test in Jekyll!!!***—+++…///\```~~~’’’”””;;;:::???»&amp;gt;«&a
 			<author>Huangxu</author>
 			<guid>eiot.github.io/knack/2016/02/28/解决双系统unknown filesystem grub rescue</guid>
 			<description>&lt;h3 id=&quot;section&quot;&gt;症状&lt;/h3&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;双系统电脑出现了故障方法，显示   `error：unknown filesystem grub rescue`
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;双系统电脑出现了故障方法，显示&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;error：unknown filesystem grub rescue&lt;/code&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;section-1&quot;&gt;解决方案&lt;/h3&gt;
 
 &lt;p&gt;1.找出你的Linux盘在那个分区以及grub目录在什么位置&lt;br /&gt;
-	如果你还记得最好，忘了也无所谓，使用下面命令逐个试探即可。&lt;br /&gt;
-	&lt;code class=&quot;highlighter-rouge&quot;&gt;grub rescue&amp;gt;ls&lt;/code&gt;  //列出本机所有磁盘及分区，比如:hd0,(hd0,1) ,(hd0,4),(hd0,7),(hd0,8),(hd0,9)等 &lt;br /&gt;
-	循环使用下面的命令，直至显示该分区所包含内容而不是&lt;code class=&quot;highlighter-rouge&quot;&gt;unknown filesystem&lt;/code&gt;
-	&lt;code class=&quot;highlighter-rouge&quot;&gt;grub rescue&amp;gt;ls (hd0,0)/grub&lt;/code&gt; &lt;br /&gt;
-	假设我们试到(hd0,8)时，成功显示了内容。&lt;/p&gt;
+如果你还记得最好，忘了也无所谓，使用下面命令逐个试探即可。&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;grub rescue&amp;gt;ls&lt;/code&gt;  //列出本机所有磁盘及分区，比如:hd0,(hd0,1) ,(hd0,4),(hd0,7),(hd0,8),(hd0,9)等 &lt;br /&gt;
+循环使用下面的命令，直至显示该分区所包含内容而不是&lt;code class=&quot;highlighter-rouge&quot;&gt;unknown filesystem&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;grub rescue&amp;gt;ls (hd0,0)/grub&lt;/code&gt; &lt;br /&gt;
+假设我们试到(hd0,8)时，成功显示了内容。&lt;/p&gt;
 
 &lt;p&gt;2.设置路径&lt;br /&gt;
-	&lt;code class=&quot;highlighter-rouge&quot;&gt;grub rescue&amp;gt;set  root=(hd0,8) &lt;/code&gt;  //括号里为上一步尝试成功的分区&lt;br /&gt;
-	&lt;code class=&quot;highlighter-rouge&quot;&gt;grub rescue&amp;gt;set  prefix=(hd0,8)/grub&lt;/code&gt;&lt;/p&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;grub rescue&amp;gt;set  root=(hd0,8) &lt;/code&gt;  //括号里为上一步尝试成功的分区&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;grub rescue&amp;gt;set  prefix=(hd0,8)/grub&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;3.退出grub rescue模式&lt;br /&gt;
-	&lt;code class=&quot;highlighter-rouge&quot;&gt;grub rescue&amp;gt;insmod  /grub/normal.mod&lt;/code&gt;&lt;br /&gt;
-	退出了grub rescue模式，进入了熟悉的grub模式。&lt;/p&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;grub rescue&amp;gt;insmod  /grub/normal.mod&lt;/code&gt;&lt;br /&gt;
+退出了grub rescue模式，进入了熟悉的grub模式。&lt;/p&gt;
 
 &lt;p&gt;4.确定设置&lt;br /&gt;
-	&lt;code class=&quot;highlighter-rouge&quot;&gt;grub&amp;gt;normal&lt;/code&gt;&lt;/p&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;grub&amp;gt;normal&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;5.修复grub&lt;br /&gt;
-	进入Linux系统后，执行&lt;br /&gt;
-	&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo  update-grub&lt;/code&gt;&lt;/p&gt;
+进入Linux系统后，执行&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo  update-grub&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;6.安装grub&lt;br /&gt;
-	&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo grub-install /dev/sda&lt;/code&gt;              //sda是你的启动磁盘&lt;/p&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo grub-install /dev/sda&lt;/code&gt;              //sda是你的启动磁盘&lt;/p&gt;
 
 &lt;p&gt;可参考&lt;a href=&quot;http://jingyan.baidu.com/article/c85b7a640cd7d6003bac95f8.html&quot;&gt;百度经验&lt;/a&gt;&lt;/p&gt;
 
@@ -2704,11 +2697,11 @@ test in Jekyll!!!***—+++…///\```~~~’’’”””;;;:::???»&amp;gt;«&a
 			<author>Huangxu</author>
 			<guid>eiot.github.io/knack/2016/02/23/阻止升级为Win10</guid>
 			<description>&lt;h3 id=&quot;win10&quot;&gt;系统提示升级到Win10&lt;/h3&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;下面老是跳出提示要求升级到Win10
+&lt;p&gt;下面老是跳出提示要求升级到Win10&lt;/p&gt;
 
-可进入控制面板，卸载以下这两个更新即可 `KB3035583` `KB2952664`
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;可进入控制面板，卸载以下这两个更新即可&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;KB3035583&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;KB2952664&lt;/code&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;section&quot;&gt;有问题反馈&lt;/h3&gt;
 &lt;p&gt;在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
@@ -2722,12 +2715,10 @@ test in Jekyll!!!***—+++…///\```~~~’’’”””;;;:::???»&amp;gt;«&a
 			<author>Huangxu</author>
 			<guid>eiot.github.io/knack/2016/01/20/查看Android Wifi密码</guid>
 			<description>&lt;h3 id=&quot;section&quot;&gt;方法&lt;/h3&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;要想查看Android手机的Wifi密码，必须先获取手机的**root权限**！！！  
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;要想查看Android手机的Wifi密码，必须先获取手机的&lt;strong&gt;root权限&lt;/strong&gt;！！！&lt;/p&gt;
 
-&lt;p&gt;1.下载并安装好 &lt;strong&gt;RE管理器&lt;/strong&gt;
-2.进入data/misc/wifi（RE管理器可以显示&lt;strong&gt;隐藏的文件&lt;/strong&gt;，手机自带的文件系统不行）
+&lt;p&gt;1.下载并安装好 &lt;strong&gt;RE管理器&lt;/strong&gt;&lt;br /&gt;
+2.进入data/misc/wifi（RE管理器可以显示&lt;strong&gt;隐藏的文件&lt;/strong&gt;，手机自带的文件系统不行）&lt;br /&gt;
 3.使用文本查看器打开bcm_supp.conf或wpa_supplicant.conf&lt;/p&gt;
 
 &lt;p&gt;打开后将是类似于以下的内容：&lt;/p&gt;
@@ -2745,9 +2736,7 @@ test in Jekyll!!!***—+++…///\```~~~’’’”””;;;:::???»&amp;gt;«&a
 &lt;code class=&quot;highlighter-rouge&quot;&gt;key_mgmt=&lt;/code&gt;后面内容为加密类型。&lt;br /&gt;
 &lt;code class=&quot;highlighter-rouge&quot;&gt;priority=&lt;/code&gt;越小优先级越高&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;还能同时修改一下自动连接wifi的**优先级**顺序哦！ O(∩_∩)O~
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;还能同时修改一下自动连接wifi的&lt;strong&gt;优先级&lt;/strong&gt;顺序哦！ O(∩_∩)O~&lt;/p&gt;
 
 &lt;h3 id=&quot;section-1&quot;&gt;有问题反馈&lt;/h3&gt;
 &lt;p&gt;在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
@@ -2774,8 +2763,7 @@ test in Jekyll!!!***—+++…///\```~~~’’’”””;;;:::???»&amp;gt;«&a
 &lt;p&gt;过几天上图！！！&lt;/p&gt;
 
 &lt;h3 id=&quot;section&quot;&gt;有问题反馈&lt;/h3&gt;
-&lt;p&gt;在使用中有任何问
-题，欢迎反馈给我！&lt;/p&gt;
+&lt;p&gt;在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
 </description>
 		</item>
 		
@@ -2786,18 +2774,14 @@ test in Jekyll!!!***—+++…///\```~~~’’’”””;;;:::???»&amp;gt;«&a
 			<author>Huangxu</author>
 			<guid>eiot.github.io/knack/2015/12/16/Opencv3.0在VC中安装要点</guid>
 			<description>&lt;h3 id=&quot;opencv30&quot;&gt;Opencv3.0&lt;/h3&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Opencv3.0是当时最新的版本，这个版本与目前常用的v2.x版本存在较大的差异！  
-目前最新的版本是v3.1（2016.5.6修正），可从[官网](http://opencv.org/)下载！  
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;Opencv3.0是当时最新的版本，这个版本与目前常用的v2.x版本存在较大的差异！&lt;br /&gt;
+目前最新的版本是v3.1（2016.5.6修正），可从&lt;a href=&quot;http://opencv.org/&quot;&gt;官网&lt;/a&gt;下载！&lt;/p&gt;
 
 &lt;h3 id=&quot;opencv30-1&quot;&gt;Opencv3.0的安装要点&lt;/h3&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;本人计算机安装的是VS2013，可能不同VC版本之间在安装和使用时存在一定的差异！  
+&lt;p&gt;本人计算机安装的是VS2013，可能不同VC版本之间在安装和使用时存在一定的差异！&lt;/p&gt;
 
-当时网上现有的资料很难找到Opencv3.0在VC中正确安装的方法，本人就按照网上各种v2.x的教程就行摸索，还是没有成功。  
-查询了一些资料后，摸索出了一种简便的安装方法。  
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;当时网上现有的资料很难找到Opencv3.0在VC中正确安装的方法，本人就按照网上各种v2.x的教程就行摸索，还是没有成功。&lt;br /&gt;
+查询了一些资料后，摸索出了一种简便的安装方法。&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;1.&lt;/em&gt;首先还是得按照网上的传统方法修改计算机的环境变量，还是在这里啰嗦下子：&lt;br /&gt;
 	创建“系统变量”&lt;code class=&quot;highlighter-rouge&quot;&gt;opencv&lt;/code&gt;为&lt;code class=&quot;highlighter-rouge&quot;&gt;%Opencv安装路径%\opencv\build&lt;/code&gt;，&lt;br /&gt;

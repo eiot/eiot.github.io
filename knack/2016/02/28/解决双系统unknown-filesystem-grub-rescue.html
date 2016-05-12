@@ -192,36 +192,35 @@
 <article id="post__content">
 	<h1 id="post__title" data-identifier="20160228">解决双系统unknown filesystem grub rescue</h1>
 	<h3 id="section">症状</h3>
-<div class="highlighter-rouge"><pre class="highlight"><code>双系统电脑出现了故障方法，显示   `error：unknown filesystem grub rescue`
-</code></pre>
-</div>
+<p>双系统电脑出现了故障方法，显示<br />
+<code class="highlighter-rouge">error：unknown filesystem grub rescue</code></p>
 
 <h3 id="section-1">解决方案</h3>
 
 <p>1.找出你的Linux盘在那个分区以及grub目录在什么位置<br />
-	如果你还记得最好，忘了也无所谓，使用下面命令逐个试探即可。<br />
-	<code class="highlighter-rouge">grub rescue&gt;ls</code>  //列出本机所有磁盘及分区，比如:hd0,(hd0,1) ,(hd0,4),(hd0,7),(hd0,8),(hd0,9)等 <br />
-	循环使用下面的命令，直至显示该分区所包含内容而不是<code class="highlighter-rouge">unknown filesystem</code>
-	<code class="highlighter-rouge">grub rescue&gt;ls (hd0,0)/grub</code> <br />
-	假设我们试到(hd0,8)时，成功显示了内容。</p>
+如果你还记得最好，忘了也无所谓，使用下面命令逐个试探即可。<br />
+<code class="highlighter-rouge">grub rescue&gt;ls</code>  //列出本机所有磁盘及分区，比如:hd0,(hd0,1) ,(hd0,4),(hd0,7),(hd0,8),(hd0,9)等 <br />
+循环使用下面的命令，直至显示该分区所包含内容而不是<code class="highlighter-rouge">unknown filesystem</code>
+<code class="highlighter-rouge">grub rescue&gt;ls (hd0,0)/grub</code> <br />
+假设我们试到(hd0,8)时，成功显示了内容。</p>
 
 <p>2.设置路径<br />
-	<code class="highlighter-rouge">grub rescue&gt;set  root=(hd0,8) </code>  //括号里为上一步尝试成功的分区<br />
-	<code class="highlighter-rouge">grub rescue&gt;set  prefix=(hd0,8)/grub</code></p>
+<code class="highlighter-rouge">grub rescue&gt;set  root=(hd0,8) </code>  //括号里为上一步尝试成功的分区<br />
+<code class="highlighter-rouge">grub rescue&gt;set  prefix=(hd0,8)/grub</code></p>
 
 <p>3.退出grub rescue模式<br />
-	<code class="highlighter-rouge">grub rescue&gt;insmod  /grub/normal.mod</code><br />
-	退出了grub rescue模式，进入了熟悉的grub模式。</p>
+<code class="highlighter-rouge">grub rescue&gt;insmod  /grub/normal.mod</code><br />
+退出了grub rescue模式，进入了熟悉的grub模式。</p>
 
 <p>4.确定设置<br />
-	<code class="highlighter-rouge">grub&gt;normal</code></p>
+<code class="highlighter-rouge">grub&gt;normal</code></p>
 
 <p>5.修复grub<br />
-	进入Linux系统后，执行<br />
-	<code class="highlighter-rouge">sudo  update-grub</code></p>
+进入Linux系统后，执行<br />
+<code class="highlighter-rouge">sudo  update-grub</code></p>
 
 <p>6.安装grub<br />
-	<code class="highlighter-rouge">sudo grub-install /dev/sda</code>              //sda是你的启动磁盘</p>
+<code class="highlighter-rouge">sudo grub-install /dev/sda</code>              //sda是你的启动磁盘</p>
 
 <p>可参考<a href="http://jingyan.baidu.com/article/c85b7a640cd7d6003bac95f8.html">百度经验</a></p>
 
