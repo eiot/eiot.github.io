@@ -7,7 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 		<!--[if lte IE 9]><meta http-equiv="refresh" content="0;url=/ie.html"><![endif]-->
 		<link rel="alternate icon" type="image/png" href="/assets/img/icon.png">
-		<title>Git学习笔记</title>
+		<title>几种机器学习方法</title>
 		<meta name="description" content="">
 
 		<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
@@ -199,64 +199,49 @@
 				<!--***/_layouts/post.html+head***-->
 
 <article id="post__content">
-	<h1 id="post__title" data-identifier="20160401">Git学习笔记</h1>
-	<h3 id="git">Git简介</h3>
-<p>Git是目前世界上最先进的分布式版本控制系统，没有之一！它能够方便地保存所有的版本。</p>
+	<h1 id="post__title" data-identifier="20160513">几种机器学习方法</h1>
+	<p>机器学习研究主旨是使用计算机模拟人类的学习活动，它是研究计算机识别现有知识、获取新知识、不断改善性能和实现自身完善的方法。<br />
+“学习”意味着从数据中学习 , 它包括有监督学习（Supervised Learning）、无监督学习（Unsupervised Learning）和半监督学习(Semi-Supervised Learning）三种。</p>
 
-<h3 id="git-1">Git的安装与配置</h3>
-<p>Windows下有较为方便的客户端，便不再详述了，只介绍Linux命令行中的使用方法。<br />
-尝试输入<code class="highlighter-rouge">$ git</code>，就能检查系统有没有安装Git。<br />
-如果系统正好是Debian或Ubuntu，<code class="highlighter-rouge">$ sudo apt-get install git</code>这一句命令就能够方便地完成Git的安装！<br />
-安装完成后，还需要一步设置来自报家门（你的名字和Email地址）：<br />
-<code class="highlighter-rouge">$ git config --global user.name "Your Name"</code><br />
-<code class="highlighter-rouge">$ git config --global user.email "email@example.com"</code></p>
+<p>下面来列举一些实例：</p>
 
-<p>Git中的术语<strong>repository</strong>就是版本库，又名仓库，可以简单理解成Git管理的一个目录。每个文件的修改、删除，Git都能跟踪，以便任何时刻都可以追踪历史，或者在将来某个时刻可以“还原”。为了避免遇到各种莫名其妙的问题，请确保目录名（包括父目录）中<strong>不包含中文</strong>！</p>
+<p>#决策树方法#
+##C4.5算法##</p>
 
-<p>通过<code class="highlighter-rouge">$ git init</code>可将这个目录初始化为Git可以管理的仓库。
-这时当前目录下会多出一个.git的目录，这个目录是Git来跟踪管理版本库的，千万不要手动修改这个目录里面的文件，不然就把Git仓库给破坏了。</p>
+<p>##ID3算法##</p>
 
-<h3 id="git-2">Git的常用方法</h3>
-<p>(1)<code class="highlighter-rouge">$ git status</code>可以让我们时刻掌握仓库当前的状态。<br />
-(2)<code class="highlighter-rouge">$ git diff readme.txt</code>就是查看文件readme.txt 的改变。<br />
-(3)<code class="highlighter-rouge">$ git add readme.txt</code>  文件readme.txt修改添加到暂存区<br />
-(4)<code class="highlighter-rouge">$ git commit -m "3th"</code>  将暂存区的所有内容提交到当前分支中，“3th”是备注。<br />
-(5)<code class="highlighter-rouge">$ git log</code>  查看版本控制的历史记录<br />
-由于协同工作等原因，使用传统版本编号方式容易冲突，每个版本是以<strong>SHA1值</strong>来进行编号的，平时使用时输入前几位数即可！<br />
-(6)<code class="highlighter-rouge">$ git log --pretty=oneline</code>只显示历史记录的SHA1值和备注<br />
-(7)<code class="highlighter-rouge">$ git reset --hard HEAD^</code>   回退到上一个版本<br />
-在Git中，用HEAD表示当前版本，上一个版本就是HEAD^，上上一个版本就是HEAD^^，当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100<br />
-(8)<code class="highlighter-rouge">$ git reset --hard 3628164</code>  回退到某一个版本<br />
-代表回退到SHA1值以3628164开头的那个版本<br />
-(9)<code class="highlighter-rouge">$ cat readme.txt</code>  查看readme.txt的内容<br />
-(10)<code class="highlighter-rouge">$ git reflog</code>  记录每一次的输入命令<br />
-(11)<code class="highlighter-rouge">$ git checkout -- readme.txt</code>  回到最近一次git commit或git add时的状态<br />
-(12)<code class="highlighter-rouge">$ git reset HEAD readme.txt</code>  把暂存区的修改撤销掉，重新放回工作区<br />
-(13)<code class="highlighter-rouge">$ git rm test.txt</code>  从版本库中删除该文件  需要配合git commit<br />
-(14)<code class="highlighter-rouge">$ git remote add origin git@github.com:eiot/git_project.git</code> 本地关联远程库<br />
-(15)<code class="highlighter-rouge">$ git push -u origin master</code> 把本地库的所有内容推送到远程库上(第一次-u关联)<br />
-(16)<code class="highlighter-rouge">$ git push origin master</code><br />
-(17)<code class="highlighter-rouge">$ git clone git@github.com:eiot/matlab.git</code><br />
-(18)<code class="highlighter-rouge">$ git checkout -b dev</code>  创建并切换至dev分支<br />
-(19)<code class="highlighter-rouge">$ git branch</code>  查看当前分支,当前分支前面会标一个*号<br />
-(20)<code class="highlighter-rouge">$ git checkout master</code>  切换回master分支<br />
-(21)<code class="highlighter-rouge">$ git merge dev </code> 把dev分支的工作成果合并到master分支<br />
-(22)<code class="highlighter-rouge">$ git branch -d dev </code> 删除dev分支</p>
+<p>##Classification And Regression Tree（分类与回归树，CART）##</p>
 
-<p>个人觉得<a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000">廖雪峰</a>是个蛮不错的Git入门级教程！大家有时间最好多看看！</p>
+<p>#Expectation Maximization （最大期望）#</p>
 
-<h3 id="readmemd">关于README.md文件</h3>
+<p>#Support Vector Machine （支持向量机，SVM）#</p>
 
-<p>github上的<strong>README.md</strong>文件就是使用的Markdown语言编写的，是一种可实现易读易写的轻量级标记语言。</p>
+<p>#Apriori算法#</p>
 
-<h3 id="section">快速编辑时可参考以下网页：</h3>
-<ul>
-  <li><a href="https://maxiang.io/">马克飞象</a></li>
-  <li><a href="http://mahua.jser.me/">mou</a></li>
-</ul>
+<p>#PageRank算法#<br />
+这是Google搜索算法的重要内容！</p>
 
-<h3 id="section-1">有问题反馈</h3>
-<p>如果您在使用中有任何问题，欢迎反馈给我！</p>
+<p>#Adaboost算法#
+这是一种迭代算法</p>
+
+<p>#K-Nearest Neighbor Classification（K最近邻分类算法，KNN）#</p>
+
+<p>#Naive Bayes（朴素贝叶斯）#</p>
+
+<p>#Artificial Neural Networks(人工神经网络，ANN）#</p>
+
+<p>#Bagging算法#</p>
+
+<p>#Random Forest （随机森林）#</p>
+
+<p>#Manifold Learning （流形学习）#</p>
+
+<p>#Deep Learning （深度学习）#</p>
+
+<p>#Transfer Learning （迁移学习）#</p>
+
+<h3 id="section">有问题反馈</h3>
+<p>在使用中有任何问题，欢迎反馈给我！</p>
 
 
 	<!-- 博客正文内容！ -->
@@ -264,8 +249,8 @@
 
 
 <!--<div id="post__share">
-	<a id="icon-weibo" class="fontello" href="http://v.t.sina.com.cn/share/share.php?url=eiot.github.io/linux/2016/04/01/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html&title=Git学习笔记" target="_blank"></a>
-	<a id="icon-twitter" class="fontello" href="https://twitter.com/intent/tweet?url=eiot.github.io/linux/2016/04/01/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html&text=Git学习笔记" target="_blank"></a>
+	<a id="icon-weibo" class="fontello" href="http://v.t.sina.com.cn/share/share.php?url=eiot.github.io/algorithm/2016/05/13/%E5%87%A0%E7%A7%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95.html&title=几种机器学习方法" target="_blank"></a>
+	<a id="icon-twitter" class="fontello" href="https://twitter.com/intent/tweet?url=eiot.github.io/algorithm/2016/05/13/%E5%87%A0%E7%A7%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95.html&text=几种机器学习方法" target="_blank"></a>
 	<a id="icon-cc" class="fontello" href="http://creativecommons.org/licenses/by-nc-sa/3.0" target="_blank"></a>-->
 <!--</div> <!-- end #post__share -->
 <!-- Twitter和新浪微博分享时链接有问题 -->

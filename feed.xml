@@ -6,9 +6,64 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 12 May 2016 10:35:29 +0800</pubDate>
-    <lastBuildDate>Thu, 12 May 2016 10:35:29 +0800</lastBuildDate>
+    <pubDate>Fri, 13 May 2016 22:30:51 +0800</pubDate>
+    <lastBuildDate>Fri, 13 May 2016 22:30:51 +0800</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>几种机器学习方法</title>
+        <description>&lt;p&gt;机器学习研究主旨是使用计算机模拟人类的学习活动，它是研究计算机识别现有知识、获取新知识、不断改善性能和实现自身完善的方法。&lt;br /&gt;
+“学习”意味着从数据中学习 , 它包括有监督学习（Supervised Learning）、无监督学习（Unsupervised Learning）和半监督学习(Semi-Supervised Learning）三种。&lt;/p&gt;
+
+&lt;p&gt;下面来列举一些实例：&lt;/p&gt;
+
+&lt;p&gt;#决策树方法#
+##C4.5算法##&lt;/p&gt;
+
+&lt;p&gt;##ID3算法##&lt;/p&gt;
+
+&lt;p&gt;##Classification And Regression Tree（分类与回归树，CART）##&lt;/p&gt;
+
+&lt;p&gt;#Expectation Maximization （最大期望）#&lt;/p&gt;
+
+&lt;p&gt;#Support Vector Machine （支持向量机，SVM）#&lt;/p&gt;
+
+&lt;p&gt;#Apriori算法#&lt;/p&gt;
+
+&lt;p&gt;#PageRank算法#&lt;br /&gt;
+这是Google搜索算法的重要内容！&lt;/p&gt;
+
+&lt;p&gt;#Adaboost算法#
+这是一种迭代算法&lt;/p&gt;
+
+&lt;p&gt;#K-Nearest Neighbor Classification（K最近邻分类算法，KNN）#&lt;/p&gt;
+
+&lt;p&gt;#Naive Bayes（朴素贝叶斯）#&lt;/p&gt;
+
+&lt;p&gt;#Artificial Neural Networks(人工神经网络，ANN）#&lt;/p&gt;
+
+&lt;p&gt;#Bagging算法#&lt;/p&gt;
+
+&lt;p&gt;#Random Forest （随机森林）#&lt;/p&gt;
+
+&lt;p&gt;#Manifold Learning （流形学习）#&lt;/p&gt;
+
+&lt;p&gt;#Deep Learning （深度学习）#&lt;/p&gt;
+
+&lt;p&gt;#Transfer Learning （迁移学习）#&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;有问题反馈&lt;/h3&gt;
+&lt;p&gt;在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 13 May 2016 06:14:19 +0800</pubDate>
+        <link>/algorithm/2016/05/13/%E5%87%A0%E7%A7%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95.html</link>
+        <guid isPermaLink="true">/algorithm/2016/05/13/%E5%87%A0%E7%A7%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95.html</guid>
+        
+        
+        <category>algorithm</category>
+        
+      </item>
     
       <item>
         <title>推荐几个找论文的网站</title>
@@ -2793,10 +2848,12 @@ fushenghua 也开源了一个&lt;a href=&quot;https://github.com/fushenghua/GetH
       <item>
         <title>Opencv3.0在VC中安装要点</title>
         <description>&lt;h3 id=&quot;opencv30&quot;&gt;Opencv3.0&lt;/h3&gt;
+
 &lt;p&gt;Opencv3.0是当时最新的版本，这个版本与目前常用的v2.x版本存在较大的差异！&lt;br /&gt;
 目前最新的版本是v3.1（2016.5.6修正），可从&lt;a href=&quot;http://opencv.org/&quot;&gt;官网&lt;/a&gt;下载！&lt;/p&gt;
 
 &lt;h3 id=&quot;opencv30-1&quot;&gt;Opencv3.0的安装要点&lt;/h3&gt;
+
 &lt;p&gt;本人计算机安装的是VS2013，可能不同VC版本之间在安装和使用时存在一定的差异！&lt;/p&gt;
 
 &lt;p&gt;当时网上现有的资料很难找到Opencv3.0在VC中正确安装的方法，本人就按照网上各种v2.x的教程就行摸索，还是没有成功。&lt;br /&gt;
@@ -2823,25 +2880,6 @@ fushenghua 也开源了一个&lt;a href=&quot;https://github.com/fushenghua/GetH
         
         
         <category>knack</category>
-        
-      </item>
-    
-      <item>
-        <title>Matlab的并行parfor循环</title>
-        <description>&lt;h3 id=&quot;parfor&quot;&gt;关键词parfor&lt;/h3&gt;
-
-&lt;p&gt;该部分内容维护中！
-过几天再来吧！^_^&lt;/p&gt;
-
-&lt;h3 id=&quot;section&quot;&gt;有问题反馈&lt;/h3&gt;
-&lt;p&gt;在使用中有任何问题，欢迎反馈给我！&lt;/p&gt;
-</description>
-        <pubDate>Sat, 25 Apr 2015 01:04:17 +0800</pubDate>
-        <link>/matlab/2015/04/25/Matlab%E7%9A%84%E5%B9%B6%E8%A1%8Cparfor%E5%BE%AA%E7%8E%AF.html</link>
-        <guid isPermaLink="true">/matlab/2015/04/25/Matlab%E7%9A%84%E5%B9%B6%E8%A1%8Cparfor%E5%BE%AA%E7%8E%AF.html</guid>
-        
-        
-        <category>matlab</category>
         
       </item>
     
