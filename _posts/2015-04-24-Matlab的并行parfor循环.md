@@ -9,7 +9,7 @@ categories: matlab
 parfor只用于Matlab并行循环。当需要**简单计算的多次循环迭代**时，例如蒙特卡洛(Monte Carlo)模拟。
 parfor将循环迭代分组，那么每个worker执行迭代的一部分。当**迭代耗时很长**的时候parfor循环也是有用的，因为workers可以同时执行迭代。
 
-注意当循环中有迭代**依赖其他迭代的结果**时不应该使用parfor循环。每个迭代都必须不依赖其他迭代。
+注意当循环中有迭代**依赖其他迭代的结果**时不应该使用parfor循环。每个迭代都必须不依赖其他迭代。  
 由于parfor循环内有通信消耗，当只有**小数量的简单计算**时使用parfor可能得不到什么好处。
 
 
@@ -18,8 +18,8 @@ parfor将循环迭代分组，那么每个worker执行迭代的一部分。当**
 Matlab提供了parfor关键字，可以很方便的在多核机器或集群上实现并行计算。  
 parfor循环的语法和普通的for语法没有什么区别，但是有以下几点需要注意的！  
 
-Matlab并行是基于client-worker模式的。首先，Matlab有个总体负责的client，它将任务合理分配给每个worker，worker的个数即为matlabpool open size命令中的size。每个worker运行完之后将结果回传给client。这样，当client接收到所有的结果后，程序运行完成。   
-打开了Matlab并行开关之后，可在任务管理器中看到Matlab进程的数目是size+1，即为client和worker的数目之和。在运行过程中，worker会满载CPU；但是client不会满载CPU，它只负责分配任务、传递数据和最后的数据采集。
+Matlab并行是基于**client-worker模式**的。首先，Matlab有个总体负责的client，它将任务合理分配给每个worker，worker的个数即为 `matlabpool open size` 的size。每个worker运行完之后将结果回传给client。这样，当client接收到所有的结果后，程序运行完成。   
+打开了Matlab并行开关之后，可在任务管理器中看到Matlab进程的数目是**size+1**，即为client和worker的数目之和。在运行过程中，worker会满载CPU；但是client不会满载CPU，它只负责分配任务、传递数据和最后的数据采集。
 
 ## parfor关键字的使用
 由for关键字引导的循环通常为串行运行，如果改为parfor则可以由多个worker以并行方式执行。  
@@ -30,9 +30,9 @@ parfor可以将n次循环分解为独立不相关的m部分，然后将各部分
 
 ### 并行数n的选择
 该方法仅针对多核机器做并行计算！  
-n可以不等于核心数量，但如果n小于核心数量则核心利用率没有最大化，如果n大于核心数量则效率反而可能下降！  
+n可以不等于核心数量（物理核数），但如果n小于核心数量则核心利用率没有最大化，如果n大于核心数量则效率反而可能下降！  
 因此单核机器就不要折腾并行计算了，否则速度还更慢！  
-执行命令 `feature('numCores')` 即可显示CPU的物理核数。  
+执行命令 `feature('numCores')` 即可显示CPU的**物理核数**。  
 如果有c个CPU核心，通常可以设置为c。如果是远程服务器，为**防止服务器响应卡顿**，可以设置为 `c-1`。  
 如果电脑是双核四线程的，那么只能申两个（而非4个）matlab local pool！对于计算密集型程序，超线程带来的性能提升几乎为0，可以设置为核心数，而不是线程数！
 
@@ -42,7 +42,7 @@ n可以不等于核心数量，但如果n小于核心数量则核心利用率没
 
 那么是不是只能最多运行4个worker呢？
 不是的！你可以组成一个机群，也就是说使几台机器连起来一起工作。
-为了使几台机器上的资源像是在一台机器上一样，Matlab提供了MATLAB  Distributed Computing Server，通过它你就可以很方便地将几台机器连起来一同工作了。
+为了使几台机器上的资源像是在一台机器上一样，Matlab提供了MDCS（MATLAB  Distributed Computing Server），通过它你就可以很方便地将几台机器连起来一同工作了。
 
 在进行并行计算时，Matlab中对worker的数量有这样一个限制：“在同一台机器上最多运行有4个worker”，因为目前还没有超过4个core的CPU。
 那么是否可以在一台单核机器上运行4个worker呢？完全可以！
@@ -51,11 +51,11 @@ n可以不等于核心数量，但如果n小于核心数量则核心利用率没
 
 ### 启动worker
 在运行程序之前，一定需要配置worker！否则parfor循环将以普通for循环的形式运行，无法并行！  
-使用`matlabpool`命令可以开启关闭本机的并行计算池。 
-`matlabpool('size')` 或 `matlabpool size` 命令可检查并行计算池状态，若不大于0则为关闭状态。
-`matlabpool n` 命令可以打开n个worker。`matlabpool open configname` 按照指定配置打开，默认配置为 `local` 。 
-以上两句也可通过 `matlabpool('open','local',n);` 来配置。  
-程序运行结束后，应该使用 `matlabpool close` 关闭worker。Matlab关闭后，matlabpool也会自动关闭，一般没必要手动关闭。  
+使用`matlabpool`命令可以开启关闭本机的并行计算池。  
+`matlabpool('size')` 或 `matlabpool size` 命令可检查并行计算池状态，若不大于0则为关闭状态。  
+`matlabpool n` 命令可以打开n个worker。`matlabpool open configname` 按照指定配置打开，默认配置为 `local` 。   
+以上两句也可通过 `matlabpool('open','local',n);` 来配置。    
+程序运行结束后，应该使用 `matlabpool close` 关闭worker。Matlab关闭后，matlabpool也会自动关闭，一般没必要手动关闭（除非想要修改n的值）。   
 配置项的修改可以通过 `Parallel -> Manage Cluster Profile` 完成。  
 
 
@@ -138,21 +138,22 @@ end
 
 
 ## 注意
-### parfor、spmd不可以相互或者自身嵌套。
 
+### parfor与spmd不可以相互或者自身嵌套。
+spmd（Single Program Multiple Data，单程序多任务进行任务并行）是Matlab实现并行计算的另外一种方法，详见文末。  
 
 ### 要注意程序的细节
-很多地方都会报错。比如下标必须为连续的整数！
+很多地方都会报错。比如下标必须为**连续**的整数！
 
 ### 循环次数n的选择
-循环次数m最好能整除以worker个数n，否则部分worker会分配较多的循环，造成一部分worker闲置一段时间，降低了并行性。  
+循环次数m最好能**整除**以worker个数n，否则部分worker会分配较多的循环，造成一部分worker闲置一段时间，降低了并行性。  
 并行运行时各个worker之间会进行通信，要注意大量数据传输带来的性能下降。尤其对于广播变量，如果较大可尝试变为切片变量。
 
 ### 慎用（最好勿用）eval赋值
 一个程序并行时要共享内存，而eval语句可能使程序进入错误的workspace，因此不要用eval，改用不同index赋值。
 
 ### Matlab版本引起的问题
-从**Matlab R2013b**开始，parpool命令取代了matlabpool命令。
+从**Matlab R2013b**开始，**parpool**命令取代了matlabpool命令。
 
 ### 输出顺序问题
 for 语句是按照i的序列顺序执行的，而parfor是由多个worker同时执行i为不同值的结果：  
@@ -171,11 +172,9 @@ for 语句是按照i的序列顺序执行的，而parfor是由多个worker同时
  4 3 2 1 11
  8 7 6 5 10 9 12
 {% endhighlight %}
+
 在n=3时，结果依次如下：
-
-
-
-
+（本人电脑是双核的，而其他四核电脑配置的是R2013b，暂均无法正常实验）
 
 ### 错误示例
 如果在嵌套循环中引用了矩阵，那么在parfor-loop中就不可以再其他地方再使用：
@@ -189,8 +188,9 @@ parfor i = 1:4
 end
 {% endhighlight %}
 
-是错误的，Matlab将提示 `Error: The variable A in a parfor cannot be classified.
-See Parallel for Loops in MATLAB, "Overview".` 。 在循环中disp又引用了矩阵A，导致矩阵A变量类型无法归类。  
+是错误的，Matlab将提示 `Error: The variable A in a parfor cannot be classified.  
+See Parallel for Loops in MATLAB, "Overview".` 。  
+ 在循环中disp又引用了矩阵A，导致矩阵A变量类型无法归类。  
 可以改成：
 {% highlight matlab %} 
 A = zeros(4, 10);
@@ -209,9 +209,9 @@ end
 而且就算没报warning或者error，程序在运行过程中也可能出错，往往这种错误**不像**串行程序报出是在哪一行的错误，并行的错误一般都会报出“No Remote Error Stack”，按照字面意思就知道，没有栈信息。
 因为按照普通的代码，调用函数前会先将变量入栈以及保护现场，而到了并行编程，每个worker出错的具体情况是**不会**回传给client的，很难通过返回到command window的错误信息判断程序到底出了什么错。  
 
-在parfor循环内部也是**不能**加断点的，本来不同的循环变量针对的就是不同的worker，在parfor内部加断点的话，软件根本不知道编程人员想要看哪个worker的数据。
+在parfor循环内部也是**不能加断点**的，本来不同的循环变量针对的就是不同的worker，在parfor内部加断点的话，软件根本不知道编程人员想要看哪个worker的数据。
 
-不过，Matlab还提供了另一种并行调试模式——pmode，主要命令下面3种：  
+不过，Matlab还提供了另一种并行调试模式——**pmode**，主要命令下面3种：  
 {% highlight matlab %} 
 pmode start % 开启并行调试（默认核数）  
 pmode start size % 开启size个核的并行调试  
@@ -220,10 +220,13 @@ pmode exit % 退出并行调试模式
 pmode并不好用。用该调试模式的话需要手动一行一行输m语言。而且在每个worker中的变量还需要手动传递到client，就是各种不方便。
 
 ## Matlab并行计算工具箱及MDCE介绍
+（内容待添加）
 
 ## Matlab基于cluster的并行
+（内容待添加）
 
 ## SPMD（Single Program Multiple Data，即单指令多数据）
+（内容待添加）
 
 ### 有问题反馈
 在使用中有任何问题，欢迎反馈给我！
