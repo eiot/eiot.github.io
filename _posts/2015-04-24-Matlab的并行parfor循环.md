@@ -16,56 +16,15 @@ parfor将循环迭代分组，那么每个worker执行迭代的一部分。当**
 ## Matlab的parfor并行编程
 通常消耗最多计算资源的程序往往是循环。将循环并行化，或者优化循环体中的代码是最常用的加快程序运行速度的思路。  
 Matlab提供了parfor关键字，可以很方便的在多核机器或集群上实现并行计算。  
+parfor循环的语法和普通的for语法没有什么区别，但是有以下几点需要注意的！  
+
+Matlab并行是基于client-worker模式的。首先，Matlab有个总体负责的client，它将任务合理分配给每个worker，worker的个数即为matlabpool open size命令中的size。每个worker运行完之后将结果回传给client。这样，当client接收到所有的结果后，程序运行完成。   
+打开了Matlab并行开关之后，可在任务管理器中看到Matlab进程的数目是size+1，即为client和worker的数目之和。在运行过程中，worker会满载CPU；但是client不会满载CPU，它只负责分配任务、传递数据和最后的数据采集。
 
 ## parfor关键字的使用
 由for关键字引导的循环通常为串行运行，如果改为parfor则可以由多个worker以并行方式执行。  
 parfor可以将n次循环分解为独立不相关的m部分，然后将各部分分别交给一个worker执行。  
-循环执行的结果应该与n次循环执行的顺序无关。   
-
-## parfor中的变量类型
-
-### 简约变量
-一般parfor中各次循环对应的运算应该相互独立，但简约操作可以在多次循环内同时对一个变量操作。这种变量称为简约变量。  
-例如下方代码中a就是简约变量：
-{% highlight matlab %}  
-a = 0;
-for i = 1:1000
-  a = a+i;
-end
-{% endhighlight %}
-
-简约操作包括 `+` 、 `-` 、 `*` 、`.` 、`*` 、 `&` 、 `|` 、 `[,]` 、 `[;]` 、 `{,}` 、 `{;}` 、 `min` 、 `max` 、 `union` 、 `intersect` 。  
-同一个parfor循环对简约变量的操作必须一致，即必须是同一种简约操作符。而且与操作符的相对位置也必须一致。  
-简约变量赋值表达式应该满足结合律和交换律。 `*` 、 `[]` 、 `{}` 底层有特殊处理保证结果的正确性。  
-
-### 切片变量（sliced变量）
-parfor中可能需要读取或写入parfor之外的矩阵，读取写入位置与循环变量相关。这样就需要向worker传输大量的数据。  
-矩阵如果被Matlab识别为切片变量，则数据可以分段传输到各worker，提高传输效率。  
-切片变量矩阵的大小是不可在parfor中改变的！
-
-在一个循环体内只能出现一个切片变量，简单说就是一个循环体内只能出现切片数组的一个元素。  
-`a(i)=temp1;a(i+1)=temp2;` 是不正确的！  
-另外，切片变量的下标一定要连续，例 `a(2*i)=temp;`是不行的！  
-
-### 循环变量
-如上例中的i，表示当前循环的id。
-
-### 广播变量
-在parfor之前赋值，在parfor内只进行读取操作。
-
-### 临时变量
-作用域局限于parfor内，parfor结束后不存在。不影响parfor之前声明的同名变量。  
-{% highlight matlab %}  
-tmp = 5;
-broadcast = 1;							%广播变量，每次循环中的值不变。
-reduced = 0;
-sliced = ones(1, 10);
-parfor i = 1:10							%i为循环变量
-	tmp = i;							%parfor中的tmp是临时变量，parfor结束后tmp的值依然是5，不受临时变量的影响
-	reduced = reduced + i + broadcast;  %简约变量，Matlab对其的值将分段由各worker计算后送回主进程处理。
-	sliced(i) = sliced(i) * i;			%sliced为切片变量，数据传输有优化提升。
-end
-{% endhighlight %}
+循环执行的结果应该与n次循环执行的顺序**无关**。   
 
 ## worker配置
 
@@ -101,6 +60,72 @@ n可以不等于核心数量，但如果n小于核心数量则核心利用率没
 
 
 
+## parfor中的变量类型
+
+Matlab的parfor循环内的变量可分为**五大类**，parfor对这五类变量有不同的处理方式。如果Matlab无法对parfor内的某变量进行归类，或者该变量不满足该类别变量的要求，就会导致出错，此时便不能使用parfor。
+{% highlight matlab %}  
+tmp = 5;
+broadcast = 1;							%广播变量，每次循环中的值不变。
+reduced = 0;
+sliced = ones(1, 10);
+parfor i = 1:10							%i为循环变量
+	tmp = i;							%parfor中的tmp是临时变量，parfor结束后tmp的值依然是5，不受临时变量的影响
+	reduced = reduced + i + broadcast;  %简约变量，Matlab对其的值将分段由各worker计算后送回主进程处理。
+	sliced(i) = sliced(i) * i;			%sliced为切片变量，数据传输有优化提升。
+end
+{% endhighlight %}
+
+### 简约变量（Reduction 变量）
+一般parfor中各次循环对应的运算应该相互独立，但简约操作可以在多次循环内同时对一个变量操作。
+例如下方代码中x2就是简约变量：
+{% highlight matlab %}  
+x2 = [];
+n = 10;
+parfor i = 1:n
+    x2 = [x2, i];
+    i,
+end
+%有意思的是，i并不一定按照1到10的顺序输出，但x2的结果却必然是1到10
+{% endhighlight %}
+
+简约操作包括 `+` 、 `-` 、 `*` 、`.` 、`*` 、 `&` 、 `|` 、 `[,]` 、 `[;]` 、 `{,}` 、 `{;}` 、 `min` 、 `max` 、 `union` 、 `intersect` 。  
+同一个parfor循环对简约变量的操作必须一致，即必须是同一种简约操作符。而且与操作符的相对位置也必须一致。  
+简约变量赋值表达式应该满足结合律和交换律。 `*` 、 `[]` 、 `{}` 底层有特殊处理保证结果的正确性。  
+
+### 切片变量（Sliced变量）
+每次循环只访问该变量的特定位置，与Loop 变量有关。如果该变量是输出变量，访问必须是**连续**的。    
+矩阵如果被Matlab识别为切片变量，则数据可以分段传输到各worker，提高传输效率。  
+切片变量矩阵的大小是不可在循环中改变的！
+{% highlight matlab %} 
+parfor i = 1:n
+	x(i) = a(2*i*i);  % allowed;
+    y(i+2) = a(i) + b(i+1); % allowed;
+    c(i+1) = c(i) + 1; % not allowed;
+    z(2*i) = i; % not allowed;
+    a(i) = [];  % not allowed;
+    a(end+1)=i; % not allowed
+end
+{% endhighlight %} 
+
+在一个循环体内只能出现一个切片变量，简单说就是一个循环体内只能出现切片数组的一个元素。  
+`a(i)=temp1;a(i+1)=temp2;` 是不正确的！  
+另外，切片变量的下标一定要连续，例 `a(2*i)=temp;`是不行的！  
+
+### 循环变量（Loop 变量）
+如上例中的i，表示当前循环的id。
+限制是循环内不能对循环变量再次赋值！
+
+### 广播变量（Broadcast 变量，外部变量）
+在parfor之前赋值，在循环内未被重新赋值，只进行读取操作。
+
+### 临时变量（Temporary 变量）
+作用域局限于循环内，循环结束后不存在。不影响parfor之前声明的同名变量。  
+该变量不会通过Loop 变量引用，否则归类为Sliced 变量！
+
+
+
+
+
 ## parfor的使用
 将传统的for循环改为parfor循环，就会将循环体作为整体分到到一个个处理器中，从而一次性进行多组运算。
 在使用parfor时，代码的编写有一些注意事项，最主要的是其中变量的处理！
@@ -127,7 +152,7 @@ n可以不等于核心数量，但如果n小于核心数量则核心利用率没
 一个程序并行时要共享内存，而eval语句可能使程序进入错误的workspace，因此不要用eval，改用不同index赋值。
 
 ### Matlab版本引起的问题
-从R2013b开始，parpool命令取代了matlabpool命令。
+从**Matlab R2013b**开始，parpool命令取代了matlabpool命令。
 
 ### 输出顺序问题
 for 语句是按照i的序列顺序执行的，而parfor是由多个worker同时执行i为不同值的结果：  
@@ -148,7 +173,57 @@ for 语句是按照i的序列顺序执行的，而parfor是由多个worker同时
 {% endhighlight %}
 在n=3时，结果依次如下：
 
-## Matlab 并行计算工具箱及MDCE介绍
+
+
+
+
+### 错误示例
+如果在嵌套循环中引用了矩阵，那么在parfor-loop中就不可以再其他地方再使用：
+{% highlight matlab %} 
+A = zeros(4, 10);
+parfor i = 1:4
+    for j = 1:10
+        A(i, j) = i + j;
+    end
+    disp(A(i, 1))
+end
+{% endhighlight %}
+
+是错误的，Matlab将提示 `Error: The variable A in a parfor cannot be classified.
+See Parallel for Loops in MATLAB, "Overview".` 。 在循环中disp又引用了矩阵A，导致矩阵A变量类型无法归类。  
+可以改成：
+{% highlight matlab %} 
+A = zeros(4, 10);
+parfor i = 1:4
+    v = zeros(1, 10);
+    for j = 1:10
+        v(j) = i + j;
+    end
+    disp(v(1))
+    A(i, :) = v;
+end
+{% endhighlight %}
+
+## 程序的调试
+一般推荐先用for循环写好，程序运行正常之后把for改成parfor，这时如果运气好的话可以直接并行运行，但往往会报一些warning或者error，这就要考验变量分类了。
+而且就算没报warning或者error，程序在运行过程中也可能出错，往往这种错误**不像**串行程序报出是在哪一行的错误，并行的错误一般都会报出“No Remote Error Stack”，按照字面意思就知道，没有栈信息。
+因为按照普通的代码，调用函数前会先将变量入栈以及保护现场，而到了并行编程，每个worker出错的具体情况是**不会**回传给client的，很难通过返回到command window的错误信息判断程序到底出了什么错。  
+
+在parfor循环内部也是**不能**加断点的，本来不同的循环变量针对的就是不同的worker，在parfor内部加断点的话，软件根本不知道编程人员想要看哪个worker的数据。
+
+不过，Matlab还提供了另一种并行调试模式——pmode，主要命令下面3种：  
+{% highlight matlab %} 
+pmode start % 开启并行调试（默认核数）  
+pmode start size % 开启size个核的并行调试  
+pmode exit % 退出并行调试模式  
+{% endhighlight %}
+pmode并不好用。用该调试模式的话需要手动一行一行输m语言。而且在每个worker中的变量还需要手动传递到client，就是各种不方便。
+
+## Matlab并行计算工具箱及MDCE介绍
+
+## Matlab基于cluster的并行
+
+## SPMD（Single Program Multiple Data，即单指令多数据）
 
 ### 有问题反馈
 在使用中有任何问题，欢迎反馈给我！
