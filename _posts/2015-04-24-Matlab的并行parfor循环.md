@@ -112,8 +112,10 @@ end
 另外，切片变量的下标一定要连续，例 `a(2*i)=temp;`是不行的！  
 
 ### 循环变量（Loop 变量）
-如上例中的i，表示当前循环的id。
-限制是循环内不能对循环变量再次赋值！
+如上例中的i，表示当前循环的id。  
+限制是循环内不能对循环变量再次赋值！  
+循环变量一定是**连续增加**的整数！`parfor i=[1 3]`将会出错：  
+`The range of a parfor statement must be increasing consecutive integers`
 
 ### 广播变量（Broadcast 变量，外部变量）
 在parfor之前赋值，在循环内未被重新赋值，只进行读取操作。
