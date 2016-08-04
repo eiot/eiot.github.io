@@ -2,7 +2,7 @@
 layout: post
 title:  "typedef与struct"
 date:   2016-08-03 10:35:47
-categories: other
+categories: test
 ---
 
 
